@@ -135,7 +135,7 @@ export default function TravelPlanningPage() {
             alt="Travel planning with map and passport"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#252525]/70 via-[#252525]/60 to-[#252525]/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-[#2D2D2D]/70 via-[#2D2D2D]/60 to-[#2D2D2D]/80"></div>
         </div>
 
         <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto">
@@ -147,7 +147,7 @@ export default function TravelPlanningPage() {
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light mb-8 uppercase tracking-[3px] leading-tight">
             Plan Your
             <br />
-            <span className="text-[#f7a600]">Thailand Trip</span>
+            <span className="text-[#FDB515]">Thailand Trip</span>
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto">
@@ -156,7 +156,7 @@ export default function TravelPlanningPage() {
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-lg">
             <div className="flex items-center gap-2">
-              <Info className="w-5 h-5 text-[#f7a600]" />
+              <Info className="w-5 h-5 text-[#FDB515]" />
               <span>500+ Planning Guides</span>
             </div>
           </div>
@@ -181,7 +181,7 @@ export default function TravelPlanningPage() {
                     <Plane className="w-6 h-6 text-blue-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Before You Go
                     </h2>
                     <p className="text-gray-600 mt-1">150 essential pre-trip guides</p>
@@ -243,7 +243,7 @@ export default function TravelPlanningPage() {
                     <Wallet className="w-6 h-6 text-green-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Budget & Costs
                     </h2>
                     <p className="text-gray-600 mt-1">100 guides to planning your budget</p>
@@ -315,7 +315,7 @@ export default function TravelPlanningPage() {
                     <Car className="w-6 h-6 text-orange-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Getting Around
                     </h2>
                     <p className="text-gray-600 mt-1">150 transportation guides</p>
@@ -377,7 +377,7 @@ export default function TravelPlanningPage() {
                     <Route className="w-6 h-6 text-red-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Itineraries
                     </h2>
                     <p className="text-gray-600 mt-1">100 route planning guides</p>
@@ -462,11 +462,11 @@ export default function TravelPlanningPage() {
 
               <div id="practical-info" className="mb-20 scroll-mt-24">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="w-12 h-12 rounded-full bg-[#d7007f]/10 flex items-center justify-center flex-shrink-0">
-                    <Info className="w-6 h-6 text-[#d7007f]" />
+                  <div className="w-12 h-12 rounded-full bg-[#D91680]/10 flex items-center justify-center flex-shrink-0">
+                    <Info className="w-6 h-6 text-[#D91680]" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Practical Information
                     </h2>
                     <p className="text-gray-600 mt-1">Essential tips and resources</p>
@@ -483,14 +483,14 @@ export default function TravelPlanningPage() {
                         className="group flex items-center gap-4 p-6 bg-gradient-to-br from-pink-50 to-cyan-50 rounded-xl hover:from-pink-100 hover:to-cyan-100 transition-all border border-pink-100 hover:border-pink-200 shadow-sm hover:shadow-md"
                       >
                         <div className="w-12 h-12 rounded-full bg-white/80 flex items-center justify-center flex-shrink-0">
-                          <IconComponent className="w-6 h-6 text-[#d7007f]" />
+                          <IconComponent className="w-6 h-6 text-[#D91680]" />
                         </div>
                         <div className="flex-1">
-                          <h4 className="font-semibold text-gray-900 group-hover:text-[#d7007f] transition-colors">
+                          <h4 className="font-semibold text-gray-900 group-hover:text-[#D91680] transition-colors">
                             {item.label}
                           </h4>
                         </div>
-                        <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#d7007f] group-hover:translate-x-1 transition-all" />
+                        <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#D91680] group-hover:translate-x-1 transition-all" />
                       </Link>
                     );
                   })}
@@ -513,28 +513,28 @@ export default function TravelPlanningPage() {
         </div>
       </div>
 
-      <section className="py-32 bg-gradient-to-br from-[#252525] via-[#2a2a2a] to-[#1f1f1f] text-white relative overflow-hidden">
+      <section className="py-32 bg-gradient-to-br from-[#2D2D2D] via-[#2a2a2a] to-[#1f1f1f] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-[#f7a600] rounded-full blur-3xl"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-[#FDB515] rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-600 rounded-full blur-3xl"></div>
         </div>
 
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="w-20 h-20 rounded-full bg-[#f7a600]/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-8 border border-[#f7a600]/20">
-              <MessageCircle className="w-10 h-10 text-[#f7a600]" />
+            <div className="w-20 h-20 rounded-full bg-[#FDB515]/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-8 border border-[#FDB515]/20">
+              <MessageCircle className="w-10 h-10 text-[#FDB515]" />
             </div>
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Need Help
               <br />
-              <span className="text-[#f7a600]">Planning?</span>
+              <span className="text-[#FDB515]">Planning?</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Chat with our travel experts for personalized advice and recommendations
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button
-                className="inline-flex items-center gap-3 px-10 py-5 bg-[#f7a600] text-white hover:bg-[#d7007f] transition-all rounded-lg font-semibold shadow-2xl hover:shadow-[#f7a600]/20 hover:scale-105 uppercase tracking-[1.5px]"
+                className="inline-flex items-center gap-3 px-10 py-5 bg-[#FDB515] text-white hover:bg-[#D91680] transition-all rounded-lg font-semibold shadow-2xl hover:shadow-[#FDB515]/20 hover:scale-105 uppercase tracking-[1.5px]"
                 onClick={() => {
                   const chatButton = document.querySelector('[aria-label="Chat with us"]') as HTMLButtonElement;
                   if (chatButton) chatButton.click();

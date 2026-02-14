@@ -66,7 +66,7 @@ function App() {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen bg-[#f7f8f9]">
+    <div className="min-h-screen bg-white">
       <Header />
       <main className="page-transition">
         <Routes>

@@ -157,7 +157,7 @@ export default function FoodDiningPage() {
 
   const collections = [
     { title: 'Top 50 Thai Restaurants', icon: Award, color: 'bg-amber-500' },
-    { title: 'Best Street Food Cities', icon: Store, color: 'bg-[#d7007f]' },
+    { title: 'Best Street Food Cities', icon: Store, color: 'bg-[#D91680]' },
     { title: 'Michelin Guide Thailand', icon: Star, color: 'bg-rose-600' },
     { title: 'Best Cooking Schools', icon: ChefHat, color: 'bg-blue-600' }
   ];
@@ -187,7 +187,7 @@ export default function FoodDiningPage() {
             alt="Thai food spread"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#252525]/70 via-[#252525]/60 to-[#252525]/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-[#2D2D2D]/70 via-[#2D2D2D]/60 to-[#2D2D2D]/80"></div>
         </div>
 
         <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto">
@@ -199,7 +199,7 @@ export default function FoodDiningPage() {
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light mb-8 uppercase tracking-[3px] leading-tight">
             Thai Food
             <br />
-            <span className="text-[#f7a600]">& Dining Guide</span>
+            <span className="text-[#FDB515]">& Dining Guide</span>
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto">
@@ -208,12 +208,12 @@ export default function FoodDiningPage() {
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-lg">
             <div className="flex items-center gap-2">
-              <Store className="w-5 h-5 text-[#f7a600]" />
+              <Store className="w-5 h-5 text-[#FDB515]" />
               <span>2,500+ Restaurant Guides</span>
             </div>
             <div className="w-1 h-1 rounded-full bg-white/50"></div>
             <div className="flex items-center gap-2">
-              <ChefHat className="w-5 h-5 text-[#f7a600]" />
+              <ChefHat className="w-5 h-5 text-[#FDB515]" />
               <span>300+ Recipes</span>
             </div>
           </div>
@@ -234,11 +234,11 @@ export default function FoodDiningPage() {
 
               <div id="must-try-dishes" className="mb-20 scroll-mt-24">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="w-12 h-12 rounded-full bg-[#f7a600]/10 flex items-center justify-center flex-shrink-0">
-                    <UtensilsCrossed className="w-6 h-6 text-[#f7a600]" />
+                  <div className="w-12 h-12 rounded-full bg-[#FDB515]/10 flex items-center justify-center flex-shrink-0">
+                    <UtensilsCrossed className="w-6 h-6 text-[#FDB515]" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Must-Try Thai Dishes
                     </h2>
                     <p className="text-gray-600 mt-1">150 guides to essential Thai foods</p>
@@ -261,7 +261,7 @@ export default function FoodDiningPage() {
                             loading="lazy"
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/80 to-transparent"></div>
+                          <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/80 to-transparent"></div>
                           <div className="absolute bottom-4 left-4 right-4">
                             <h4 className="text-white font-semibold text-lg mb-1">{dish.name}</h4>
                             <p className="text-white/90 text-sm">{dish.description}</p>
@@ -280,7 +280,7 @@ export default function FoodDiningPage() {
                 <div className="text-center">
                   <Link
                     to="/food-dining"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#f7a600] text-white hover:bg-[#d7007f] transition-colors rounded-lg font-semibold shadow-lg hover:shadow-xl uppercase tracking-[1.5px]"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#FDB515] text-white hover:bg-[#D91680] transition-colors rounded-lg font-semibold shadow-lg hover:shadow-xl uppercase tracking-[1.5px]"
                   >
                     Complete Thai Food Guide
                     <ArrowRight className="w-5 h-5" />
@@ -292,11 +292,11 @@ export default function FoodDiningPage() {
 
               <div id="street-food" className="mb-20 scroll-mt-24">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="w-12 h-12 rounded-full bg-[#d7007f]/10 flex items-center justify-center flex-shrink-0">
-                    <Store className="w-6 h-6 text-[#d7007f]" />
+                  <div className="w-12 h-12 rounded-full bg-[#D91680]/10 flex items-center justify-center flex-shrink-0">
+                    <Store className="w-6 h-6 text-[#D91680]" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Street Food
                     </h2>
                     <p className="text-gray-600 mt-1">400 guides to Thailand's world-class street food</p>
@@ -324,11 +324,11 @@ export default function FoodDiningPage() {
                             loading="lazy"
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/90 to-transparent"></div>
+                          <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/90 to-transparent"></div>
                           <div className="absolute bottom-4 left-4 right-4">
                             <h4 className="text-white font-bold text-xl mb-2">{city.city}</h4>
                             <p className="text-white/90 text-sm mb-3">{city.description}</p>
-                            <div className="flex items-center gap-2 text-[#f7a600]">
+                            <div className="flex items-center gap-2 text-[#FDB515]">
                               <span className="text-sm font-semibold">{city.guides} guides</span>
                               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                             </div>
@@ -348,16 +348,16 @@ export default function FoodDiningPage() {
                           to="/food-dining"
                           className="group flex items-center gap-4 p-5 bg-white rounded-lg hover:bg-pink-50 transition-all border border-gray-100 hover:border-pink-200"
                         >
-                          <div className="w-12 h-12 rounded-full bg-[#d7007f]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#d7007f]/20 transition-colors">
-                            <IconComponent className="w-6 h-6 text-[#d7007f]" />
+                          <div className="w-12 h-12 rounded-full bg-[#D91680]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#D91680]/20 transition-colors">
+                            <IconComponent className="w-6 h-6 text-[#D91680]" />
                           </div>
                           <div className="flex-1">
-                            <h4 className="font-semibold text-gray-900 group-hover:text-[#d7007f] transition-colors">
+                            <h4 className="font-semibold text-gray-900 group-hover:text-[#D91680] transition-colors">
                               {type.label}
                             </h4>
                             <p className="text-sm text-gray-600">{type.guides} guides</p>
                           </div>
-                          <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#d7007f] group-hover:translate-x-1 transition-all" />
+                          <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#D91680] group-hover:translate-x-1 transition-all" />
                         </Link>
                       );
                     })}
@@ -367,7 +367,7 @@ export default function FoodDiningPage() {
                 <div className="text-center">
                   <Link
                     to="/food-dining"
-                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#d7007f] text-white hover:bg-[#d7007f] transition-colors rounded-lg font-semibold shadow-lg hover:shadow-xl uppercase tracking-[1.5px]"
+                    className="inline-flex items-center gap-2 px-8 py-4 bg-[#D91680] text-white hover:bg-[#D91680] transition-colors rounded-lg font-semibold shadow-lg hover:shadow-xl uppercase tracking-[1.5px]"
                   >
                     Explore Street Food
                     <ArrowRight className="w-5 h-5" />
@@ -383,7 +383,7 @@ export default function FoodDiningPage() {
                     <Utensils className="w-6 h-6 text-rose-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Best Restaurants
                     </h2>
                     <p className="text-gray-600 mt-1">600 guides to Thailand's finest dining</p>
@@ -431,11 +431,11 @@ export default function FoodDiningPage() {
                             loading="lazy"
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/90 to-transparent"></div>
+                          <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/90 to-transparent"></div>
                           <div className="absolute bottom-4 left-4 right-4">
                             <h4 className="text-white font-bold text-xl mb-2">{city.city}</h4>
                             <p className="text-white/90 text-sm mb-3">{city.description}</p>
-                            <div className="flex items-center gap-2 text-[#f7a600]">
+                            <div className="flex items-center gap-2 text-[#FDB515]">
                               <span className="text-sm font-semibold">{city.guides} guides</span>
                               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                             </div>
@@ -465,7 +465,7 @@ export default function FoodDiningPage() {
                     <ChefHat className="w-6 h-6 text-blue-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Food Experiences
                     </h2>
                     <p className="text-gray-600 mt-1">350 guides to culinary experiences</p>
@@ -493,7 +493,7 @@ export default function FoodDiningPage() {
                             loading="lazy"
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/90 to-transparent"></div>
+                          <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/90 to-transparent"></div>
                           <div className="absolute bottom-4 left-4 right-4">
                             <h4 className="text-white font-bold text-lg mb-2">{experience.title}</h4>
                             <p className="text-white/90 text-sm mb-3">{experience.description}</p>
@@ -527,7 +527,7 @@ export default function FoodDiningPage() {
                     <Leaf className="w-6 h-6 text-green-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       By Cuisine Type
                     </h2>
                     <p className="text-gray-600 mt-1">Explore different styles and specialties</p>
@@ -567,7 +567,7 @@ export default function FoodDiningPage() {
                     <Award className="w-6 h-6 text-amber-600" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Collections
                     </h2>
                     <p className="text-gray-600 mt-1">Curated lists of the best food experiences</p>
@@ -588,7 +588,7 @@ export default function FoodDiningPage() {
                           <div className={`w-14 h-14 rounded-lg ${collection.color} flex items-center justify-center mb-4`}>
                             <IconComponent className="w-7 h-7 text-white" />
                           </div>
-                          <h4 className="text-xl font-bold text-white mb-2 group-hover:text-[#f7a600] transition-colors">
+                          <h4 className="text-xl font-bold text-white mb-2 group-hover:text-[#FDB515] transition-colors">
                             {collection.title}
                           </h4>
                           <div className="flex items-center gap-2 text-gray-400 group-hover:text-white transition-colors">
@@ -618,28 +618,28 @@ export default function FoodDiningPage() {
         </div>
       </div>
 
-      <section className="py-32 bg-gradient-to-br from-[#252525] via-[#2a2a2a] to-[#1f1f1f] text-white relative overflow-hidden">
+      <section className="py-32 bg-gradient-to-br from-[#2D2D2D] via-[#2a2a2a] to-[#1f1f1f] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-[#f7a600] rounded-full blur-3xl"></div>
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#d7007f] rounded-full blur-3xl"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-[#FDB515] rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#D91680] rounded-full blur-3xl"></div>
         </div>
 
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="w-20 h-20 rounded-full bg-[#f7a600]/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-8 border border-[#f7a600]/20">
-              <MessageCircle className="w-10 h-10 text-[#f7a600]" />
+            <div className="w-20 h-20 rounded-full bg-[#FDB515]/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-8 border border-[#FDB515]/20">
+              <MessageCircle className="w-10 h-10 text-[#FDB515]" />
             </div>
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Questions About
               <br />
-              <span className="text-[#f7a600]">Thai Food?</span>
+              <span className="text-[#FDB515]">Thai Food?</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Our food experts are here to help you discover the best dining experiences in Thailand
             </p>
             <Link
               to="/contact"
-              className="inline-flex items-center gap-3 px-10 py-5 bg-[#f7a600] text-white hover:bg-[#d7007f] transition-all rounded-lg font-semibold shadow-2xl hover:shadow-[#f7a600]/20 hover:scale-105 uppercase tracking-[1.5px]"
+              className="inline-flex items-center gap-3 px-10 py-5 bg-[#FDB515] text-white hover:bg-[#D91680] transition-all rounded-lg font-semibold shadow-2xl hover:shadow-[#FDB515]/20 hover:scale-105 uppercase tracking-[1.5px]"
             >
               <MessageCircle className="w-6 h-6" />
               Ask Our Experts

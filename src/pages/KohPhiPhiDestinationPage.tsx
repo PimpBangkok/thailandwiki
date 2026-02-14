@@ -186,7 +186,7 @@ export default function KohPhiPhiDestinationPage() {
           backgroundImage: 'url(https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=2000&q=80)',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#252525]/70 via-[#252525]/50 to-[#252525]/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2D2D2D]/70 via-[#2D2D2D]/50 to-[#2D2D2D]/80"></div>
 
         <div className="relative z-10 h-full flex flex-col justify-center items-center text-white px-4 sm:px-6 lg:px-12">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-light mb-4 text-center uppercase tracking-[2px]">
@@ -219,7 +219,7 @@ export default function KohPhiPhiDestinationPage() {
               <a
                 key={index}
                 href={item.href}
-                className="px-4 py-2 text-sm text-gray-700 hover:text-[#d7007f] hover:bg-pink-50 rounded-lg transition-colors"
+                className="px-4 py-2 text-sm text-gray-700 hover:text-[#D91680] hover:bg-pink-50 rounded-lg transition-colors"
               >
                 {item.label}
               </a>
@@ -230,7 +230,7 @@ export default function KohPhiPhiDestinationPage() {
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-12">
             <section id="overview">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-[#D91680] pb-3">
                 Koh Phi Phi at a Glance
               </h2>
 
@@ -245,7 +245,7 @@ export default function KohPhiPhiDestinationPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-lg">
                   <div className="flex items-start space-x-3">
-                    <MapPin className="w-6 h-6 text-[#d7007f] flex-shrink-0 mt-1" />
+                    <MapPin className="w-6 h-6 text-[#D91680] flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Best For</h3>
                       <p className="text-sm text-gray-700">Beach lovers, party-goers, snorkelers, photographers</p>
@@ -306,7 +306,7 @@ export default function KohPhiPhiDestinationPage() {
             </section>
 
             <section id="beaches">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-[#D91680] pb-3">
                 Beaches & Bays
               </h2>
 
@@ -319,7 +319,7 @@ export default function KohPhiPhiDestinationPage() {
                 {beaches.map((beach, index) => (
                   <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">
                     {beach.isHighlight && (
-                      <div className="bg-gradient-to-r from-[#d7007f] to-[#ff1493] text-white px-4 py-2 text-sm font-semibold">
+                      <div className="bg-gradient-to-r from-[#D91680] to-[#ff1493] text-white px-4 py-2 text-sm font-semibold">
                         Must-See Highlight
                       </div>
                     )}
@@ -344,7 +344,7 @@ export default function KohPhiPhiDestinationPage() {
                           <ul className="grid grid-cols-2 gap-2">
                             {beach.features.map((feature, idx) => (
                               <li key={idx} className="text-sm text-gray-600 flex items-center">
-                                <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2"></span>
+                                <span className="w-1.5 h-1.5 bg-[#D91680] rounded-full mr-2"></span>
                                 {feature}
                               </li>
                             ))}
@@ -392,7 +392,7 @@ export default function KohPhiPhiDestinationPage() {
             </section>
 
             <section id="things-to-do">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-[#D91680] pb-3">
                 Things to Do in Koh Phi Phi
               </h2>
 
@@ -401,7 +401,7 @@ export default function KohPhiPhiDestinationPage() {
                   <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
                     <div className="flex items-start space-x-4">
                       <div className="bg-pink-100 p-3 rounded-lg flex-shrink-0">
-                        <activity.icon className="w-6 h-6 text-[#d7007f]" />
+                        <activity.icon className="w-6 h-6 text-[#D91680]" />
                       </div>
                       <div className="flex-1">
                         <h3 className="text-xl font-semibold text-gray-900 mb-2">{activity.title}</h3>
@@ -410,13 +410,13 @@ export default function KohPhiPhiDestinationPage() {
                         <ul className="space-y-1 mb-3">
                           {activity.details.map((detail, idx) => (
                             <li key={idx} className="text-sm text-gray-600 flex items-start">
-                              <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                              <span className="w-1.5 h-1.5 bg-[#D91680] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                               <span>{detail}</span>
                             </li>
                           ))}
                         </ul>
 
-                        <p className="text-sm font-semibold text-[#d7007f]">{activity.price}</p>
+                        <p className="text-sm font-semibold text-[#D91680]">{activity.price}</p>
                       </div>
                     </div>
                   </div>
@@ -425,7 +425,7 @@ export default function KohPhiPhiDestinationPage() {
             </section>
 
             <section id="getting-there">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-[#D91680] pb-3">
                 Getting to Koh Phi Phi
               </h2>
 
@@ -440,12 +440,12 @@ export default function KohPhiPhiDestinationPage() {
 
               <div className="grid md:grid-cols-3 gap-6 mb-8">
                 <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                  <div className="bg-gradient-to-br from-pink-100 to-[#d7007f] w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                    <Anchor className="w-8 h-8 text-[#d7007f]" />
+                  <div className="bg-gradient-to-br from-pink-100 to-[#D91680] w-16 h-16 rounded-full flex items-center justify-center mb-4">
+                    <Anchor className="w-8 h-8 text-[#D91680]" />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">From Phuket</h3>
                   <div className="space-y-2 text-sm text-gray-700">
-                    <p className="font-semibold text-[#d7007f]">Ferry: 2 hours</p>
+                    <p className="font-semibold text-[#D91680]">Ferry: 2 hours</p>
                     <p>Price: $15-25 (450-750 THB)</p>
                     <p>Multiple daily departures</p>
                     <p className="text-xs text-gray-500 mt-3">Most popular route for international arrivals</p>
@@ -503,7 +503,7 @@ export default function KohPhiPhiDestinationPage() {
             </section>
 
             <section id="how-long">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-[#D91680] pb-3">
                 How Long to Stay in Koh Phi Phi
               </h2>
 
@@ -554,12 +554,12 @@ export default function KohPhiPhiDestinationPage() {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-lg shadow-lg border-t-4 border-[#d7007f] transform md:scale-105">
+                <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-lg shadow-lg border-t-4 border-[#D91680] transform md:scale-105">
                   <div className="text-center mb-4">
-                    <div className="inline-block bg-[#d7007f] text-white px-3 py-1 rounded-full text-xs font-semibold mb-2">
+                    <div className="inline-block bg-[#D91680] text-white px-3 py-1 rounded-full text-xs font-semibold mb-2">
                       RECOMMENDED
                     </div>
-                    <div className="text-3xl font-bold text-[#d7007f] mb-2">2-3 Days</div>
+                    <div className="text-3xl font-bold text-[#D91680] mb-2">2-3 Days</div>
                     <p className="text-sm text-gray-700 uppercase tracking-wide">Perfect Stay</p>
                   </div>
                   <div className="space-y-3">
@@ -629,7 +629,7 @@ export default function KohPhiPhiDestinationPage() {
             </section>
 
             <section id="accommodation">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-[#D91680] pb-3">
                 Where to Stay in Koh Phi Phi
               </h2>
 
@@ -643,15 +643,15 @@ export default function KohPhiPhiDestinationPage() {
                   <div key={index} className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden">
                     <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-4 border-b border-pink-200">
                       <div className="flex items-center space-x-3 mb-2">
-                        <div className="bg-[#d7007f] p-2 rounded-lg">
+                        <div className="bg-[#D91680] p-2 rounded-lg">
                           <area.icon className="w-5 h-5 text-white" />
                         </div>
                         <div>
                           <h3 className="text-lg font-semibold text-gray-900">{area.name}</h3>
-                          <span className="text-sm text-[#d7007f] font-medium">{area.subtitle}</span>
+                          <span className="text-sm text-[#D91680] font-medium">{area.subtitle}</span>
                         </div>
                       </div>
-                      <span className="text-[#d7007f] font-semibold text-sm">{area.priceRange}</span>
+                      <span className="text-[#D91680] font-semibold text-sm">{area.priceRange}</span>
                     </div>
 
                     <div className="p-6">
@@ -660,7 +660,7 @@ export default function KohPhiPhiDestinationPage() {
                       <ul className="space-y-2">
                         {area.highlights.map((highlight, idx) => (
                           <li key={idx} className="text-sm text-gray-600 flex items-start">
-                            <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                            <span className="w-1.5 h-1.5 bg-[#D91680] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                             <span>{highlight}</span>
                           </li>
                         ))}
@@ -676,7 +676,7 @@ export default function KohPhiPhiDestinationPage() {
             </section>
 
             <section id="nightlife">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-[#D91680] pb-3">
                 Nightlife & Party Scene
               </h2>
 
@@ -746,7 +746,7 @@ export default function KohPhiPhiDestinationPage() {
 
 
             <section id="practical">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-[#D91680] pb-3">
                 Practical Information
               </h2>
 
@@ -755,7 +755,7 @@ export default function KohPhiPhiDestinationPage() {
                   <h3 className="text-lg font-semibold text-gray-900 mb-4">Getting There</h3>
                   <div className="space-y-3 text-sm">
                     <div>
-                      <span className="font-semibold text-[#d7007f]">From Phuket:</span>
+                      <span className="font-semibold text-[#D91680]">From Phuket:</span>
                       <p className="text-gray-700">Ferry 2 hours (400-600 THB)</p>
                     </div>
                     <div>
@@ -795,7 +795,7 @@ export default function KohPhiPhiDestinationPage() {
                   <h3 className="text-lg font-semibold text-gray-900 mb-4">Best Time to Visit</h3>
                   <div className="space-y-3 text-sm">
                     <div>
-                      <span className="font-semibold text-[#d7007f]">Nov-Feb (Peak):</span>
+                      <span className="font-semibold text-[#D91680]">Nov-Feb (Peak):</span>
                       <p className="text-gray-700">Perfect weather, very busy, highest prices</p>
                     </div>
                     <div>
@@ -832,7 +832,7 @@ export default function KohPhiPhiDestinationPage() {
 
           <div className="lg:col-span-1">
             <div className="sticky top-32 space-y-8">
-              <div className="bg-gradient-to-br from-[#d7007f] to-[#d7007f] text-white p-6 rounded-lg shadow-xl">
+              <div className="bg-gradient-to-br from-[#D91680] to-[#D91680] text-white p-6 rounded-lg shadow-xl">
                 <h3 className="text-xl font-semibold mb-4">Quick Guide</h3>
                 <div className="space-y-3 text-sm">
                   <div>
@@ -858,27 +858,27 @@ export default function KohPhiPhiDestinationPage() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Must-Do Experiences</h3>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#D91680] rounded-full mr-2"></span>
                     Maya Bay visit
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#D91680] rounded-full mr-2"></span>
                     Viewpoint sunrise/sunset
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#D91680] rounded-full mr-2"></span>
                     Beach party at Loh Dalum
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#D91680] rounded-full mr-2"></span>
                     Snorkeling at Bamboo Island
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#D91680] rounded-full mr-2"></span>
                     Fire show experience
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#D91680] rounded-full mr-2"></span>
                     Diving at Shark Point
                   </li>
                 </ul>
@@ -913,7 +913,7 @@ export default function KohPhiPhiDestinationPage() {
           </div>
         </div>
 
-        <div className="mt-16 bg-gradient-to-br from-[#d7007f] to-[#ff1493] rounded-2xl p-8 md:p-12 text-white shadow-2xl">
+        <div className="mt-16 bg-gradient-to-br from-[#D91680] to-[#ff1493] rounded-2xl p-8 md:p-12 text-white shadow-2xl">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-6">
               <MessageCircle className="w-8 h-8" />
@@ -932,7 +932,7 @@ export default function KohPhiPhiDestinationPage() {
                   (chatWidget as HTMLElement).click();
                 }
               }}
-              className="inline-flex items-center px-8 py-4 bg-white text-[#d7007f] rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl"
+              className="inline-flex items-center px-8 py-4 bg-white text-[#D91680] rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl"
             >
               <MessageCircle className="w-5 h-5 mr-2" />
               Ask Our Experts Now

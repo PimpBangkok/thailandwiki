@@ -27,13 +27,13 @@ export default function HomePage() {
           backgroundImage: 'url(https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=2400&q=80)'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#252525]/70 via-[#252525]/50 to-[#252525]/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2D2D2D]/70 via-[#2D2D2D]/50 to-[#2D2D2D]/80"></div>
 
         <div className="relative z-10 max-w-[1700px] mx-auto px-4 sm:px-6 lg:px-12 text-center text-white py-16 sm:py-24 lg:py-32">
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light mb-4 sm:mb-6 uppercase tracking-[2px] leading-tight">
             Discover Everything
             <br />
-            <span className="text-[#d7007f]">About Thailand</span>
+            <span className="text-[#D91680]">About Thailand</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl mb-8 sm:mb-12 max-w-3xl mx-auto font-light leading-relaxed text-gray-300 px-4">
             24,000+ Articles - Destinations - Activities - Culture - Travel Tips
@@ -47,7 +47,7 @@ export default function HomePage() {
                 placeholder="Search Thailand destinations, activities, hotels..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full py-4 sm:py-5 pl-12 sm:pl-16 pr-4 sm:pr-6 rounded-full bg-white text-[#252525] placeholder-gray-400 text-base sm:text-lg font-light focus:outline-none focus:ring-2 focus:ring-[#d7007f] shadow-2xl"
+                className="w-full py-4 sm:py-5 pl-12 sm:pl-16 pr-4 sm:pr-6 rounded-full bg-white text-[#2D2D2D] placeholder-gray-400 text-base sm:text-lg font-light focus:outline-none focus:ring-2 focus:ring-[#D91680] shadow-2xl"
               />
             </div>
 
@@ -57,7 +57,7 @@ export default function HomePage() {
                 <Link
                   key={index}
                   to={search.link}
-                  className="px-3 py-1.5 sm:px-4 sm:py-2 bg-white/10 backdrop-blur-sm rounded-full text-xs sm:text-sm text-white hover:bg-[#d7007f] hover:text-white transition-all duration-300 font-light tracking-wide min-h-[44px] sm:min-h-0 flex items-center"
+                  className="px-3 py-1.5 sm:px-4 sm:py-2 bg-white/10 backdrop-blur-sm rounded-full text-xs sm:text-sm text-white hover:bg-[#D91680] hover:text-white transition-all duration-300 font-light tracking-wide min-h-[44px] sm:min-h-0 flex items-center"
                 >
                   {search.text}
                 </Link>
@@ -73,7 +73,7 @@ export default function HomePage() {
               { number: '100%', label: 'Authentic' }
             ].map((stat, index) => (
               <div key={index} className="bg-white/5 backdrop-blur-sm rounded-[10px] p-4 sm:p-6 md:p-8 hover:bg-white/10 transition-all duration-300">
-                <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light mb-2 sm:mb-3 text-[#f7a600]">
+                <div className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-light mb-2 sm:mb-3 text-[#FDB515]">
                   {stat.number}
                 </div>
                 <div className="text-gray-300 text-xs sm:text-sm uppercase tracking-[1px] sm:tracking-[2px] font-light">
@@ -124,15 +124,15 @@ export default function HomePage() {
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/60 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/60 to-transparent"></div>
                 </div>
-                <h3 className="text-2xl sm:text-3xl md:text-4xl font-light text-[#252525] mb-3 sm:mb-4 uppercase tracking-[2px] group-hover:text-[#d7007f] transition-colors">
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-light text-[#2D2D2D] mb-3 sm:mb-4 uppercase tracking-[2px] group-hover:text-[#D91680] transition-colors">
                   {pillar.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-3 sm:mb-4 font-light text-base sm:text-lg">
                   {pillar.description}
                 </p>
-                <span className="inline-flex items-center gap-2 text-[#d7007f] uppercase tracking-[2px] text-sm font-normal group-hover:gap-4 transition-all">
+                <span className="inline-flex items-center gap-2 text-[#D91680] uppercase tracking-[2px] text-sm font-normal group-hover:gap-4 transition-all">
                   Explore More
                   <ArrowRight className="w-4 h-4" />
                 </span>
@@ -219,12 +219,12 @@ export default function HomePage() {
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/90 via-[#252525]/30 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/90 via-[#2D2D2D]/30 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 md:p-6">
                     <h3 className="text-2xl sm:text-2xl md:text-3xl font-light text-white mb-1.5 sm:mb-2 uppercase tracking-[1px]">
                       {destination.name}
                     </h3>
-                    <p className="text-[#f7a600] text-xs sm:text-sm font-light mb-1 tracking-wide">
+                    <p className="text-[#FDB515] text-xs sm:text-sm font-light mb-1 tracking-wide">
                       {destination.guides}
                     </p>
                     <p className="text-gray-300 text-xs sm:text-sm font-light">
@@ -239,7 +239,7 @@ export default function HomePage() {
           <div className="text-center mt-12">
             <Link
               to="/destinations"
-              className="inline-flex items-center gap-3 px-8 py-4 bg-[#252525] text-white rounded-full hover:bg-[#d7007f] transition-all duration-300 uppercase tracking-[2px] text-sm font-light"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-[#2D2D2D] text-white rounded-full hover:bg-[#D91680] transition-all duration-300 uppercase tracking-[2px] text-sm font-light"
             >
               View All Destinations
               <ArrowRight className="w-5 h-5" />
@@ -297,7 +297,7 @@ export default function HomePage() {
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/95 via-[#252525]/50 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/95 via-[#2D2D2D]/50 to-transparent"></div>
                   <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8 md:p-10">
                     <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-white mb-3 sm:mb-4 uppercase tracking-[1px] leading-tight">
                       {experience.title}
@@ -305,7 +305,7 @@ export default function HomePage() {
                     <p className="text-gray-200 text-base sm:text-lg md:text-xl font-light mb-4 sm:mb-6 leading-relaxed">
                       {experience.description}
                     </p>
-                    <span className="inline-flex items-center gap-2 sm:gap-3 px-5 py-2.5 sm:px-6 sm:py-3 bg-white text-[#252525] rounded-full hover:bg-[#d7007f] hover:text-white transition-all duration-300 uppercase tracking-[2px] text-xs sm:text-sm font-light min-h-[44px]">
+                    <span className="inline-flex items-center gap-2 sm:gap-3 px-5 py-2.5 sm:px-6 sm:py-3 bg-white text-[#2D2D2D] rounded-full hover:bg-[#D91680] hover:text-white transition-all duration-300 uppercase tracking-[2px] text-xs sm:text-sm font-light min-h-[44px]">
                       {experience.buttonText}
                       <ArrowRight className="w-4 h-4" />
                     </span>
@@ -321,7 +321,7 @@ export default function HomePage() {
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16 lg:gap-24">
             <div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-8 sm:mb-10 md:mb-12 uppercase tracking-[1px] text-[#252525]">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-8 sm:mb-10 md:mb-12 uppercase tracking-[1px] text-[#2D2D2D]">
                 Popular Travel Guides
               </h2>
               <ul className="space-y-4 sm:space-y-5 mb-8 sm:mb-10 md:mb-12">
@@ -341,7 +341,7 @@ export default function HomePage() {
                       className="flex items-start gap-3 sm:gap-4 group hover:translate-x-2 transition-transform duration-300 min-h-[44px] py-1"
                     >
                       <span className="text-xl sm:text-2xl mt-0.5 sm:mt-1 flex-shrink-0">-</span>
-                      <span className="text-base sm:text-lg md:text-xl font-light text-[#252525] group-hover:text-[#d7007f] transition-colors duration-300 leading-relaxed">
+                      <span className="text-base sm:text-lg md:text-xl font-light text-[#2D2D2D] group-hover:text-[#D91680] transition-colors duration-300 leading-relaxed">
                         {guide.text}
                       </span>
                     </Link>
@@ -350,7 +350,7 @@ export default function HomePage() {
               </ul>
               <Link
                 to="/travel-planning"
-                className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 bg-[#252525] text-white rounded-full hover:bg-[#d7007f] transition-all duration-300 uppercase tracking-[2px] text-xs sm:text-sm font-light min-h-[44px]"
+                className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 bg-[#2D2D2D] text-white rounded-full hover:bg-[#D91680] transition-all duration-300 uppercase tracking-[2px] text-xs sm:text-sm font-light min-h-[44px]"
               >
                 Browse All Guides
                 <ArrowRight className="w-4 h-4" />
@@ -358,7 +358,7 @@ export default function HomePage() {
             </div>
 
             <div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-8 sm:mb-10 md:mb-12 uppercase tracking-[1px] text-[#252525]">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-8 sm:mb-10 md:mb-12 uppercase tracking-[1px] text-[#2D2D2D]">
                 Plan Your Perfect Trip
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
@@ -406,7 +406,7 @@ export default function HomePage() {
                     className="group p-5 sm:p-6 bg-white rounded-[10px] shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer min-h-[140px] sm:min-h-[160px] flex flex-col"
                   >
                     <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">{item.icon}</div>
-                    <h3 className="text-lg sm:text-xl font-light text-[#252525] mb-1.5 sm:mb-2 uppercase tracking-[1px]">
+                    <h3 className="text-lg sm:text-xl font-light text-[#2D2D2D] mb-1.5 sm:mb-2 uppercase tracking-[1px]">
                       {item.title}
                     </h3>
                     <p className="text-gray-600 text-xs sm:text-sm leading-relaxed font-light">
@@ -422,7 +422,7 @@ export default function HomePage() {
 
       <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-blue-50 to-gray-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-light mb-3 sm:mb-4 text-[#252525] uppercase tracking-[1px] px-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-light mb-3 sm:mb-4 text-[#2D2D2D] uppercase tracking-[1px] px-4">
             Need Help Planning Your Thailand Trip?
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 font-light mb-6 sm:mb-8 leading-relaxed px-4">
@@ -430,7 +430,7 @@ export default function HomePage() {
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 bg-[#252525] text-white rounded-full hover:bg-[#d7007f] transition-all duration-300 uppercase tracking-[2px] text-xs sm:text-sm font-light shadow-lg hover:shadow-xl min-h-[44px]"
+            className="inline-flex items-center gap-2 sm:gap-3 px-6 py-3 sm:px-8 sm:py-4 bg-[#2D2D2D] text-white rounded-full hover:bg-[#D91680] transition-all duration-300 uppercase tracking-[2px] text-xs sm:text-sm font-light shadow-lg hover:shadow-xl min-h-[44px]"
           >
             Start Chat
             <ArrowRight className="w-4 h-4" />
@@ -438,13 +438,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-24 lg:py-32 bg-[#252525] text-white">
+      <section className="py-16 sm:py-24 lg:py-32 bg-[#2D2D2D] text-white">
         <div className="max-w-[1700px] mx-auto px-4 sm:px-6 lg:px-12">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light mb-6 sm:mb-8 uppercase tracking-[2px] leading-tight">
               Your Journey
               <br />
-              <span className="text-[#f7a600]">Starts Here</span>
+              <span className="text-[#FDB515]">Starts Here</span>
             </h2>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 sm:mb-10 md:mb-12 font-light leading-relaxed text-gray-300 px-4">
               Whether you're planning your first visit or returning to rediscover the Kingdom, ThailandWiki provides the insights and inspiration you need.

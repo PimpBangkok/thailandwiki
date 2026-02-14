@@ -32,7 +32,7 @@ export default function TableOfContents({ sections }: TableOfContentsProps) {
           <button
             key={index}
             onClick={() => scrollToSection(section.id)}
-            className="w-full text-left text-gray-700 hover:text-[#d7007f] hover:bg-pink-50 px-3 py-2 rounded transition-colors text-sm font-medium"
+            className="w-full text-left text-gray-700 hover:text-[#D91680] hover:bg-pink-50 px-3 py-2 rounded transition-colors text-sm font-medium"
           >
             - {section.label}
           </button>

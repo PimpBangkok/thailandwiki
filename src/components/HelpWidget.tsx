@@ -13,7 +13,7 @@ export default function HelpWidget() {
   return (
     <div className="bg-gradient-to-br from-pink-50 to-pink-100 border border-pink-200 rounded-lg p-6 shadow-sm">
       <div className="flex justify-center mb-4">
-        <div className="bg-[#d7007f] text-white p-3 rounded-full">
+        <div className="bg-[#D91680] text-white p-3 rounded-full">
           <MessageCircle className="w-6 h-6" />
         </div>
       </div>
@@ -25,7 +25,7 @@ export default function HelpWidget() {
       </p>
       <button
         onClick={handleStartChat}
-        className="w-full bg-[#d7007f] text-white px-4 py-2 rounded-lg hover:bg-[#d7007f] transition-colors font-medium text-sm flex items-center justify-center gap-2"
+        className="w-full bg-[#D91680] text-white px-4 py-2 rounded-lg hover:bg-[#D91680] transition-colors font-medium text-sm flex items-center justify-center gap-2"
       >
         Start Chat
         <MessageCircle className="w-4 h-4" />

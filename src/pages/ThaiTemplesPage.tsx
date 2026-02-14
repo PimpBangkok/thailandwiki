@@ -26,7 +26,7 @@ export function ThaiTemplesPage() {
           <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-orange-400 to-amber-600 rounded-full mb-6">
             <Church className="w-10 h-10 text-white" />
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-[#252525] mb-6 uppercase tracking-[3px]">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[3px]">
             Thai Temples Guide
           </h1>
           <div className="max-w-4xl mx-auto">
@@ -51,7 +51,7 @@ export function ThaiTemplesPage() {
 
         <div className="max-w-5xl mx-auto">
           <section id="etiquette" className="mb-16">
-            <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-8 uppercase tracking-[2px] border-b-2 border-orange-500 pb-3">
+            <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-8 uppercase tracking-[2px] border-b-2 border-orange-500 pb-3">
               Temple Etiquette and Dress Code
             </h2>
 
@@ -404,7 +404,7 @@ export function ThaiTemplesPage() {
             <p className="text-gray-700 mb-6">
               Questions about visiting temples or Thai culture? Our travel experts are here to help!
             </p>
-            <button className="bg-[#d7007f] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#b0005f] transition-colors">
+            <button className="bg-[#D91680] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#b0005f] transition-colors">
               Ask Now
             </button>
           </div>

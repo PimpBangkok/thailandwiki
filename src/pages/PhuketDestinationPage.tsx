@@ -37,7 +37,7 @@ export default function PhuketDestinationPage() {
 
   return (
     <>
-      <div className="relative h-[70vh] min-h-[500px] bg-gradient-to-b from-[#d7007f] to-[#d7007f]">
+      <div className="relative h-[70vh] min-h-[500px] bg-gradient-to-b from-[#D91680] to-[#D91680]">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
           style={{
@@ -77,28 +77,28 @@ export default function PhuketDestinationPage() {
       <div className="sticky top-16 bg-white border-b border-gray-200 shadow-sm z-40">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
           <nav className="flex overflow-x-auto scrollbar-hide">
-            <a href="#overview" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#d7007f] hover:border-b-2 hover:border-[#d7007f] whitespace-nowrap uppercase tracking-wide transition-colors">
+            <a href="#overview" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#D91680] hover:border-b-2 hover:border-[#D91680] whitespace-nowrap uppercase tracking-wide transition-colors">
               Overview
             </a>
-            <a href="#beaches" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#d7007f] hover:border-b-2 hover:border-[#d7007f] whitespace-nowrap uppercase tracking-wide transition-colors">
+            <a href="#beaches" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#D91680] hover:border-b-2 hover:border-[#D91680] whitespace-nowrap uppercase tracking-wide transition-colors">
               Beaches
             </a>
-            <a href="#things-to-do" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#d7007f] hover:border-b-2 hover:border-[#d7007f] whitespace-nowrap uppercase tracking-wide transition-colors">
+            <a href="#things-to-do" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#D91680] hover:border-b-2 hover:border-[#D91680] whitespace-nowrap uppercase tracking-wide transition-colors">
               Things to Do
             </a>
-            <a href="#where-to-stay" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#d7007f] hover:border-b-2 hover:border-[#d7007f] whitespace-nowrap uppercase tracking-wide transition-colors">
+            <a href="#where-to-stay" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#D91680] hover:border-b-2 hover:border-[#D91680] whitespace-nowrap uppercase tracking-wide transition-colors">
               Where to Stay
             </a>
-            <a href="#food" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#d7007f] hover:border-b-2 hover:border-[#d7007f] whitespace-nowrap uppercase tracking-wide transition-colors">
+            <a href="#food" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#D91680] hover:border-b-2 hover:border-[#D91680] whitespace-nowrap uppercase tracking-wide transition-colors">
               Food & Dining
             </a>
-            <a href="#island-hopping" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#d7007f] hover:border-b-2 hover:border-[#d7007f] whitespace-nowrap uppercase tracking-wide transition-colors">
+            <a href="#island-hopping" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#D91680] hover:border-b-2 hover:border-[#D91680] whitespace-nowrap uppercase tracking-wide transition-colors">
               Island Hopping
             </a>
-            <a href="#itineraries" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#d7007f] hover:border-b-2 hover:border-[#d7007f] whitespace-nowrap uppercase tracking-wide transition-colors">
+            <a href="#itineraries" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#D91680] hover:border-b-2 hover:border-[#D91680] whitespace-nowrap uppercase tracking-wide transition-colors">
               Itineraries
             </a>
-            <a href="#practical" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#d7007f] hover:border-b-2 hover:border-[#d7007f] whitespace-nowrap uppercase tracking-wide transition-colors">
+            <a href="#practical" className="px-4 py-4 text-sm font-medium text-gray-700 hover:text-[#D91680] hover:border-b-2 hover:border-[#D91680] whitespace-nowrap uppercase tracking-wide transition-colors">
               Practical Info
             </a>
           </nav>
@@ -121,7 +121,7 @@ export default function PhuketDestinationPage() {
               </p>
             </div>
 
-            <div className="bg-pink-50 border-l-4 border-[#d7007f] p-8 rounded-r-lg shadow-sm">
+            <div className="bg-pink-50 border-l-4 border-[#D91680] p-8 rounded-r-lg shadow-sm">
               <h3 className="text-2xl font-semibold text-gray-900 uppercase tracking-wide mb-6">
                 Quick Facts
               </h3>
@@ -172,7 +172,7 @@ export default function PhuketDestinationPage() {
             </div>
 
             <div className="mt-12 text-center">
-              <a href="#beaches" className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+              <a href="#beaches" className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-8 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
                 <span>Explore Phuket's Beaches</span>
                 <ArrowRight className="w-5 h-5" />
               </a>
@@ -189,7 +189,7 @@ export default function PhuketDestinationPage() {
           <p className="text-center text-gray-500 uppercase tracking-wider text-sm mb-16">150 Beach Guides</p>
 
           <div className="max-w-4xl mx-auto space-y-6 mb-12">
-            <div className="bg-white border-l-4 border-[#d7007f] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border-l-4 border-[#D91680] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 uppercase tracking-wide">
@@ -203,7 +203,7 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-[#d7007f] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border-l-4 border-[#D91680] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 uppercase tracking-wide">
@@ -217,7 +217,7 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-[#d7007f] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border-l-4 border-[#D91680] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 uppercase tracking-wide">
@@ -231,7 +231,7 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-[#d7007f] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border-l-4 border-[#D91680] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 uppercase tracking-wide">
@@ -245,7 +245,7 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-[#d7007f] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border-l-4 border-[#D91680] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 uppercase tracking-wide">
@@ -259,7 +259,7 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-[#d7007f] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border-l-4 border-[#D91680] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 uppercase tracking-wide">
@@ -273,7 +273,7 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-[#d7007f] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border-l-4 border-[#D91680] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 uppercase tracking-wide">
@@ -287,7 +287,7 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-[#d7007f] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border-l-4 border-[#D91680] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 uppercase tracking-wide">
@@ -301,7 +301,7 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-l-4 border-[#d7007f] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
+            <div className="bg-white border-l-4 border-[#D91680] p-6 rounded-r-lg shadow-sm hover:shadow-md transition-shadow">
               <div className="flex items-start justify-between">
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2 uppercase tracking-wide">
@@ -317,7 +317,7 @@ export default function PhuketDestinationPage() {
           </div>
 
           <div className="text-center">
-            <a href="#all-beaches" className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#all-beaches" className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-8 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               <span>Explore All Phuket Beaches</span>
               <ArrowRight className="w-5 h-5" />
             </a>
@@ -340,7 +340,7 @@ export default function PhuketDestinationPage() {
                   alt="Phuket beaches"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4 bg-[#d7007f] text-white p-3 rounded-full shadow-lg">
+                <div className="absolute top-4 left-4 bg-[#D91680] text-white p-3 rounded-full shadow-lg">
                   <Waves className="w-6 h-6" />
                 </div>
               </div>
@@ -351,31 +351,31 @@ export default function PhuketDestinationPage() {
                 <p className="text-sm text-gray-500 mb-4 uppercase tracking-wider">150 guides</p>
                 <ul className="space-y-2 mb-6">
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Patong Beach (busy, nightlife)
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Kata Beach (swimming, surfing)
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Nai Harn Beach (scenic, locals)
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Freedom Beach (pristine)
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Surin Beach (upscale)
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Karon Beach (family-friendly)
                   </li>
                 </ul>
-                <a href="#beaches" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+                <a href="#beaches" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                   <span>Explore all Phuket beaches</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -390,7 +390,7 @@ export default function PhuketDestinationPage() {
                   alt="Phi Phi Islands"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4 bg-[#d7007f] text-white p-3 rounded-full shadow-lg">
+                <div className="absolute top-4 left-4 bg-[#D91680] text-white p-3 rounded-full shadow-lg">
                   <Ship className="w-6 h-6" />
                 </div>
               </div>
@@ -401,31 +401,31 @@ export default function PhuketDestinationPage() {
                 <p className="text-sm text-gray-500 mb-4 uppercase tracking-wider">150 guides</p>
                 <ul className="space-y-2 mb-6">
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Phi Phi Islands Day Trip
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     James Bond Island Tour
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Similan Islands Diving
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Coral Island Snorkeling
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Racha Islands
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Private boat charters
                   </li>
                 </ul>
-                <a href="#island-hopping" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+                <a href="#island-hopping" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                   <span>Browse island tours</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -440,7 +440,7 @@ export default function PhuketDestinationPage() {
                   alt="Diving and water activities"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4 bg-[#d7007f] text-white p-3 rounded-full shadow-lg">
+                <div className="absolute top-4 left-4 bg-[#D91680] text-white p-3 rounded-full shadow-lg">
                   <Activity className="w-6 h-6" />
                 </div>
               </div>
@@ -451,31 +451,31 @@ export default function PhuketDestinationPage() {
                 <p className="text-sm text-gray-500 mb-4 uppercase tracking-wider">100 guides</p>
                 <ul className="space-y-2 mb-6">
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Scuba Diving & Snorkeling
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Sea Kayaking
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Jet Skiing & Parasailing
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Stand-Up Paddleboarding
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Wakeboarding
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Sailing
                   </li>
                 </ul>
-                <a href="#water-activities" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+                <a href="#water-activities" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                   <span>Water activities guide</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -490,7 +490,7 @@ export default function PhuketDestinationPage() {
                   alt="Bangla Road nightlife"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4 bg-[#d7007f] text-white p-3 rounded-full shadow-lg">
+                <div className="absolute top-4 left-4 bg-[#D91680] text-white p-3 rounded-full shadow-lg">
                   <Music className="w-6 h-6" />
                 </div>
               </div>
@@ -501,31 +501,31 @@ export default function PhuketDestinationPage() {
                 <p className="text-sm text-gray-500 mb-4 uppercase tracking-wider">100 guides</p>
                 <ul className="space-y-2 mb-6">
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Bangla Road Scene
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Beach Clubs
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Illuzion Nightclub
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Simon Cabaret Show
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Rooftop Bars
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Live music venues
                   </li>
                 </ul>
-                <a href="#nightlife" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+                <a href="#nightlife" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                   <span>Nightlife guides</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -540,7 +540,7 @@ export default function PhuketDestinationPage() {
                   alt="Big Buddha Phuket"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute top-4 left-4 bg-[#d7007f] text-white p-3 rounded-full shadow-lg">
+                <div className="absolute top-4 left-4 bg-[#D91680] text-white p-3 rounded-full shadow-lg">
                   <Landmark className="w-6 h-6" />
                 </div>
               </div>
@@ -551,31 +551,31 @@ export default function PhuketDestinationPage() {
                 <p className="text-sm text-gray-500 mb-4 uppercase tracking-wider">100 guides</p>
                 <ul className="space-y-2 mb-6">
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Big Buddha
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Old Phuket Town
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Promthep Cape Viewpoint
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Wat Chalong Temple
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Phuket Elephant Sanctuary
                   </li>
                   <li className="text-gray-700 font-light flex items-start">
-                    <span className="text-[#d7007f] mr-2">-</span>
+                    <span className="text-[#D91680] mr-2">-</span>
                     Cultural shows
                   </li>
                 </ul>
-                <a href="#attractions" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+                <a href="#attractions" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                   <span>Attractions guide</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
@@ -593,10 +593,10 @@ export default function PhuketDestinationPage() {
           <p className="text-center text-gray-500 uppercase tracking-wider text-sm mb-16">450 guides</p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                  <div className="bg-[#D91680] text-white p-3 rounded-full">
                     <PartyPopper className="w-6 h-6" />
                   </div>
                   <div>
@@ -619,7 +619,7 @@ export default function PhuketDestinationPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Price Range:</p>
-                  <p className="text-[#d7007f] font-semibold text-lg">$15-300/night</p>
+                  <p className="text-[#D91680] font-semibold text-lg">$15-300/night</p>
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Highlights:</p>
@@ -627,16 +627,16 @@ export default function PhuketDestinationPage() {
                 </div>
               </div>
 
-              <a href="#patong-hotels" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#patong-hotels" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Browse Patong Hotels</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                  <div className="bg-[#D91680] text-white p-3 rounded-full">
                     <Waves className="w-6 h-6" />
                   </div>
                   <div>
@@ -659,7 +659,7 @@ export default function PhuketDestinationPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Price Range:</p>
-                  <p className="text-[#d7007f] font-semibold text-lg">$20-200/night</p>
+                  <p className="text-[#D91680] font-semibold text-lg">$20-200/night</p>
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Highlights:</p>
@@ -667,16 +667,16 @@ export default function PhuketDestinationPage() {
                 </div>
               </div>
 
-              <a href="#kata-hotels" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#kata-hotels" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Browse Kata Hotels</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                  <div className="bg-[#D91680] text-white p-3 rounded-full">
                     <Palmtree className="w-6 h-6" />
                   </div>
                   <div>
@@ -699,7 +699,7 @@ export default function PhuketDestinationPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Price Range:</p>
-                  <p className="text-[#d7007f] font-semibold text-lg">$30-250/night</p>
+                  <p className="text-[#D91680] font-semibold text-lg">$30-250/night</p>
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Highlights:</p>
@@ -707,16 +707,16 @@ export default function PhuketDestinationPage() {
                 </div>
               </div>
 
-              <a href="#kamala-hotels" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#kamala-hotels" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Browse Kamala Hotels</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                  <div className="bg-[#D91680] text-white p-3 rounded-full">
                     <Gem className="w-6 h-6" />
                   </div>
                   <div>
@@ -739,7 +739,7 @@ export default function PhuketDestinationPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Price Range:</p>
-                  <p className="text-[#d7007f] font-semibold text-lg">$100-800/night</p>
+                  <p className="text-[#D91680] font-semibold text-lg">$100-800/night</p>
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Highlights:</p>
@@ -747,16 +747,16 @@ export default function PhuketDestinationPage() {
                 </div>
               </div>
 
-              <a href="#bangtao-hotels" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#bangtao-hotels" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Browse Bang Tao Hotels</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                  <div className="bg-[#D91680] text-white p-3 rounded-full">
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
@@ -779,7 +779,7 @@ export default function PhuketDestinationPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Price Range:</p>
-                  <p className="text-[#d7007f] font-semibold text-lg">$25-150/night</p>
+                  <p className="text-[#D91680] font-semibold text-lg">$25-150/night</p>
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Highlights:</p>
@@ -787,16 +787,16 @@ export default function PhuketDestinationPage() {
                 </div>
               </div>
 
-              <a href="#south-phuket" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#south-phuket" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Browse South Phuket</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center space-x-3">
-                  <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                  <div className="bg-[#D91680] text-white p-3 rounded-full">
                     <Home className="w-6 h-6" />
                   </div>
                   <div>
@@ -819,11 +819,11 @@ export default function PhuketDestinationPage() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-1">Price Range:</p>
-                  <p className="text-[#d7007f] font-semibold text-lg">$150-1,000+/night</p>
+                  <p className="text-[#D91680] font-semibold text-lg">$150-1,000+/night</p>
                 </div>
               </div>
 
-              <a href="#phuket-villas" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#phuket-villas" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Browse Phuket Villas</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
@@ -831,7 +831,7 @@ export default function PhuketDestinationPage() {
           </div>
 
           <div className="text-center">
-            <a href="#all-accommodation" className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#all-accommodation" className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-8 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               <span>View All Phuket Accommodation</span>
               <ArrowRight className="w-5 h-5" />
             </a>
@@ -847,9 +847,9 @@ export default function PhuketDestinationPage() {
           <p className="text-center text-gray-500 uppercase tracking-wider text-sm mb-16">350 Restaurant & Food Guides</p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Fish className="w-6 h-6" />
                 </div>
                 <div>
@@ -864,9 +864,9 @@ export default function PhuketDestinationPage() {
               </p>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Flame className="w-6 h-6" />
                 </div>
                 <div>
@@ -881,9 +881,9 @@ export default function PhuketDestinationPage() {
               </p>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Globe className="w-6 h-6" />
                 </div>
                 <div>
@@ -898,9 +898,9 @@ export default function PhuketDestinationPage() {
               </p>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <ShoppingBag className="w-6 h-6" />
                 </div>
                 <div>
@@ -915,9 +915,9 @@ export default function PhuketDestinationPage() {
               </p>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Wine className="w-6 h-6" />
                 </div>
                 <div>
@@ -932,9 +932,9 @@ export default function PhuketDestinationPage() {
               </p>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <ChefHat className="w-6 h-6" />
                 </div>
                 <div>
@@ -951,7 +951,7 @@ export default function PhuketDestinationPage() {
           </div>
 
           <div className="text-center">
-            <a href="#all-food-guides" className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#all-food-guides" className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-8 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               <span>Explore All Phuket Food Guides</span>
               <ArrowRight className="w-5 h-5" />
             </a>
@@ -967,9 +967,9 @@ export default function PhuketDestinationPage() {
           <p className="text-center text-gray-500 uppercase tracking-wider text-sm mb-16">250 Phuket Itineraries</p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Calendar className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -979,15 +979,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Perfect first-time itinerary hitting best beaches and attractions
               </p>
-              <a href="#3-day-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#3-day-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Calendar className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -997,15 +997,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Complete island experience with island hopping day trips
               </p>
-              <a href="#5-day-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#5-day-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Calendar className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1015,15 +1015,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Comprehensive exploration including Phi Phi Islands
               </p>
-              <a href="#7-day-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#7-day-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Calendar className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1033,15 +1033,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Make the most of a quick 2-3 day visit
               </p>
-              <a href="#weekend-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#weekend-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Users className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1051,15 +1051,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Family-friendly beaches, activities, and restaurants
               </p>
-              <a href="#family-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#family-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <ShoppingBag className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1069,15 +1069,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Beach paradise on a backpacker budget
               </p>
-              <a href="#budget-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#budget-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Gem className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1087,15 +1087,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 5-star resorts, fine dining, and exclusive experiences
               </p>
-              <a href="#luxury-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#luxury-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Heart className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1105,15 +1105,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Romantic getaway with sunset views and intimate dining
               </p>
-              <a href="#couples-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#couples-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Waves className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1123,15 +1123,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Action-packed itinerary for water sports enthusiasts
               </p>
-              <a href="#watersports-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#watersports-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Moon className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1141,15 +1141,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Experience the best of Bangla Road and beyond
               </p>
-              <a href="#nightlife-guide" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#nightlife-guide" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Anchor className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1159,15 +1159,15 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Explore underwater wonders and coral reefs
               </p>
-              <a href="#diving-itinerary" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#diving-itinerary" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full">
+                <div className="bg-[#D91680] text-white p-3 rounded-full">
                   <Ship className="w-6 h-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1177,7 +1177,7 @@ export default function PhuketDestinationPage() {
               <p className="text-gray-700 font-light leading-relaxed mb-6">
                 Complete guide to all nearby islands and day trips
               </p>
-              <a href="#island-hopping-guide" className="inline-flex items-center text-[#d7007f] hover:text-[#d7007f] font-medium uppercase text-sm tracking-wider group">
+              <a href="#island-hopping-guide" className="inline-flex items-center text-[#D91680] hover:text-[#D91680] font-medium uppercase text-sm tracking-wider group">
                 <span>Read Full Itinerary</span>
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
@@ -1185,7 +1185,7 @@ export default function PhuketDestinationPage() {
           </div>
 
           <div className="text-center">
-            <a href="#all-itineraries" className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#all-itineraries" className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-8 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               <span>Browse All Phuket Itineraries</span>
               <ArrowRight className="w-5 h-5" />
             </a>
@@ -1203,7 +1203,7 @@ export default function PhuketDestinationPage() {
           <div className="max-w-4xl mx-auto space-y-8 mb-12">
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
-                <div className="bg-[#d7007f] text-white p-4 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-4 rounded-full flex-shrink-0">
                   <Ship className="w-8 h-8" />
                 </div>
                 <div className="flex-1">
@@ -1219,7 +1219,7 @@ export default function PhuketDestinationPage() {
 
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
-                <div className="bg-[#d7007f] text-white p-4 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-4 rounded-full flex-shrink-0">
                   <Ship className="w-8 h-8" />
                 </div>
                 <div className="flex-1">
@@ -1235,7 +1235,7 @@ export default function PhuketDestinationPage() {
 
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
-                <div className="bg-[#d7007f] text-white p-4 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-4 rounded-full flex-shrink-0">
                   <Ship className="w-8 h-8" />
                 </div>
                 <div className="flex-1">
@@ -1251,7 +1251,7 @@ export default function PhuketDestinationPage() {
 
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
-                <div className="bg-[#d7007f] text-white p-4 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-4 rounded-full flex-shrink-0">
                   <Ship className="w-8 h-8" />
                 </div>
                 <div className="flex-1">
@@ -1267,7 +1267,7 @@ export default function PhuketDestinationPage() {
 
             <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow">
               <div className="flex items-start space-x-4">
-                <div className="bg-[#d7007f] text-white p-4 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-4 rounded-full flex-shrink-0">
                   <Ship className="w-8 h-8" />
                 </div>
                 <div className="flex-1">
@@ -1283,7 +1283,7 @@ export default function PhuketDestinationPage() {
           </div>
 
           <div className="text-center">
-            <a href="#island-guide" className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#island-guide" className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-8 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               <span>Complete Island Hopping Guide</span>
               <ArrowRight className="w-5 h-5" />
             </a>
@@ -1298,9 +1298,9 @@ export default function PhuketDestinationPage() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start space-x-4 mb-6">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-3 rounded-full flex-shrink-0">
                   <Plane className="w-6 h-6" />
                 </div>
                 <div className="flex-1">
@@ -1314,9 +1314,9 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start space-x-4 mb-6">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-3 rounded-full flex-shrink-0">
                   <Car className="w-6 h-6" />
                 </div>
                 <div className="flex-1">
@@ -1330,9 +1330,9 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start space-x-4 mb-6">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-3 rounded-full flex-shrink-0">
                   <Calendar className="w-6 h-6" />
                 </div>
                 <div className="flex-1">
@@ -1354,9 +1354,9 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start space-x-4 mb-6">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-3 rounded-full flex-shrink-0">
                   <DollarSign className="w-6 h-6" />
                 </div>
                 <div className="flex-1">
@@ -1378,9 +1378,9 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start space-x-4 mb-6">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-3 rounded-full flex-shrink-0">
                   <Info className="w-6 h-6" />
                 </div>
                 <div className="flex-1">
@@ -1394,9 +1394,9 @@ export default function PhuketDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#d7007f] hover:shadow-lg transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-lg p-8 hover:border-[#D91680] hover:shadow-lg transition-all duration-300">
               <div className="flex items-start space-x-4 mb-6">
-                <div className="bg-[#d7007f] text-white p-3 rounded-full flex-shrink-0">
+                <div className="bg-[#D91680] text-white p-3 rounded-full flex-shrink-0">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div className="flex-1">
@@ -1412,7 +1412,7 @@ export default function PhuketDestinationPage() {
           </div>
 
           <div className="text-center">
-            <a href="#practical-guide" className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#practical-guide" className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-8 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               <span>Complete Practical Info</span>
               <ArrowRight className="w-5 h-5" />
             </a>
@@ -1424,9 +1424,9 @@ export default function PhuketDestinationPage() {
 
       <section className="py-16 md:py-24 bg-gradient-to-br from-pink-50 to-white">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl mx-auto bg-white border-2 border-[#d7007f] rounded-2xl p-12 shadow-xl text-center">
+          <div className="max-w-3xl mx-auto bg-white border-2 border-[#D91680] rounded-2xl p-12 shadow-xl text-center">
             <div className="flex justify-center mb-6">
-              <div className="bg-[#d7007f] text-white p-4 rounded-full">
+              <div className="bg-[#D91680] text-white p-4 rounded-full">
                 <MessageCircle className="w-10 h-10" />
               </div>
             </div>
@@ -1437,7 +1437,7 @@ export default function PhuketDestinationPage() {
               Questions about beaches, hotels, or activities?<br />
               Chat with our Phuket travel experts!
             </p>
-            <a href="/contact" className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-10 py-5 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="/contact" className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-10 py-5 rounded-lg hover:bg-[#D91680] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               <span>Ask a Question</span>
               <ArrowRight className="w-5 h-5" />
             </a>

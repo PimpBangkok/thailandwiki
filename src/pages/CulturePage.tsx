@@ -99,7 +99,7 @@ export default function CulturePage() {
             alt="Thai temple and cultural heritage"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#252525]/70 via-[#252525]/60 to-[#252525]/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-[#2D2D2D]/70 via-[#2D2D2D]/60 to-[#2D2D2D]/80"></div>
         </div>
 
         <div className="relative z-10 text-center text-white px-6 max-w-5xl mx-auto">
@@ -111,7 +111,7 @@ export default function CulturePage() {
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light mb-8 uppercase tracking-[3px] leading-tight">
             Thai Culture
             <br />
-            <span className="text-[#f7a600]">& Traditions</span>
+            <span className="text-[#FDB515]">& Traditions</span>
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto">
@@ -120,7 +120,7 @@ export default function CulturePage() {
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-lg">
             <div className="flex items-center gap-2">
-              <Info className="w-5 h-5 text-[#f7a600]" />
+              <Info className="w-5 h-5 text-[#FDB515]" />
               <span>400+ Cultural Guides</span>
             </div>
           </div>
@@ -145,7 +145,7 @@ export default function CulturePage() {
                     <Building2 className="w-6 h-6 text-amber-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Temples & Buddhism
                     </h2>
                     <p className="text-gray-600 mt-1">150 guides to understanding temple culture</p>
@@ -207,7 +207,7 @@ export default function CulturePage() {
                     <Heart className="w-6 h-6 text-rose-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Thai Etiquette & Customs
                     </h2>
                     <p className="text-gray-600 mt-1">100 guides to respectful cultural interaction</p>
@@ -269,7 +269,7 @@ export default function CulturePage() {
                     <Sparkles className="w-6 h-6 text-orange-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Festivals & Events
                     </h2>
                     <p className="text-gray-600 mt-1">100 guides to Thai celebrations</p>
@@ -331,7 +331,7 @@ export default function CulturePage() {
                     <Music className="w-6 h-6 text-blue-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Arts & Traditions
                     </h2>
                     <p className="text-gray-600 mt-1">50 guides to traditional Thai arts</p>
@@ -393,7 +393,7 @@ export default function CulturePage() {
                     <MessageCircle className="w-6 h-6 text-green-700" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Language & Communication
                     </h2>
                     <p className="text-gray-600 mt-1">Essential language guides for travelers</p>
@@ -431,11 +431,11 @@ export default function CulturePage() {
 
               <div id="collections" className="mb-20 scroll-mt-24">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="w-12 h-12 rounded-full bg-[#f7a600]/10 flex items-center justify-center flex-shrink-0">
-                    <Star className="w-6 h-6 text-[#f7a600]" />
+                  <div className="w-12 h-12 rounded-full bg-[#FDB515]/10 flex items-center justify-center flex-shrink-0">
+                    <Star className="w-6 h-6 text-[#FDB515]" />
                   </div>
                   <div>
-                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
+                    <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#2D2D2D]">
                       Cultural Collections
                     </h2>
                     <p className="text-gray-600 mt-1">Curated guides for cultural immersion</p>
@@ -449,18 +449,18 @@ export default function CulturePage() {
                       <Link
                         key={index}
                         to="/culture"
-                        className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-[#f7a600]/5 to-amber-100/50 p-8 hover:shadow-xl transition-all border border-amber-200/50 hover:border-amber-300"
+                        className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-[#FDB515]/5 to-amber-100/50 p-8 hover:shadow-xl transition-all border border-amber-200/50 hover:border-amber-300"
                       >
                         <div className="flex items-start gap-4">
-                          <div className="w-14 h-14 rounded-full bg-[#f7a600]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#f7a600]/20 transition-colors">
-                            <IconComponent className="w-7 h-7 text-[#f7a600]" />
+                          <div className="w-14 h-14 rounded-full bg-[#FDB515]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#FDB515]/20 transition-colors">
+                            <IconComponent className="w-7 h-7 text-[#FDB515]" />
                           </div>
                           <div className="flex-1">
-                            <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#f7a600] transition-colors">
+                            <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#FDB515] transition-colors">
                               {item.title}
                             </h3>
                             <p className="text-sm text-gray-600 mb-4">{item.count}</p>
-                            <div className="inline-flex items-center gap-2 text-[#f7a600] font-semibold text-sm">
+                            <div className="inline-flex items-center gap-2 text-[#FDB515] font-semibold text-sm">
                               Explore Collection
                               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                             </div>
@@ -488,21 +488,21 @@ export default function CulturePage() {
         </div>
       </div>
 
-      <section className="py-32 bg-gradient-to-br from-[#252525] via-[#2a2a2a] to-[#1f1f1f] text-white relative overflow-hidden">
+      <section className="py-32 bg-gradient-to-br from-[#2D2D2D] via-[#2a2a2a] to-[#1f1f1f] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-[#f7a600] rounded-full blur-3xl"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-[#FDB515] rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-amber-600 rounded-full blur-3xl"></div>
         </div>
 
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="w-20 h-20 rounded-full bg-[#f7a600]/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-8 border border-[#f7a600]/20">
-              <MessageCircle className="w-10 h-10 text-[#f7a600]" />
+            <div className="w-20 h-20 rounded-full bg-[#FDB515]/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-8 border border-[#FDB515]/20">
+              <MessageCircle className="w-10 h-10 text-[#FDB515]" />
             </div>
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Questions About
               <br />
-              <span className="text-[#f7a600]">Thai Culture?</span>
+              <span className="text-[#FDB515]">Thai Culture?</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Ask our experts! Chat with us for personalized cultural advice and travel tips.
@@ -513,7 +513,7 @@ export default function CulturePage() {
                   const chatButton = document.querySelector('[data-chat-widget]') as HTMLButtonElement;
                   if (chatButton) chatButton.click();
                 }}
-                className="inline-flex items-center gap-3 px-10 py-5 bg-[#f7a600] text-white hover:bg-[#d7007f] transition-all rounded-lg font-semibold shadow-2xl hover:shadow-[#f7a600]/20 hover:scale-105 uppercase tracking-[1.5px]"
+                className="inline-flex items-center gap-3 px-10 py-5 bg-[#FDB515] text-white hover:bg-[#D91680] transition-all rounded-lg font-semibold shadow-2xl hover:shadow-[#FDB515]/20 hover:scale-105 uppercase tracking-[1.5px]"
               >
                 <MessageCircle className="w-5 h-5" />
                 Chat with Experts

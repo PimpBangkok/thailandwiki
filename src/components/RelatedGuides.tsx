@@ -40,13 +40,13 @@ function RelatedGuides({ guides }: RelatedGuidesProps) {
               </div>
 
               <div className="p-5">
-                <h3 className="text-lg font-bold text-gray-900 group-hover:text-[#d7007f] mb-2 line-clamp-2 transition-colors">
+                <h3 className="text-lg font-bold text-gray-900 group-hover:text-[#D91680] mb-2 line-clamp-2 transition-colors">
                   {guide.title}
                 </h3>
                 <p className="text-sm text-gray-600 mb-4 line-clamp-3 leading-relaxed">
                   {guide.excerpt}
                 </p>
-                <div className="flex items-center text-[#d7007f] font-semibold text-sm group-hover:text-[#d7007f] transition-colors">
+                <div className="flex items-center text-[#D91680] font-semibold text-sm group-hover:text-[#D91680] transition-colors">
                   Read More
                   <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                 </div>

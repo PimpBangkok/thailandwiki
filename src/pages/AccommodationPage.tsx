@@ -55,7 +55,7 @@ export function AccommodationPage() {
             <p className="text-2xl md:text-3xl text-white/90 font-light mb-8 tracking-wide">
               Hotels, Resorts, Villas & Unique Accommodations
             </p>
-            <div className="inline-block bg-[#d7007f] text-white px-8 py-3 rounded-lg text-lg font-medium">
+            <div className="inline-block bg-[#D91680] text-white px-8 py-3 rounded-lg text-lg font-medium">
               3,100 Accommodation Guides
             </div>
           </div>
@@ -90,7 +90,7 @@ export function AccommodationPage() {
 
           <div className="space-y-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -98,14 +98,14 @@ export function AccommodationPage() {
                     alt="Hotel"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Hotel className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Hotels</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">1,200 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">1,200 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     From budget to luxury, find your perfect hotel
@@ -183,7 +183,7 @@ export function AccommodationPage() {
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -191,14 +191,14 @@ export function AccommodationPage() {
                     alt="Resorts"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Mountain className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Resorts</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">800 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">800 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     All-inclusive paradise with pools, spas, and beaches
@@ -266,7 +266,7 @@ export function AccommodationPage() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -274,14 +274,14 @@ export function AccommodationPage() {
                     alt="Villas"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Home className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Villas</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">450 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">450 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     Private pools, kitchens, perfect for families and groups
@@ -341,7 +341,7 @@ export function AccommodationPage() {
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -349,14 +349,14 @@ export function AccommodationPage() {
                     alt="Hostels"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Building2 className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Hostels</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">350 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">350 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     Budget-friendly dorms and private rooms for backpackers
@@ -424,7 +424,7 @@ export function AccommodationPage() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -432,14 +432,14 @@ export function AccommodationPage() {
                     alt="Guesthouses"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Home className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Guesthouses</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">200 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">200 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     Family-run, local experience, authentic Thailand
@@ -499,7 +499,7 @@ export function AccommodationPage() {
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -507,14 +507,14 @@ export function AccommodationPage() {
                     alt="Unique Stays"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Tent className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Unique Stays</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">100 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">100 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     Treehouses, boats, glamping, unforgettable experiences
@@ -582,7 +582,7 @@ export function AccommodationPage() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -590,14 +590,14 @@ export function AccommodationPage() {
                     alt="Beach Resorts"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Waves className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Beach Resorts</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">800 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">800 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     Beachfront paradise properties
@@ -669,7 +669,7 @@ export function AccommodationPage() {
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -677,14 +677,14 @@ export function AccommodationPage() {
                     alt="Villas & Vacation Rentals"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Home className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Villas & Vacation Rentals</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">700 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">700 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     Private villas with pools, perfect for groups
@@ -725,9 +725,9 @@ export function AccommodationPage() {
                     </div>
                   </div>
 
-                  <div className="bg-pink-50 border-l-4 border-[#d7007f] p-4 mb-6">
+                  <div className="bg-pink-50 border-l-4 border-[#D91680] p-4 mb-6">
                     <div className="flex items-start space-x-3">
-                      <div className="w-8 h-8 bg-[#d7007f] rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold">
+                      <div className="w-8 h-8 bg-[#D91680] rounded-full flex items-center justify-center flex-shrink-0 text-white font-bold">
                         !
                       </div>
                       <div>
@@ -773,7 +773,7 @@ export function AccommodationPage() {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -781,14 +781,14 @@ export function AccommodationPage() {
                     alt="Hostels & Budget"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Backpack className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Hostels & Budget</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">300 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">300 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     Budget-friendly accommodation for backpackers
@@ -848,7 +848,7 @@ export function AccommodationPage() {
                 </div>
               </div>
 
-              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#d7007f] hover:shadow-2xl transition-all duration-300">
+              <div className="bg-white border-2 border-gray-200 rounded-2xl overflow-hidden hover:border-[#D91680] hover:shadow-2xl transition-all duration-300">
                 <div className="relative h-64 bg-gray-200">
                   <img
                     loading="lazy"
@@ -856,14 +856,14 @@ export function AccommodationPage() {
                     alt="Unique Stays"
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-3 rounded-lg shadow-lg">
+                  <div className="absolute top-6 left-6 bg-[#D91680] text-white p-3 rounded-lg shadow-lg">
                     <Sparkles className="w-8 h-8" />
                   </div>
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-light text-gray-900 uppercase tracking-wide">Unique Stays</h3>
-                    <span className="text-[#d7007f] font-medium text-lg">100 guides</span>
+                    <span className="text-[#D91680] font-medium text-lg">100 guides</span>
                   </div>
                   <p className="text-xl text-gray-700 font-light mb-6">
                     Unforgettable accommodation experiences
@@ -947,7 +947,7 @@ export function AccommodationPage() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-2xl font-light text-gray-900">Bangkok</h3>
-                  <span className="text-[#d7007f] font-medium text-sm">1,200 guides</span>
+                  <span className="text-[#D91680] font-medium text-sm">1,200 guides</span>
                 </div>
                 <div className="mb-4">
                   <p className="text-sm text-gray-600 font-medium mb-2">
@@ -959,7 +959,7 @@ export function AccommodationPage() {
                 </div>
                 <a
                   href="/bangkok"
-                  className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
+                  className="inline-flex items-center space-x-2 text-[#D91680] hover:text-[#D91680] font-medium transition-colors"
                 >
                   <span>Browse Bangkok Hotels</span>
                   <ArrowRight className="w-4 h-4" />
@@ -978,7 +978,7 @@ export function AccommodationPage() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-2xl font-light text-gray-900">Phuket</h3>
-                  <span className="text-[#d7007f] font-medium text-sm">800 guides</span>
+                  <span className="text-[#D91680] font-medium text-sm">800 guides</span>
                 </div>
                 <div className="mb-4">
                   <p className="text-sm text-gray-600 font-medium mb-2">
@@ -990,7 +990,7 @@ export function AccommodationPage() {
                 </div>
                 <a
                   href="/phuket"
-                  className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
+                  className="inline-flex items-center space-x-2 text-[#D91680] hover:text-[#D91680] font-medium transition-colors"
                 >
                   <span>Browse Phuket Hotels</span>
                   <ArrowRight className="w-4 h-4" />
@@ -1009,7 +1009,7 @@ export function AccommodationPage() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-2xl font-light text-gray-900">Koh Samui</h3>
-                  <span className="text-[#d7007f] font-medium text-sm">400 guides</span>
+                  <span className="text-[#D91680] font-medium text-sm">400 guides</span>
                 </div>
                 <div className="mb-4">
                   <p className="text-sm text-gray-600 font-medium mb-2">
@@ -1021,7 +1021,7 @@ export function AccommodationPage() {
                 </div>
                 <a
                   href="#"
-                  className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
+                  className="inline-flex items-center space-x-2 text-[#D91680] hover:text-[#D91680] font-medium transition-colors"
                 >
                   <span>Browse Samui Hotels</span>
                   <ArrowRight className="w-4 h-4" />
@@ -1040,7 +1040,7 @@ export function AccommodationPage() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-2xl font-light text-gray-900">Chiang Mai</h3>
-                  <span className="text-[#d7007f] font-medium text-sm">350 guides</span>
+                  <span className="text-[#D91680] font-medium text-sm">350 guides</span>
                 </div>
                 <div className="mb-4">
                   <p className="text-sm text-gray-600 font-medium mb-2">
@@ -1052,7 +1052,7 @@ export function AccommodationPage() {
                 </div>
                 <a
                   href="#"
-                  className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
+                  className="inline-flex items-center space-x-2 text-[#D91680] hover:text-[#D91680] font-medium transition-colors"
                 >
                   <span>Browse Chiang Mai Hotels</span>
                   <ArrowRight className="w-4 h-4" />
@@ -1071,7 +1071,7 @@ export function AccommodationPage() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-2xl font-light text-gray-900">Pattaya</h3>
-                  <span className="text-[#d7007f] font-medium text-sm">300 guides</span>
+                  <span className="text-[#D91680] font-medium text-sm">300 guides</span>
                 </div>
                 <div className="mb-4">
                   <p className="text-sm text-gray-600 font-medium mb-2">
@@ -1083,7 +1083,7 @@ export function AccommodationPage() {
                 </div>
                 <a
                   href="#"
-                  className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
+                  className="inline-flex items-center space-x-2 text-[#D91680] hover:text-[#D91680] font-medium transition-colors"
                 >
                   <span>Browse Pattaya Hotels</span>
                   <ArrowRight className="w-4 h-4" />
@@ -1102,7 +1102,7 @@ export function AccommodationPage() {
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-2xl font-light text-gray-900">Krabi</h3>
-                  <span className="text-[#d7007f] font-medium text-sm">250 guides</span>
+                  <span className="text-[#D91680] font-medium text-sm">250 guides</span>
                 </div>
                 <div className="mb-4">
                   <p className="text-sm text-gray-600 font-medium mb-2">
@@ -1114,7 +1114,7 @@ export function AccommodationPage() {
                 </div>
                 <a
                   href="#"
-                  className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
+                  className="inline-flex items-center space-x-2 text-[#D91680] hover:text-[#D91680] font-medium transition-colors"
                 >
                   <span>Browse Krabi Hotels</span>
                   <ArrowRight className="w-4 h-4" />
@@ -1126,7 +1126,7 @@ export function AccommodationPage() {
           <div className="text-center mt-12">
             <a
               href="#"
-              className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium text-lg shadow-lg hover:shadow-xl"
+              className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-8 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium text-lg shadow-lg hover:shadow-xl"
             >
               <span>View All Destinations</span>
               <ArrowRight className="w-5 h-5" />
@@ -1149,30 +1149,30 @@ export function AccommodationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div className="bg-gray-50 rounded-xl p-8 border border-gray-200">
               <div className="flex items-center space-x-3 mb-6">
-                <BookOpen className="w-6 h-6 text-[#d7007f]" />
+                <BookOpen className="w-6 h-6 text-[#D91680]" />
                 <h3 className="text-2xl font-light text-gray-900">Planning & Choosing</h3>
               </div>
               <ul className="space-y-4">
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">How to Choose Where to Stay in Thailand</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">Best Areas for Different Traveler Types</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">Budget vs Luxury: What to Expect</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">Seasonal Pricing Guide</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
@@ -1182,30 +1182,30 @@ export function AccommodationPage() {
 
             <div className="bg-gray-50 rounded-xl p-8 border border-gray-200">
               <div className="flex items-center space-x-3 mb-6">
-                <FileText className="w-6 h-6 text-[#d7007f]" />
+                <FileText className="w-6 h-6 text-[#D91680]" />
                 <h3 className="text-2xl font-light text-gray-900">Booking & Tips</h3>
               </div>
               <ul className="space-y-4">
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">Hotel Booking Tips & Tricks</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">Understanding Thai Star Ratings</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">Last-Minute Booking Tips</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">Villa Rental Guide (deposits, contracts, tips)</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
@@ -1217,18 +1217,18 @@ export function AccommodationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div className="bg-gray-50 rounded-xl p-8 border border-gray-200 md:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <Home className="w-6 h-6 text-[#d7007f]" />
+                <Home className="w-6 h-6 text-[#D91680]" />
                 <h3 className="text-2xl font-light text-gray-900">Specialized Accommodation</h3>
               </div>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">Best Hotel Chains in Thailand</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#d7007f] transition-colors group">
+                  <a href="#" className="flex items-center justify-between text-gray-700 hover:text-[#D91680] transition-colors group">
                     <span className="font-light">Apartment Rentals for Long Stays</span>
                     <ArrowRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </a>
@@ -1240,7 +1240,7 @@ export function AccommodationPage() {
           <div className="text-center">
             <a
               href="#"
-              className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium text-lg transition-colors"
+              className="inline-flex items-center space-x-2 text-[#D91680] hover:text-[#D91680] font-medium text-lg transition-colors"
             >
               <span>Browse All Accommodation Guides</span>
               <ArrowRight className="w-5 h-5" />
@@ -1264,16 +1264,16 @@ export function AccommodationPage() {
             <a href="#" className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-xl transition-all duration-300 group">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Star className="w-6 h-6 text-[#d7007f]" />
+                  <Star className="w-6 h-6 text-[#D91680]" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#D91680] transition-colors">
                     Best Luxury Hotels in Thailand
                   </h3>
                   <p className="text-sm text-gray-600 font-light mb-3">
                     Top 50 five-star properties
                   </p>
-                  <div className="flex items-center text-[#d7007f] font-medium text-sm">
+                  <div className="flex items-center text-[#D91680] font-medium text-sm">
                     <span>Explore Collection</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -1284,16 +1284,16 @@ export function AccommodationPage() {
             <a href="#" className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-xl transition-all duration-300 group">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Sparkles className="w-6 h-6 text-[#d7007f]" />
+                  <Sparkles className="w-6 h-6 text-[#D91680]" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#D91680] transition-colors">
                     Best Boutique Hotels
                   </h3>
                   <p className="text-sm text-gray-600 font-light mb-3">
                     Top 30 unique properties
                   </p>
-                  <div className="flex items-center text-[#d7007f] font-medium text-sm">
+                  <div className="flex items-center text-[#D91680] font-medium text-sm">
                     <span>Explore Collection</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -1304,16 +1304,16 @@ export function AccommodationPage() {
             <a href="#" className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-xl transition-all duration-300 group">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Backpack className="w-6 h-6 text-[#d7007f]" />
+                  <Backpack className="w-6 h-6 text-[#D91680]" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#D91680] transition-colors">
                     Best Budget Hotels
                   </h3>
                   <p className="text-sm text-gray-600 font-light mb-3">
                     Top 40 value stays
                   </p>
-                  <div className="flex items-center text-[#d7007f] font-medium text-sm">
+                  <div className="flex items-center text-[#D91680] font-medium text-sm">
                     <span>Explore Collection</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -1324,16 +1324,16 @@ export function AccommodationPage() {
             <a href="#" className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-xl transition-all duration-300 group">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Users className="w-6 h-6 text-[#d7007f]" />
+                  <Users className="w-6 h-6 text-[#D91680]" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#D91680] transition-colors">
                     Best Family Resorts
                   </h3>
                   <p className="text-sm text-gray-600 font-light mb-3">
                     Top 25 family-friendly properties
                   </p>
-                  <div className="flex items-center text-[#d7007f] font-medium text-sm">
+                  <div className="flex items-center text-[#D91680] font-medium text-sm">
                     <span>Explore Collection</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -1344,16 +1344,16 @@ export function AccommodationPage() {
             <a href="#" className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-xl transition-all duration-300 group">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Heart className="w-6 h-6 text-[#d7007f]" />
+                  <Heart className="w-6 h-6 text-[#D91680]" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#D91680] transition-colors">
                     Best Honeymoon Resorts
                   </h3>
                   <p className="text-sm text-gray-600 font-light mb-3">
                     Top 20 romantic escapes
                   </p>
-                  <div className="flex items-center text-[#d7007f] font-medium text-sm">
+                  <div className="flex items-center text-[#D91680] font-medium text-sm">
                     <span>Explore Collection</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -1364,16 +1364,16 @@ export function AccommodationPage() {
             <a href="#" className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-xl transition-all duration-300 group">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Palmtree className="w-6 h-6 text-[#d7007f]" />
+                  <Palmtree className="w-6 h-6 text-[#D91680]" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#D91680] transition-colors">
                     Best Beach Resorts
                   </h3>
                   <p className="text-sm text-gray-600 font-light mb-3">
                     Top 40 beachfront stays
                   </p>
-                  <div className="flex items-center text-[#d7007f] font-medium text-sm">
+                  <div className="flex items-center text-[#D91680] font-medium text-sm">
                     <span>Explore Collection</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -1384,16 +1384,16 @@ export function AccommodationPage() {
             <a href="#" className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-xl transition-all duration-300 group">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Waves className="w-6 h-6 text-[#d7007f]" />
+                  <Waves className="w-6 h-6 text-[#D91680]" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#D91680] transition-colors">
                     Best Hotels with Infinity Pools
                   </h3>
                   <p className="text-sm text-gray-600 font-light mb-3">
                     Top 30 stunning pools
                   </p>
-                  <div className="flex items-center text-[#d7007f] font-medium text-sm">
+                  <div className="flex items-center text-[#D91680] font-medium text-sm">
                     <span>Explore Collection</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -1404,16 +1404,16 @@ export function AccommodationPage() {
             <a href="#" className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-xl transition-all duration-300 group">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Leaf className="w-6 h-6 text-[#d7007f]" />
+                  <Leaf className="w-6 h-6 text-[#D91680]" />
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <h3 className="text-xl font-light text-gray-900 mb-2 group-hover:text-[#D91680] transition-colors">
                     Best Eco-Friendly Resorts
                   </h3>
                   <p className="text-sm text-gray-600 font-light mb-3">
                     Top 20 sustainable stays
                   </p>
-                  <div className="flex items-center text-[#d7007f] font-medium text-sm">
+                  <div className="flex items-center text-[#D91680] font-medium text-sm">
                     <span>Explore Collection</span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -1425,7 +1425,7 @@ export function AccommodationPage() {
           <div className="text-center mt-12">
             <a
               href="#"
-              className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium text-lg shadow-lg hover:shadow-xl"
+              className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-8 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium text-lg shadow-lg hover:shadow-xl"
             >
               <span>View All Collections</span>
               <ArrowRight className="w-5 h-5" />
@@ -1449,16 +1449,16 @@ export function AccommodationPage() {
             <div>
               <h3 className="text-lg font-medium text-gray-900 mb-4">By Budget</h3>
               <div className="flex flex-wrap gap-3">
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Budget ($5-40)
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Mid-Range ($40-150)
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Luxury ($150-500)
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Ultra-Luxury ($500+)
                 </button>
               </div>
@@ -1467,19 +1467,19 @@ export function AccommodationPage() {
             <div>
               <h3 className="text-lg font-medium text-gray-900 mb-4">By Type</h3>
               <div className="flex flex-wrap gap-3">
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Hotel
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Resort
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Villa
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Hostel
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Unique Stay
                 </button>
               </div>
@@ -1488,19 +1488,19 @@ export function AccommodationPage() {
             <div>
               <h3 className="text-lg font-medium text-gray-900 mb-4">By Location</h3>
               <div className="flex flex-wrap gap-3">
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Beach
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   City
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Mountains
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Islands
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Countryside
                 </button>
               </div>
@@ -1509,28 +1509,28 @@ export function AccommodationPage() {
             <div>
               <h3 className="text-lg font-medium text-gray-900 mb-4">By Features</h3>
               <div className="flex flex-wrap gap-3">
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Pool
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Beach Access
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Spa
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Gym
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Kids Club
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   WiFi
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Restaurant
                 </button>
-                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#d7007f] hover:text-[#d7007f] transition-colors font-light">
+                <button className="px-6 py-3 bg-white border-2 border-gray-300 rounded-full text-gray-700 hover:border-[#D91680] hover:text-[#D91680] transition-colors font-light">
                   Airport Shuttle
                 </button>
               </div>
@@ -1545,7 +1545,7 @@ export function AccommodationPage() {
         <div className="container mx-auto px-6 max-w-4xl">
           <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 text-center border border-gray-200">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-pink-100 rounded-full mb-6">
-              <MessageCircle className="w-8 h-8 text-[#d7007f]" />
+              <MessageCircle className="w-8 h-8 text-[#D91680]" />
             </div>
             <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 uppercase tracking-wider">
               Need Help Choosing Accommodation?
@@ -1555,7 +1555,7 @@ export function AccommodationPage() {
             </p>
             <a
               href="/contact"
-              className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-10 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium text-lg shadow-lg hover:shadow-xl"
+              className="inline-flex items-center space-x-2 bg-[#D91680] text-white px-10 py-4 rounded-lg hover:bg-[#D91680] transition-colors font-medium text-lg shadow-lg hover:shadow-xl"
             >
               <span>Ask a Question</span>
               <ArrowRight className="w-5 h-5" />

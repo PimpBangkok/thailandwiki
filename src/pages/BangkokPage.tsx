@@ -64,15 +64,15 @@ export default function BangkokPage() {
           backgroundImage: 'url(https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=2400&q=80)'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#252525]/70 via-[#252525]/50 to-[#252525]/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2D2D2D]/70 via-[#2D2D2D]/50 to-[#2D2D2D]/80"></div>
 
         <div className="relative z-10 max-w-[1700px] mx-auto px-6 lg:px-12 text-center text-white py-32">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <MapPin className="w-8 h-8 text-[#d7007f]" />
-            <span className="text-lg uppercase tracking-[2px] text-[#f7a600]">Destinations</span>
+            <MapPin className="w-8 h-8 text-[#D91680]" />
+            <span className="text-lg uppercase tracking-[2px] text-[#FDB515]">Destinations</span>
           </div>
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light mb-8 uppercase tracking-[2px] leading-tight">
-            <span className="text-[#d7007f]">Bangkok</span>
+            <span className="text-[#D91680]">Bangkok</span>
           </h1>
           <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-light leading-relaxed">
             Thailand's electric capital where ancient temples meet modern skyscrapers and street food reigns supreme
@@ -108,9 +108,9 @@ export default function BangkokPage() {
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/80 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/80 to-transparent"></div>
                 </div>
-                <h3 className="text-3xl font-light text-[#252525] mb-4 uppercase tracking-[2px]">
+                <h3 className="text-3xl font-light text-[#2D2D2D] mb-4 uppercase tracking-[2px]">
                   {attraction.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed font-light text-lg">
@@ -124,13 +124,13 @@ export default function BangkokPage() {
 
       <RelatedGuides guides={relatedGuides} />
 
-      <section className="py-32 bg-[#252525] text-white">
+      <section className="py-32 bg-[#2D2D2D] text-white">
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Explore More
               <br />
-              <span className="text-[#f7a600]">Of Thailand</span>
+              <span className="text-[#FDB515]">Of Thailand</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Continue your journey through Thailand's incredible destinations

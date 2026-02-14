@@ -24,10 +24,10 @@ function YouMayAlsoLike({ articles }: YouMayAlsoLikeProps) {
               to={article.path}
               className="flex items-center justify-between p-4 bg-gray-50 rounded-lg hover:bg-pink-50 hover:shadow-md transition-all duration-200 group border border-gray-200"
             >
-              <span className="text-gray-800 group-hover:text-[#d7007f] font-medium transition-colors">
+              <span className="text-gray-800 group-hover:text-[#D91680] font-medium transition-colors">
                 {article.title}
               </span>
-              <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-[#d7007f] group-hover:translate-x-1 transition-all flex-shrink-0 ml-2" />
+              <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-[#D91680] group-hover:translate-x-1 transition-all flex-shrink-0 ml-2" />
             </Link>
           ))}
         </div>

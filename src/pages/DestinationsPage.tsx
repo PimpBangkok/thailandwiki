@@ -181,24 +181,24 @@ export default function DestinationsPage() {
           backgroundImage: 'url(https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=2400&q=80)'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#252525]/80 via-[#252525]/60 to-[#252525]/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2D2D2D]/80 via-[#2D2D2D]/60 to-[#2D2D2D]/90"></div>
 
         <div className="relative z-10 max-w-[1700px] mx-auto px-6 lg:px-12 text-center text-white py-32">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <Map className="w-8 h-8 text-[#f7a600]" />
-            <span className="text-lg uppercase tracking-[2px] text-[#f7a600]">Directory</span>
+            <Map className="w-8 h-8 text-[#FDB515]" />
+            <span className="text-lg uppercase tracking-[2px] text-[#FDB515]">Directory</span>
           </div>
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light mb-8 uppercase tracking-[2px] leading-tight">
             Thailand
             <br />
-            <span className="text-[#d7007f]">Destinations</span>
+            <span className="text-[#D91680]">Destinations</span>
           </h1>
           <p className="text-xl md:text-2xl mb-6 max-w-3xl mx-auto font-light leading-relaxed">
             Explore Cities, Islands, Beaches & Hidden Gems
           </p>
           <div className="flex items-center justify-center gap-6 text-lg font-light">
             <span className="flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-[#f7a600]" />
+              <MapPin className="w-5 h-5 text-[#FDB515]" />
               50+ Destinations
             </span>
             <span className="text-gray-400">|</span>
@@ -226,12 +226,12 @@ export default function DestinationsPage() {
                     <div className="grid md:grid-cols-2 gap-8 items-start">
                       <div className="order-2 md:order-1">
                         <div className="flex items-baseline gap-3 mb-4">
-                          <h2 className="text-4xl font-light text-[#252525] uppercase tracking-[2px]">
+                          <h2 className="text-4xl font-light text-[#2D2D2D] uppercase tracking-[2px]">
                             {region.name}
                           </h2>
                         </div>
                         <div className="flex items-center gap-2 mb-6">
-                          <span className="inline-block px-3 py-1 bg-pink-100 text-[#d7007f] rounded-full text-sm font-medium">
+                          <span className="inline-block px-3 py-1 bg-pink-100 text-[#D91680] rounded-full text-sm font-medium">
                             {region.guides} guides
                           </span>
                         </div>
@@ -247,7 +247,7 @@ export default function DestinationsPage() {
                             <div key={idx} className="flex items-start justify-between p-4 bg-gray-50 rounded-lg hover:bg-pink-50 transition-colors group border border-gray-100">
                               <div className="flex-1">
                                 <div className="flex items-center gap-3 mb-1">
-                                  <span className="font-semibold text-gray-900 group-hover:text-[#d7007f] transition-colors">
+                                  <span className="font-semibold text-gray-900 group-hover:text-[#D91680] transition-colors">
                                     {dest.name}
                                   </span>
                                   <span className="text-sm text-gray-500">
@@ -258,14 +258,14 @@ export default function DestinationsPage() {
                                   {dest.description}
                                 </p>
                               </div>
-                              <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-[#d7007f] group-hover:translate-x-1 transition-all flex-shrink-0 ml-4 mt-1" />
+                              <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-[#D91680] group-hover:translate-x-1 transition-all flex-shrink-0 ml-4 mt-1" />
                             </div>
                           ))}
                         </div>
 
                         <Link
                           to={`/destinations/${region.id}`}
-                          className="inline-flex items-center gap-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
+                          className="inline-flex items-center gap-2 text-[#D91680] hover:text-[#D91680] font-medium transition-colors"
                         >
                           Explore {region.name}
                           <ArrowRight className="w-4 h-4" />
@@ -280,10 +280,10 @@ export default function DestinationsPage() {
                             loading="lazy"
                             className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                           />
-                          <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/60 to-transparent"></div>
+                          <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/60 to-transparent"></div>
                           <div className="absolute bottom-6 left-6 right-6">
                             <div className="inline-block px-4 py-2 bg-white/90 backdrop-blur-sm rounded-lg">
-                              <span className="text-2xl font-bold text-[#252525]">
+                              <span className="text-2xl font-bold text-[#2D2D2D]">
                                 {region.guides}
                               </span>
                               <span className="text-gray-600 ml-2">guides</span>
@@ -311,10 +311,10 @@ export default function DestinationsPage() {
       <section id="by-type" className="py-20 bg-gradient-to-b from-white to-gray-50 scroll-mt-24">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-light mb-6 uppercase tracking-[2px] text-[#252525]">
+            <h2 className="text-4xl md:text-5xl font-light mb-6 uppercase tracking-[2px] text-[#2D2D2D]">
               Browse by
               <br />
-              <span className="text-[#d7007f]">Destination Type</span>
+              <span className="text-[#D91680]">Destination Type</span>
             </h2>
             <p className="text-lg text-gray-600 font-light max-w-2xl mx-auto">
               Find destinations based on your travel style and interests
@@ -331,9 +331,9 @@ export default function DestinationsPage() {
                   className="group flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all border border-gray-100 hover:border-pink-200"
                 >
                   <div className="w-14 h-14 rounded-full bg-pink-50 flex items-center justify-center mb-4 group-hover:bg-pink-100 transition-colors">
-                    <IconComponent className="w-7 h-7 text-[#d7007f]" />
+                    <IconComponent className="w-7 h-7 text-[#D91680]" />
                   </div>
-                  <span className="text-sm font-semibold text-gray-900 text-center mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <span className="text-sm font-semibold text-gray-900 text-center mb-2 group-hover:text-[#D91680] transition-colors">
                     {type.label}
                   </span>
                   <span className="text-xs text-gray-500">
@@ -345,10 +345,10 @@ export default function DestinationsPage() {
           </div>
 
           <div id="collections" className="text-center mb-20 scroll-mt-24">
-            <h2 className="text-4xl md:text-5xl font-light mb-6 uppercase tracking-[2px] text-[#252525]">
+            <h2 className="text-4xl md:text-5xl font-light mb-6 uppercase tracking-[2px] text-[#2D2D2D]">
               Popular
               <br />
-              <span className="text-[#d7007f]">Collections</span>
+              <span className="text-[#D91680]">Collections</span>
             </h2>
             <p className="text-lg text-gray-600 font-light max-w-2xl mx-auto">
               Curated destination guides for every type of traveler
@@ -369,7 +369,7 @@ export default function DestinationsPage() {
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/80 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/80 to-transparent"></div>
                   <div className="absolute top-4 right-4">
                     <span className="inline-block px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-gray-900">
                       {collection.guides} guides
@@ -377,13 +377,13 @@ export default function DestinationsPage() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#D91680] transition-colors">
                     {collection.title}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     {collection.description}
                   </p>
-                  <div className="flex items-center gap-2 mt-4 text-[#d7007f] group-hover:text-[#d7007f] transition-colors font-medium">
+                  <div className="flex items-center gap-2 mt-4 text-[#D91680] group-hover:text-[#D91680] transition-colors font-medium">
                     View Collection
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>
@@ -395,7 +395,7 @@ export default function DestinationsPage() {
           <div className="text-center">
             <Link
               to="/destinations"
-              className="inline-flex items-center gap-2 text-[#d7007f] hover:text-[#d7007f] font-semibold text-lg"
+              className="inline-flex items-center gap-2 text-[#D91680] hover:text-[#D91680] font-semibold text-lg"
             >
               View All Collections
               <ArrowRight className="w-5 h-5" />
@@ -404,7 +404,7 @@ export default function DestinationsPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-[#d7007f] to-[#d7007f] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#D91680] to-[#D91680] text-white">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex items-center gap-6">
@@ -422,7 +422,7 @@ export default function DestinationsPage() {
             </div>
             <Link
               to="/contact"
-              className="flex-shrink-0 px-8 py-4 bg-white text-[#d7007f] hover:bg-[#f7a600] hover:text-white transition-all rounded-lg font-semibold shadow-lg hover:shadow-xl inline-flex items-center gap-2 uppercase tracking-[1.5px]"
+              className="flex-shrink-0 px-8 py-4 bg-white text-[#D91680] hover:bg-[#FDB515] hover:text-white transition-all rounded-lg font-semibold shadow-lg hover:shadow-xl inline-flex items-center gap-2 uppercase tracking-[1.5px]"
             >
               Ask Now
               <ArrowRight className="w-5 h-5" />
@@ -439,13 +439,13 @@ export default function DestinationsPage() {
         </div>
       </div>
 
-      <section className="py-32 bg-[#252525] text-white">
+      <section className="py-32 bg-[#2D2D2D] text-white">
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Need Help
               <br />
-              <span className="text-[#f7a600]">Planning?</span>
+              <span className="text-[#FDB515]">Planning?</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Our travel experts can help you create the perfect Thailand itinerary

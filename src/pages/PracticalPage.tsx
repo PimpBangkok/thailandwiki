@@ -60,16 +60,16 @@ export default function PracticalPage() {
     <>
       <Breadcrumb items={[{ label: 'Practical Information' }]} />
 
-      <section className="bg-[#252525] py-32">
+      <section className="bg-[#2D2D2D] py-32">
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12">
           <div className="flex items-center gap-4 mb-8">
-            <Info className="w-12 h-12 text-[#d7007f]" />
-            <span className="text-lg uppercase tracking-[2px] text-[#f7a600]">Travel Information</span>
+            <Info className="w-12 h-12 text-[#D91680]" />
+            <span className="text-lg uppercase tracking-[2px] text-[#FDB515]">Travel Information</span>
           </div>
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light text-white mb-8 uppercase tracking-[2px]">
             Practical
             <br />
-            <span className="text-[#d7007f]">Guide</span>
+            <span className="text-[#D91680]">Guide</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl font-light leading-relaxed">
             Everything you need to know for a smooth and successful trip to Thailand
@@ -173,13 +173,13 @@ export default function PracticalPage() {
         </div>
       </div>
 
-      <section className="py-32 bg-[#252525] text-white">
+      <section className="py-32 bg-[#2D2D2D] text-white">
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Ready to
               <br />
-              <span className="text-[#f7a600]">Get Started?</span>
+              <span className="text-[#FDB515]">Get Started?</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Contact us if you have any questions about traveling to Thailand

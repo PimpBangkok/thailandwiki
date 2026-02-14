@@ -104,7 +104,7 @@ export default function ThaiCookingClassesPage() {
       includes: ['Professional instruction', 'Certificate program', 'Advanced techniques', 'Career guidance'],
       bestFor: 'Aspiring chefs, career development',
       priceRange: '$200-1,000 USD',
-      color: 'from-emerald-500 to-[#d7007f]',
+      color: 'from-emerald-500 to-[#D91680]',
       description: 'Multi-day professional courses transform passionate home cooks into confident Thai cuisine specialists through structured curriculum covering regional variations, advanced techniques, and restaurant-level execution. These intensive programs typically span three to seven days, with each day focusing on specific aspects of Thai cooking: day one covers fundamental ingredients and basic dishes, day two explores Northern Thai cuisine from Chiang Mai, day three delves into Southern coastal flavors, day four teaches Royal Thai cuisine and presentation, and subsequent days cover specialized topics like Thai desserts, street food, or restaurant menu development. Students work with professional-grade equipment, learn bulk preparation techniques, and understand food costing and menu planning. Many programs conclude with a practical exam where students prepare a multi-course Thai meal for evaluation. Graduates receive official certificates recognized by culinary institutions, valuable for career changers, food entrepreneurs planning Thai restaurants, or cooking instructors. Some schools offer advanced courses specifically designed for professional chefs wanting to add Thai specialties to their repertoire. Multi-day courses often include accommodation packages, cultural excursions, and networking opportunities with Thai culinary professionals.',
     },
   ];
@@ -175,7 +175,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-12 text-center">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-12 text-center">
               Why Take a Cooking Class in Thailand?
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-amber-500 mx-auto mb-12"></div>
@@ -218,7 +218,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               Types of Thai Cooking Classes
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-amber-500 mx-auto mb-6"></div>
@@ -317,7 +317,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               Best Cities for Thai Cooking Classes
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-amber-500 mx-auto mb-6"></div>
@@ -577,7 +577,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               What to Expect in a Thai Cooking Class
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-amber-600 to-orange-500 mx-auto mb-6"></div>
@@ -691,7 +691,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               Popular Dishes You Will Learn
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-red-600 to-orange-500 mx-auto mb-6"></div>
@@ -960,7 +960,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               How to Choose the Right Cooking Class
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto mb-6"></div>
@@ -1150,7 +1150,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               Booking Your Cooking Class
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-green-600 to-emerald-500 mx-auto mb-6"></div>
@@ -1357,7 +1357,7 @@ export default function ThaiCookingClassesPage() {
           <div className="text-center mb-16">
             <div className="flex items-center justify-center gap-3 mb-4">
               <Crown className="w-12 h-12 text-amber-600" />
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525]">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D]">
                 VIP Cooking Experiences
               </h2>
               <Crown className="w-12 h-12 text-amber-600" />
@@ -1599,7 +1599,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               Combining Cooking Classes with Other Experiences
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-500 mx-auto mb-6"></div>
@@ -1810,7 +1810,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               Practical Information
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto mb-6"></div>
@@ -1949,7 +1949,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               Frequently Asked Questions
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-pink-500 mx-auto mb-6"></div>
@@ -2021,7 +2021,7 @@ export default function ThaiCookingClassesPage() {
 
             <div className="bg-gradient-to-br from-pink-50 to-cyan-50 rounded-xl p-8 shadow-lg border border-pink-200">
               <div className="flex items-start gap-4 mb-4">
-                <MapPin className="w-8 h-8 text-[#d7007f] flex-shrink-0" />
+                <MapPin className="w-8 h-8 text-[#D91680] flex-shrink-0" />
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Do classes include hotel pickup?</h3>
                   <p className="text-gray-700 leading-relaxed">
@@ -2109,7 +2109,7 @@ export default function ThaiCookingClassesPage() {
       <section className="py-20 bg-gradient-to-b from-orange-50 via-amber-50 to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-light text-[#252525] mb-4">
+            <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] mb-4">
               Book Your Thai Cooking Experience
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-orange-600 to-red-500 mx-auto mb-6"></div>

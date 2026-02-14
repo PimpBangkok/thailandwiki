@@ -19,7 +19,7 @@ function Breadcrumb({ items }: BreadcrumbProps) {
     <div className="bg-[#FAF9F6] border-b border-gray-200">
       <div className="max-w-[1200px] mx-auto px-6 py-4">
         <nav className="flex items-center space-x-2 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-          <Link to="/" className="text-[#d7007f] hover:text-[#d7007f] hover:underline transition-colors font-medium">
+          <Link to="/" className="text-[#D91680] hover:text-[#D91680] hover:underline transition-colors font-medium">
             Home
           </Link>
 
@@ -28,7 +28,7 @@ function Breadcrumb({ items }: BreadcrumbProps) {
               <div key={index} className="flex items-center space-x-2">
                 <ChevronRight className="w-4 h-4 text-gray-400" />
                 {item.path && index < items.length - 1 ? (
-                  <Link to={item.path} className="text-[#d7007f] hover:text-[#d7007f] hover:underline transition-colors font-medium">
+                  <Link to={item.path} className="text-[#D91680] hover:text-[#D91680] hover:underline transition-colors font-medium">
                     {item.label}
                   </Link>
                 ) : (
@@ -49,7 +49,7 @@ function Breadcrumb({ items }: BreadcrumbProps) {
               <div key={index} className="flex items-center space-x-2">
                 <ChevronRight className="w-4 h-4 text-gray-400" />
                 {item.path && index < mobileItems.length - 1 ? (
-                  <Link to={item.path} className="text-[#d7007f] hover:text-[#d7007f] hover:underline transition-colors font-medium">
+                  <Link to={item.path} className="text-[#D91680] hover:text-[#D91680] hover:underline transition-colors font-medium">
                     {item.label}
                   </Link>
                 ) : (

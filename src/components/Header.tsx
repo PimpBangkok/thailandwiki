@@ -39,7 +39,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3 group">
             <div>
-              <h1 className="text-2xl lg:text-3xl font-light text-[#d7007f] group-hover:text-[#d7007f] transition-colors uppercase tracking-[2px]">
+              <h1 className="text-2xl lg:text-3xl font-light text-[#D91680] group-hover:text-[#D91680] transition-colors uppercase tracking-[2px]">
                 ThailandWiki
               </h1>
               <p className="text-xs text-gray-500 font-light tracking-wide mt-0.5">
@@ -55,7 +55,7 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#d7007f] transition-colors uppercase tracking-[1.5px] text-sm font-light"
+                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#D91680] transition-colors uppercase tracking-[1.5px] text-sm font-light"
                 aria-expanded={openDropdown === 'destinations'}
                 aria-haspopup="true"
               >
@@ -68,35 +68,35 @@ export default function Header() {
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-3 text-sm uppercase tracking-wider">Central Thailand</h3>
                       <ul className="space-y-2">
-                        <li><Link to="/destinations/bangkok" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Bangkok</Link></li>
-                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Ayutthaya</Link></li>
-                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Kanchanaburi</Link></li>
+                        <li><Link to="/destinations/bangkok" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Bangkok</Link></li>
+                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Ayutthaya</Link></li>
+                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Kanchanaburi</Link></li>
                       </ul>
                       <h3 className="font-semibold text-gray-900 mb-3 mt-6 text-sm uppercase tracking-wider">Northern Thailand</h3>
                       <ul className="space-y-2">
-                        <li><Link to="/destinations/chiang-mai" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Chiang Mai</Link></li>
-                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Chiang Rai</Link></li>
-                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Pai</Link></li>
+                        <li><Link to="/destinations/chiang-mai" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Chiang Mai</Link></li>
+                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Chiang Rai</Link></li>
+                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Pai</Link></li>
                       </ul>
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-3 text-sm uppercase tracking-wider">Southern Thailand</h3>
                       <ul className="space-y-2">
-                        <li><Link to="/destinations/phuket" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Phuket</Link></li>
-                        <li><Link to="/destinations/koh-samui" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Koh Samui</Link></li>
-                        <li><Link to="/destinations/krabi" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Krabi</Link></li>
-                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Pattaya</Link></li>
-                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Koh Phangan</Link></li>
-                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Koh Tao</Link></li>
+                        <li><Link to="/destinations/phuket" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Phuket</Link></li>
+                        <li><Link to="/destinations/koh-samui" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Koh Samui</Link></li>
+                        <li><Link to="/destinations/krabi" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Krabi</Link></li>
+                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Pattaya</Link></li>
+                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Koh Phangan</Link></li>
+                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Koh Tao</Link></li>
                       </ul>
                       <h3 className="font-semibold text-gray-900 mb-3 mt-6 text-sm uppercase tracking-wider">Eastern Thailand</h3>
                       <ul className="space-y-2">
-                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">• Ko Chang</Link></li>
+                        <li><Link to="/destinations" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">• Ko Chang</Link></li>
                       </ul>
                     </div>
                   </div>
                   <div className="border-t mt-6 pt-4">
-                    <Link to="/destinations" className="text-[#d7007f] hover:text-[#d7007f] text-sm font-medium inline-flex items-center gap-2">
+                    <Link to="/destinations" className="text-[#D91680] hover:text-[#D91680] text-sm font-medium inline-flex items-center gap-2">
                       View All Destinations →
                     </Link>
                   </div>
@@ -110,7 +110,7 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#d7007f] transition-colors uppercase tracking-[1.5px] text-sm font-light"
+                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#D91680] transition-colors uppercase tracking-[1.5px] text-sm font-light"
                 aria-expanded={openDropdown === 'things-to-do'}
                 aria-haspopup="true"
               >
@@ -121,14 +121,14 @@ export default function Header() {
                 <div className="absolute top-full left-0 mt-2 w-80 bg-white shadow-xl rounded-lg p-6 animate-fade-in">
                   <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">All Activities</h3>
                   <ul className="space-y-2">
-                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Water Activities</Link></li>
-                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Adventure & Outdoor</Link></li>
-                    <li><Link to="/culture" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Temples & Culture</Link></li>
-                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Food Experiences</Link></li>
-                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Nightlife & Entertainment</Link></li>
-                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Wellness & Spa</Link></li>
-                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Shopping</Link></li>
-                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Unique Experiences</Link></li>
+                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Water Activities</Link></li>
+                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Adventure & Outdoor</Link></li>
+                    <li><Link to="/culture" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Temples & Culture</Link></li>
+                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Food Experiences</Link></li>
+                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Nightlife & Entertainment</Link></li>
+                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Wellness & Spa</Link></li>
+                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Shopping</Link></li>
+                    <li><Link to="/things-to-do" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Unique Experiences</Link></li>
                   </ul>
                 </div>
               )}
@@ -140,7 +140,7 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#d7007f] transition-colors uppercase tracking-[1.5px] text-sm font-light"
+                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#D91680] transition-colors uppercase tracking-[1.5px] text-sm font-light"
                 aria-expanded={openDropdown === 'where-to-stay'}
                 aria-haspopup="true"
               >
@@ -151,14 +151,14 @@ export default function Header() {
                 <div className="absolute top-full left-0 mt-2 w-80 bg-white shadow-xl rounded-lg p-6 animate-fade-in">
                   <h3 className="font-semibold text-gray-900 mb-4 text-sm uppercase tracking-wider">All Accommodation</h3>
                   <ul className="space-y-2">
-                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Hotels</Link></li>
-                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Beach Resorts</Link></li>
-                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Villas & Vacation Rentals</Link></li>
-                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Hostels & Budget</Link></li>
-                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Unique Stays</Link></li>
+                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Hotels</Link></li>
+                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Beach Resorts</Link></li>
+                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Villas & Vacation Rentals</Link></li>
+                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Hostels & Budget</Link></li>
+                    <li><Link to="/accommodation" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Unique Stays</Link></li>
                   </ul>
                   <div className="border-t mt-4 pt-4">
-                    <Link to="/destinations" className="text-[#d7007f] hover:text-[#d7007f] text-sm font-medium inline-flex items-center gap-2">
+                    <Link to="/destinations" className="text-[#D91680] hover:text-[#D91680] text-sm font-medium inline-flex items-center gap-2">
                       By Destination →
                     </Link>
                   </div>
@@ -172,7 +172,7 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#d7007f] transition-colors uppercase tracking-[1.5px] text-sm font-light"
+                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#D91680] transition-colors uppercase tracking-[1.5px] text-sm font-light"
                 aria-expanded={openDropdown === 'food'}
                 aria-haspopup="true"
               >
@@ -182,13 +182,13 @@ export default function Header() {
               {openDropdown === 'food' && (
                 <div className="absolute top-full left-0 mt-2 w-80 bg-white shadow-xl rounded-lg p-6 animate-fade-in">
                   <ul className="space-y-2">
-                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Thai Cuisine Guide</Link></li>
-                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Best Restaurants</Link></li>
-                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Street Food Guide</Link></li>
-                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Michelin Star Dining</Link></li>
-                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Cooking Classes</Link></li>
-                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Food Tours</Link></li>
-                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Regional Specialties</Link></li>
+                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Thai Cuisine Guide</Link></li>
+                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Best Restaurants</Link></li>
+                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Street Food Guide</Link></li>
+                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Michelin Star Dining</Link></li>
+                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Cooking Classes</Link></li>
+                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Food Tours</Link></li>
+                    <li><Link to="/food-dining" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Regional Specialties</Link></li>
                   </ul>
                 </div>
               )}
@@ -200,7 +200,7 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#d7007f] transition-colors uppercase tracking-[1.5px] text-sm font-light"
+                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#D91680] transition-colors uppercase tracking-[1.5px] text-sm font-light"
                 aria-expanded={openDropdown === 'plan'}
                 aria-haspopup="true"
               >
@@ -210,16 +210,16 @@ export default function Header() {
               {openDropdown === 'plan' && (
                 <div className="absolute top-full left-0 mt-2 w-80 bg-white shadow-xl rounded-lg p-6 animate-fade-in">
                   <ul className="space-y-2">
-                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">First Time in Thailand</Link></li>
-                    <li><Link to="/itineraries" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Itineraries</Link></li>
-                    <li><Link to="/visa-guide" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Visa & Entry Requirements</Link></li>
-                    <li><Link to="/budget-guide" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Budget & Costs</Link></li>
-                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Transportation Guide</Link></li>
-                    <li><Link to="/best-time-to-visit" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">When to Visit</Link></li>
-                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Safety & Health</Link></li>
-                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Travel Insurance</Link></li>
-                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Packing Guide</Link></li>
-                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Thailand FAQ</Link></li>
+                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">First Time in Thailand</Link></li>
+                    <li><Link to="/itineraries" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Itineraries</Link></li>
+                    <li><Link to="/visa-guide" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Visa & Entry Requirements</Link></li>
+                    <li><Link to="/budget-guide" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Budget & Costs</Link></li>
+                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Transportation Guide</Link></li>
+                    <li><Link to="/best-time-to-visit" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">When to Visit</Link></li>
+                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Safety & Health</Link></li>
+                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Travel Insurance</Link></li>
+                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Packing Guide</Link></li>
+                    <li><Link to="/travel-planning" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Thailand FAQ</Link></li>
                   </ul>
                 </div>
               )}
@@ -231,7 +231,7 @@ export default function Header() {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#d7007f] transition-colors uppercase tracking-[1.5px] text-sm font-light"
+                className="flex items-center gap-1 px-4 py-2 text-gray-700 hover:text-[#D91680] transition-colors uppercase tracking-[1.5px] text-sm font-light"
                 aria-expanded={openDropdown === 'culture'}
                 aria-haspopup="true"
               >
@@ -241,12 +241,12 @@ export default function Header() {
               {openDropdown === 'culture' && (
                 <div className="absolute top-full left-0 mt-2 w-80 bg-white shadow-xl rounded-lg p-6 animate-fade-in">
                   <ul className="space-y-2">
-                    <li><Link to="/culture" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Thai Culture & Customs</Link></li>
-                    <li><Link to="/culture" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Temples & Buddhism</Link></li>
-                    <li><Link to="/culture" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Festivals & Events</Link></li>
-                    <li><Link to="/culture" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Language & Phrases</Link></li>
-                    <li><Link to="/culture" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">Etiquette Guide</Link></li>
-                    <li><Link to="/culture" className="text-gray-600 hover:text-[#d7007f] text-sm block py-1">History</Link></li>
+                    <li><Link to="/culture" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Thai Culture & Customs</Link></li>
+                    <li><Link to="/culture" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Temples & Buddhism</Link></li>
+                    <li><Link to="/culture" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Festivals & Events</Link></li>
+                    <li><Link to="/culture" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Language & Phrases</Link></li>
+                    <li><Link to="/culture" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">Etiquette Guide</Link></li>
+                    <li><Link to="/culture" className="text-gray-600 hover:text-[#D91680] text-sm block py-1">History</Link></li>
                   </ul>
                 </div>
               )}
@@ -256,7 +256,7 @@ export default function Header() {
           <div className="hidden lg:flex items-center gap-4 ml-8">
             <button
               onClick={() => setSearchModalOpen(true)}
-              className="group relative p-2 text-gray-700 hover:text-[#d7007f] transition-colors"
+              className="group relative p-2 text-gray-700 hover:text-[#D91680] transition-colors"
               aria-label="Search site"
             >
               <Search className="w-5 h-5" />
@@ -264,7 +264,7 @@ export default function Header() {
                 Search (Cmd+K)
               </div>
             </button>
-            <Link to="/contact" className="p-2 text-gray-700 hover:text-[#d7007f] transition-colors" aria-label="Contact us">
+            <Link to="/contact" className="p-2 text-gray-700 hover:text-[#D91680] transition-colors" aria-label="Contact us">
               <MessageCircle className="w-5 h-5" aria-hidden="true" />
             </Link>
           </div>
@@ -285,7 +285,7 @@ export default function Header() {
               <div>
                 <button
                   onClick={() => toggleMobileDropdown('destinations')}
-                  className="flex items-center justify-between w-full text-gray-700 hover:text-[#d7007f] py-3 uppercase tracking-[2px] text-sm font-light"
+                  className="flex items-center justify-between w-full text-gray-700 hover:text-[#D91680] py-3 uppercase tracking-[2px] text-sm font-light"
                   aria-expanded={mobileOpenDropdown === 'destinations'}
                   aria-haspopup="true"
                 >
@@ -309,7 +309,7 @@ export default function Header() {
               <div>
                 <button
                   onClick={() => toggleMobileDropdown('things-to-do')}
-                  className="flex items-center justify-between w-full text-gray-700 hover:text-[#d7007f] py-3 uppercase tracking-[2px] text-sm font-light"
+                  className="flex items-center justify-between w-full text-gray-700 hover:text-[#D91680] py-3 uppercase tracking-[2px] text-sm font-light"
                   aria-expanded={mobileOpenDropdown === 'things-to-do'}
                   aria-haspopup="true"
                 >
@@ -328,7 +328,7 @@ export default function Header() {
               <div>
                 <button
                   onClick={() => toggleMobileDropdown('where-to-stay')}
-                  className="flex items-center justify-between w-full text-gray-700 hover:text-[#d7007f] py-3 uppercase tracking-[2px] text-sm font-light"
+                  className="flex items-center justify-between w-full text-gray-700 hover:text-[#D91680] py-3 uppercase tracking-[2px] text-sm font-light"
                   aria-expanded={mobileOpenDropdown === 'where-to-stay'}
                   aria-haspopup="true"
                 >
@@ -344,13 +344,13 @@ export default function Header() {
                 )}
               </div>
 
-              <Link to="/food-dining" className="text-gray-700 hover:text-[#d7007f] py-3 uppercase tracking-[2px] text-sm font-light" onClick={() => setMobileMenuOpen(false)}>
+              <Link to="/food-dining" className="text-gray-700 hover:text-[#D91680] py-3 uppercase tracking-[2px] text-sm font-light" onClick={() => setMobileMenuOpen(false)}>
                 Food & Dining
               </Link>
-              <Link to="/travel-planning" className="text-gray-700 hover:text-[#d7007f] py-3 uppercase tracking-[2px] text-sm font-light" onClick={() => setMobileMenuOpen(false)}>
+              <Link to="/travel-planning" className="text-gray-700 hover:text-[#D91680] py-3 uppercase tracking-[2px] text-sm font-light" onClick={() => setMobileMenuOpen(false)}>
                 Plan Your Trip
               </Link>
-              <Link to="/culture" className="text-gray-700 hover:text-[#d7007f] py-3 uppercase tracking-[2px] text-sm font-light" onClick={() => setMobileMenuOpen(false)}>
+              <Link to="/culture" className="text-gray-700 hover:text-[#D91680] py-3 uppercase tracking-[2px] text-sm font-light" onClick={() => setMobileMenuOpen(false)}>
                 Culture
               </Link>
               <div className="flex items-center gap-4 pt-4 border-t border-gray-200 mt-2">
@@ -359,12 +359,12 @@ export default function Header() {
                     setSearchModalOpen(true);
                     setMobileMenuOpen(false);
                   }}
-                  className="flex items-center gap-2 text-gray-700 hover:text-[#d7007f] text-sm py-2 min-h-[44px]"
+                  className="flex items-center gap-2 text-gray-700 hover:text-[#D91680] text-sm py-2 min-h-[44px]"
                 >
                   <Search className="w-5 h-5" />
                   Search
                 </button>
-                <Link to="/contact" className="flex items-center gap-2 text-gray-700 hover:text-[#d7007f] text-sm py-2 min-h-[44px]" onClick={() => setMobileMenuOpen(false)}>
+                <Link to="/contact" className="flex items-center gap-2 text-gray-700 hover:text-[#D91680] text-sm py-2 min-h-[44px]" onClick={() => setMobileMenuOpen(false)}>
                   <MessageCircle className="w-5 h-5" />
                   Chat
                 </Link>

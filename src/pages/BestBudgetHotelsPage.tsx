@@ -343,7 +343,7 @@ export default function BestBudgetHotelsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Price Comparison
               </h2>
               <div className="w-24 h-1 bg-green-600 mx-auto mb-6"></div>
@@ -382,7 +382,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Budget Hotels by City
               </h2>
               <div className="w-24 h-1 bg-green-600 mx-auto mb-6"></div>
@@ -504,7 +504,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Bangkok Budget Hotels
               </h2>
               <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
@@ -634,17 +634,17 @@ export default function BestBudgetHotelsPage() {
 
               <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-8 border-2 border-pink-200">
                 <div className="flex items-start gap-4 mb-6">
-                  <div className="p-4 bg-[#d7007f] rounded-xl">
+                  <div className="p-4 bg-[#D91680] rounded-xl">
                     <Bed className="w-8 h-8 text-white" />
                   </div>
                   <div className="flex-1">
                     <div className="flex items-start justify-between mb-2">
                       <div>
                         <h3 className="text-3xl font-bold text-gray-900">Once Again Hostel</h3>
-                        <p className="text-[#d7007f] font-semibold">Small hostel</p>
+                        <p className="text-[#D91680] font-semibold">Small hostel</p>
                       </div>
                       <div className="text-right">
-                        <div className="text-3xl font-bold text-[#d7007f]">$12-30</div>
+                        <div className="text-3xl font-bold text-[#D91680]">$12-30</div>
                         <p className="text-sm text-gray-600">per night</p>
                         <span className="inline-block mt-1 px-2 py-1 bg-green-600 text-white rounded text-xs font-bold">
                           CHEAPEST
@@ -689,7 +689,7 @@ export default function BestBudgetHotelsPage() {
 
                 <div className="bg-white rounded-lg p-4">
                   <p className="text-sm text-gray-700">
-                    <strong className="text-[#d7007f]">Best For:</strong> Long-term budget travelers, local experience
+                    <strong className="text-[#D91680]">Best For:</strong> Long-term budget travelers, local experience
                   </p>
                 </div>
               </div>
@@ -698,7 +698,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Chiang Mai Budget Hotels
               </h2>
               <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
@@ -893,7 +893,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Phuket Budget Hotels
               </h2>
               <div className="w-24 h-1 bg-cyan-600 mx-auto mb-6"></div>
@@ -1079,10 +1079,10 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Koh Samui Budget Hotels
               </h2>
-              <div className="w-24 h-1 bg-[#d7007f] mx-auto mb-6"></div>
+              <div className="w-24 h-1 bg-[#D91680] mx-auto mb-6"></div>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Island paradise on a budget - beach resorts from $25/night
               </p>
@@ -1091,17 +1091,17 @@ export default function BestBudgetHotelsPage() {
             <div className="space-y-8">
               <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-8 border-2 border-pink-200">
                 <div className="flex items-start gap-4 mb-6">
-                  <div className="p-4 bg-[#d7007f] rounded-xl">
+                  <div className="p-4 bg-[#D91680] rounded-xl">
                     <Waves className="w-8 h-8 text-white" />
                   </div>
                   <div className="flex-1">
                     <div className="flex items-start justify-between mb-2">
                       <div>
                         <h3 className="text-3xl font-bold text-gray-900">Chaweng Buri Resort</h3>
-                        <p className="text-[#d7007f] font-semibold">Beach resort</p>
+                        <p className="text-[#D91680] font-semibold">Beach resort</p>
                       </div>
                       <div className="text-right">
-                        <div className="text-3xl font-bold text-[#d7007f]">$30-50</div>
+                        <div className="text-3xl font-bold text-[#D91680]">$30-50</div>
                         <p className="text-sm text-gray-600">per night</p>
                       </div>
                     </div>
@@ -1143,7 +1143,7 @@ export default function BestBudgetHotelsPage() {
 
                 <div className="bg-white rounded-lg p-4">
                   <p className="text-sm text-gray-700">
-                    <strong className="text-[#d7007f]">Best For:</strong> Beach lovers on budget, Chaweng location
+                    <strong className="text-[#D91680]">Best For:</strong> Beach lovers on budget, Chaweng location
                   </p>
                 </div>
               </div>
@@ -1270,7 +1270,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Koh Phangan Budget Hotels
               </h2>
               <div className="w-24 h-1 bg-yellow-600 mx-auto mb-6"></div>
@@ -1402,7 +1402,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Krabi Budget Hotels
               </h2>
               <div className="w-24 h-1 bg-emerald-600 mx-auto mb-6"></div>
@@ -1532,7 +1532,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Seasonal Pricing Guide
               </h2>
               <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
@@ -1663,7 +1663,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 What to Expect: Budget Hotels
               </h2>
               <div className="w-24 h-1 bg-gray-600 mx-auto mb-6"></div>
@@ -1703,7 +1703,7 @@ export default function BestBudgetHotelsPage() {
                 <div className="bg-white rounded-2xl border-2 border-gray-200 p-6 shadow-lg">
                   <div className="flex items-start gap-3 mb-4">
                     <div className="p-3 bg-pink-100 rounded-lg">
-                      <Sparkles className="w-6 h-6 text-[#d7007f]" />
+                      <Sparkles className="w-6 h-6 text-[#D91680]" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Amenities</h3>
@@ -1790,7 +1790,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Budget Hotel Comparison
               </h2>
               <div className="w-24 h-1 bg-green-600 mx-auto mb-6"></div>
@@ -1867,7 +1867,7 @@ export default function BestBudgetHotelsPage() {
                   <tr className="hover:bg-pink-50 transition-colors">
                     <td className="px-6 py-4">
                       <div className="flex items-center gap-2">
-                        <Palmtree className="w-5 h-5 text-[#d7007f]" />
+                        <Palmtree className="w-5 h-5 text-[#D91680]" />
                         <span className="font-semibold text-gray-900">Koh Samui</span>
                       </div>
                     </td>
@@ -1946,7 +1946,7 @@ export default function BestBudgetHotelsPage() {
 
           <section className="mb-20">
             <div className="text-center mb-12">
-              <h2 className="text-4xl sm:text-5xl font-light text-[#252525] uppercase tracking-[2px] mb-4">
+              <h2 className="text-4xl sm:text-5xl font-light text-[#2D2D2D] uppercase tracking-[2px] mb-4">
                 Budget Hotel Tips
               </h2>
               <div className="w-24 h-1 bg-green-600 mx-auto mb-6"></div>

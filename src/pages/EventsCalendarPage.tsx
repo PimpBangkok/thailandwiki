@@ -231,7 +231,7 @@ export default function EventsCalendarPage() {
             </section>
 
             <section id="whats-happening">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
                 What's Happening Now
               </h2>
 
@@ -289,7 +289,7 @@ export default function EventsCalendarPage() {
             </section>
 
             <section id="upcoming">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
                 Upcoming Major Events
               </h2>
 
@@ -327,7 +327,7 @@ export default function EventsCalendarPage() {
             </section>
 
             <section id="major-festivals">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
                 Major Festivals (Complete Guides)
               </h2>
 
@@ -408,7 +408,7 @@ export default function EventsCalendarPage() {
             </section>
 
             <section id="by-month" className="mt-12">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
                 Events by Month (Full Year)
               </h2>
 
@@ -448,7 +448,7 @@ export default function EventsCalendarPage() {
             </section>
 
             <section id="by-destination" className="mt-12">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
                 Events by Destination
               </h2>
 
@@ -545,7 +545,7 @@ export default function EventsCalendarPage() {
             </section>
 
             <section id="festival-types" className="mt-12">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
                 Festival Types
               </h2>
 
@@ -612,7 +612,7 @@ export default function EventsCalendarPage() {
             </section>
 
             <section id="public-holidays" className="mt-12">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
                 Public Holidays 2026
               </h2>
 
@@ -697,7 +697,7 @@ export default function EventsCalendarPage() {
             </section>
 
             <section id="planning" className="mt-12">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
                 How to Plan Around Festivals
               </h2>
 
@@ -776,7 +776,7 @@ export default function EventsCalendarPage() {
             </section>
 
             <section id="faq" className="mt-12">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#2D2D2D] mb-6 uppercase tracking-[2px] border-b-2 border-blue-600 pb-3">
                 Frequently Asked Questions
               </h2>
 
@@ -887,7 +887,7 @@ export default function EventsCalendarPage() {
                 </a>
                 <a
                   href="/destinations/chiang-mai"
-                  className="bg-gradient-to-r from-pink-50 to-cyan-50 rounded-lg p-4 border-l-4 border-[#d7007f] hover:shadow-lg transition-shadow"
+                  className="bg-gradient-to-r from-pink-50 to-cyan-50 rounded-lg p-4 border-l-4 border-[#D91680] hover:shadow-lg transition-shadow"
                 >
                   <h4 className="font-bold text-gray-900 mb-1">Chiang Mai Travel Guide</h4>
                   <p className="text-sm text-gray-600">Northern Thailand's cultural heart</p>

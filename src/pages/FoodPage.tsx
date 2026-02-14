@@ -79,17 +79,17 @@ export default function FoodPage() {
           backgroundImage: 'url(https://images.unsplash.com/photo-1559314809-0d155014e29e?auto=format&fit=crop&w=2400&q=80)'
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#252525]/70 via-[#252525]/50 to-[#252525]/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#2D2D2D]/70 via-[#2D2D2D]/50 to-[#2D2D2D]/80"></div>
 
         <div className="relative z-10 max-w-[1700px] mx-auto px-6 lg:px-12 text-center text-white py-32">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <Utensils className="w-8 h-8 text-[#d7007f]" />
-            <span className="text-lg uppercase tracking-[2px] text-[#f7a600]">Cuisine</span>
+            <Utensils className="w-8 h-8 text-[#D91680]" />
+            <span className="text-lg uppercase tracking-[2px] text-[#FDB515]">Cuisine</span>
           </div>
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light mb-8 uppercase tracking-[2px] leading-tight">
             Thai
             <br />
-            <span className="text-[#d7007f]">Cuisine</span>
+            <span className="text-[#D91680]">Cuisine</span>
           </h1>
           <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-light leading-relaxed">
             A harmonious symphony of sweet, sour, salty, and spicy flavors that has captivated the world
@@ -125,9 +125,9 @@ export default function FoodPage() {
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#252525]/80 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#2D2D2D]/80 to-transparent"></div>
                 </div>
-                <h3 className="text-2xl font-light text-[#252525] mb-4 uppercase tracking-[2px]">
+                <h3 className="text-2xl font-light text-[#2D2D2D] mb-4 uppercase tracking-[2px]">
                   {dish.name}
                 </h3>
                 <p className="text-gray-600 leading-relaxed font-light text-lg">
@@ -141,13 +141,13 @@ export default function FoodPage() {
 
       <RelatedGuides guides={relatedGuides} />
 
-      <section className="py-32 bg-[#252525] text-white">
+      <section className="py-32 bg-[#2D2D2D] text-white">
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Experience
               <br />
-              <span className="text-[#f7a600]">Thai Culture</span>
+              <span className="text-[#FDB515]">Thai Culture</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Discover the traditions and customs that shape Thai life
