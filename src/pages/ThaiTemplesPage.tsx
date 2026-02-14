@@ -404,7 +404,7 @@ export function ThaiTemplesPage() {
             <p className="text-gray-700 mb-6">
               Questions about visiting temples or Thai culture? Our travel experts are here to help!
             </p>
-            <button className="bg-[#2B5D8C] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#b0005f] transition-colors">
+            <button className="bg-[#d7007f] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#b0005f] transition-colors">
               Ask Now
             </button>
           </div>

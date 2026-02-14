@@ -651,7 +651,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="why-thailand">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Why Thailand for Luxury Hotels
               </h2>
 
@@ -661,7 +661,7 @@ export function LuxuryHotelsThailandPage() {
                   return (
                     <div key={index} className="bg-white rounded-lg shadow-md p-6">
                       <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                        <IconComponent className="w-6 h-6 text-[#2B5D8C] mr-2" />
+                        <IconComponent className="w-6 h-6 text-[#d7007f] mr-2" />
                         {category.title}
                       </h3>
                       <ul className="space-y-2">
@@ -679,7 +679,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="bangkok-hotels">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Best Luxury Hotels Bangkok
               </h2>
 
@@ -701,7 +701,7 @@ export function LuxuryHotelsThailandPage() {
                     <div className="p-8">
                       <div className="mb-6">
                         <h3 className="text-3xl font-bold text-gray-900 mb-2">{hotel.name}</h3>
-                        <p className="text-xl text-[#2B5D8C] font-semibold mb-3">{hotel.subtitle}</p>
+                        <p className="text-xl text-[#d7007f] font-semibold mb-3">{hotel.subtitle}</p>
                         <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                           <div className="flex items-center">
                             <MapPin className="w-4 h-4 mr-1 text-gray-400" />
@@ -744,7 +744,7 @@ export function LuxuryHotelsThailandPage() {
                                 </p>
                               </div>
                               <div className="text-right">
-                                <p className="font-bold text-[#2B5D8C]">{room.price}</p>
+                                <p className="font-bold text-[#d7007f]">{room.price}</p>
                               </div>
                             </div>
                           ))}
@@ -807,7 +807,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="phuket-resorts">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Best Luxury Resorts Phuket
               </h2>
 
@@ -934,7 +934,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="koh-samui-resorts">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Best Luxury Resorts Koh Samui
               </h2>
 
@@ -1048,7 +1048,7 @@ export function LuxuryHotelsThailandPage() {
                         </div>
                       )}
 
-                      <div className="bg-gradient-to-br from-emerald-600 to-[#2B5D8C] text-white p-4 rounded-lg">
+                      <div className="bg-gradient-to-br from-emerald-600 to-[#d7007f] text-white p-4 rounded-lg">
                         <p className="text-sm font-semibold flex items-center">
                           <Globe className="w-4 h-4 mr-2" />
                           {resort.booking}
@@ -1061,7 +1061,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="chiang-mai-hotels">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Luxury Hotels Chiang Mai
               </h2>
 
@@ -1188,7 +1188,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="krabi-resorts">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Krabi Luxury Resorts
               </h2>
 
@@ -1315,7 +1315,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="booking-strategies">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Booking Strategies & Tips
               </h2>
 
@@ -1363,7 +1363,7 @@ export function LuxuryHotelsThailandPage() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Where to Book</h3>
 
                 <div className="space-y-4 mb-8">
-                  <div className="bg-gradient-to-r from-[#2B5D8C] to-pink-600 text-white p-6 rounded-lg">
+                  <div className="bg-gradient-to-r from-[#d7007f] to-pink-600 text-white p-6 rounded-lg">
                     <h4 className="text-lg font-bold mb-2 flex items-center">
                       <Award className="w-5 h-5 mr-2" />
                       Direct with Hotel (BEST)
@@ -1407,7 +1407,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="hotel-comparison">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Luxury Hotel Comparison
               </h2>
 
@@ -1515,7 +1515,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="what-to-expect">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 What to Expect at Luxury Hotels
               </h2>
 
@@ -1563,7 +1563,7 @@ export function LuxuryHotelsThailandPage() {
                   </div>
                 </div>
 
-                <div className="bg-gradient-to-r from-[#2B5D8C] to-pink-600 text-white p-6 rounded-lg">
+                <div className="bg-gradient-to-r from-[#d7007f] to-pink-600 text-white p-6 rounded-lg">
                   <h4 className="text-lg font-bold mb-3">Butler Service (Where Offered)</h4>
                   <p className="text-sm opacity-90 mb-3">Available at St. Regis Bangkok and ultra-luxury resorts:</p>
                   <ul className="space-y-2 text-sm opacity-90">
@@ -1602,7 +1602,7 @@ export function LuxuryHotelsThailandPage() {
             </section>
 
             <section id="faq">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Frequently Asked Questions
               </h2>
 
@@ -1653,35 +1653,35 @@ export function LuxuryHotelsThailandPage() {
           <aside className="space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6 sticky top-24">
               <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                <Award className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                <Award className="w-5 h-5 text-[#d7007f] mr-2" />
                 Quick Navigation
               </h3>
               <nav className="space-y-2 text-sm">
-                <a href="#bangkok-hotels" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#bangkok-hotels" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Bangkok Hotels
                 </a>
-                <a href="#phuket-resorts" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#phuket-resorts" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Phuket Resorts
                 </a>
-                <a href="#koh-samui-resorts" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#koh-samui-resorts" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Koh Samui Resorts
                 </a>
-                <a href="#chiang-mai-hotels" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#chiang-mai-hotels" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Chiang Mai Hotels
                 </a>
-                <a href="#krabi-resorts" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#krabi-resorts" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Krabi Resorts
                 </a>
-                <a href="#booking-strategies" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#booking-strategies" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Booking Strategies
                 </a>
-                <a href="#hotel-comparison" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#hotel-comparison" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Hotel Comparison
                 </a>
-                <a href="#what-to-expect" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#what-to-expect" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → What to Expect
                 </a>
-                <a href="#faq" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#faq" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → FAQ
                 </a>
               </nav>
@@ -1689,7 +1689,7 @@ export function LuxuryHotelsThailandPage() {
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                <TrendingUp className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                <TrendingUp className="w-5 h-5 text-[#d7007f] mr-2" />
                 Price Guide
               </h3>
               <div className="space-y-4 text-sm">
@@ -1714,7 +1714,7 @@ export function LuxuryHotelsThailandPage() {
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                <Sparkles className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                <Sparkles className="w-5 h-5 text-[#d7007f] mr-2" />
                 Top Picks
               </h3>
               <div className="space-y-3 text-sm">
@@ -1737,7 +1737,7 @@ export function LuxuryHotelsThailandPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#2B5D8C] to-pink-700 text-white rounded-lg shadow-md p-6">
+            <div className="bg-gradient-to-br from-[#d7007f] to-pink-700 text-white rounded-lg shadow-md p-6">
               <h3 className="text-lg font-semibold mb-3">Booking Pro Tip</h3>
               <p className="text-sm text-white/90 mb-3">
                 Book directly with hotels for best perks: complimentary breakfast, room upgrades, spa credits, and late checkout.

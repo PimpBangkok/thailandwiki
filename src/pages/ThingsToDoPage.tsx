@@ -55,7 +55,7 @@ export default function ThingsToDoPage() {
             <p className="text-xl md:text-2xl text-white font-light mb-8 tracking-wide">
               Discover Activities, Experiences & Adventures
             </p>
-            <p className="text-lg text-[#2B5D8C] uppercase tracking-widest font-medium">
+            <p className="text-lg text-[#d7007f] uppercase tracking-widest font-medium">
               4,200 Activity Guides
             </p>
           </div>
@@ -98,7 +98,7 @@ export default function ThingsToDoPage() {
                     alt="Water activities in Thailand"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#2B5D8C] text-white p-4 rounded-full shadow-xl">
+                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-4 rounded-full shadow-xl">
                     <Waves className="w-8 h-8" />
                   </div>
                 </div>
@@ -107,7 +107,7 @@ export default function ThingsToDoPage() {
                   <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 uppercase tracking-wide">
                     Water Activities
                   </h3>
-                  <p className="text-sm text-[#2B5D8C] uppercase tracking-wider mb-6 font-medium">
+                  <p className="text-sm text-[#d7007f] uppercase tracking-wider mb-6 font-medium">
                     500 guides
                   </p>
                   <p className="text-lg text-gray-700 font-light leading-relaxed mb-6">
@@ -137,7 +137,7 @@ export default function ThingsToDoPage() {
                   <div>
                     <a
                       href="#water-activities"
-                      className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
+                      className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
                     >
                       <span>Explore Water Activities</span>
                       <ArrowRight className="w-5 h-5" />
@@ -156,7 +156,7 @@ export default function ThingsToDoPage() {
                     alt="Adventure and outdoor activities"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#2B5D8C] text-white p-4 rounded-full shadow-xl">
+                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-4 rounded-full shadow-xl">
                     <Mountain className="w-8 h-8" />
                   </div>
                 </div>
@@ -165,7 +165,7 @@ export default function ThingsToDoPage() {
                   <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 uppercase tracking-wide">
                     Adventure & Outdoor
                   </h3>
-                  <p className="text-sm text-[#2B5D8C] uppercase tracking-wider mb-6 font-medium">
+                  <p className="text-sm text-[#d7007f] uppercase tracking-wider mb-6 font-medium">
                     400 guides
                   </p>
                   <p className="text-lg text-gray-700 font-light leading-relaxed mb-6">
@@ -198,7 +198,7 @@ export default function ThingsToDoPage() {
                   <div>
                     <a
                       href="#adventure-activities"
-                      className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
+                      className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
                     >
                       <span>Explore Adventures</span>
                       <ArrowRight className="w-5 h-5" />
@@ -217,7 +217,7 @@ export default function ThingsToDoPage() {
                     alt="Thai temples and cultural heritage"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#2B5D8C] text-white p-4 rounded-full shadow-xl">
+                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-4 rounded-full shadow-xl">
                     <Landmark className="w-8 h-8" />
                   </div>
                 </div>
@@ -226,7 +226,7 @@ export default function ThingsToDoPage() {
                   <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 uppercase tracking-wide">
                     Culture & Temples
                   </h3>
-                  <p className="text-sm text-[#2B5D8C] uppercase tracking-wider mb-6 font-medium">
+                  <p className="text-sm text-[#d7007f] uppercase tracking-wider mb-6 font-medium">
                     500 guides
                   </p>
                   <p className="text-lg text-gray-700 font-light leading-relaxed mb-6">
@@ -256,7 +256,7 @@ export default function ThingsToDoPage() {
                   <div>
                     <a
                       href="#culture-temples"
-                      className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
+                      className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
                     >
                       <span>Discover Culture</span>
                       <ArrowRight className="w-5 h-5" />
@@ -275,7 +275,7 @@ export default function ThingsToDoPage() {
                     alt="Thai cooking class and food experiences"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#2B5D8C] text-white p-4 rounded-full shadow-xl">
+                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-4 rounded-full shadow-xl">
                     <UtensilsCrossed className="w-8 h-8" />
                   </div>
                 </div>
@@ -284,7 +284,7 @@ export default function ThingsToDoPage() {
                   <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 uppercase tracking-wide">
                     Food Experiences
                   </h3>
-                  <p className="text-sm text-[#2B5D8C] uppercase tracking-wider mb-6 font-medium">
+                  <p className="text-sm text-[#d7007f] uppercase tracking-wider mb-6 font-medium">
                     350 guides
                   </p>
                   <p className="text-lg text-gray-700 font-light leading-relaxed mb-6">
@@ -313,7 +313,7 @@ export default function ThingsToDoPage() {
                   <div>
                     <a
                       href="#food-experiences"
-                      className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
+                      className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
                     >
                       <span>Explore Food Experiences</span>
                       <ArrowRight className="w-5 h-5" />
@@ -332,7 +332,7 @@ export default function ThingsToDoPage() {
                     alt="Nightlife scene and rooftop bar"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#2B5D8C] text-white p-4 rounded-full shadow-xl">
+                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-4 rounded-full shadow-xl">
                     <PartyPopper className="w-8 h-8" />
                   </div>
                 </div>
@@ -341,7 +341,7 @@ export default function ThingsToDoPage() {
                   <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 uppercase tracking-wide">
                     Nightlife & Entertainment
                   </h3>
-                  <p className="text-sm text-[#2B5D8C] uppercase tracking-wider mb-6 font-medium">
+                  <p className="text-sm text-[#d7007f] uppercase tracking-wider mb-6 font-medium">
                     600 guides
                   </p>
                   <p className="text-lg text-gray-700 font-light leading-relaxed mb-6">
@@ -372,7 +372,7 @@ export default function ThingsToDoPage() {
                   <div>
                     <a
                       href="#nightlife-entertainment"
-                      className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
+                      className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
                     >
                       <span>Discover Nightlife</span>
                       <ArrowRight className="w-5 h-5" />
@@ -391,7 +391,7 @@ export default function ThingsToDoPage() {
                     alt="Spa, yoga, and wellness"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#2B5D8C] text-white p-4 rounded-full shadow-xl">
+                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-4 rounded-full shadow-xl">
                     <Heart className="w-8 h-8" />
                   </div>
                 </div>
@@ -400,7 +400,7 @@ export default function ThingsToDoPage() {
                   <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 uppercase tracking-wide">
                     Wellness & Relaxation
                   </h3>
-                  <p className="text-sm text-[#2B5D8C] uppercase tracking-wider mb-6 font-medium">
+                  <p className="text-sm text-[#d7007f] uppercase tracking-wider mb-6 font-medium">
                     300 guides
                   </p>
                   <p className="text-lg text-gray-700 font-light leading-relaxed mb-6">
@@ -429,7 +429,7 @@ export default function ThingsToDoPage() {
                   <div>
                     <a
                       href="#wellness-relaxation"
-                      className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
+                      className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
                     >
                       <span>Explore Wellness</span>
                       <ArrowRight className="w-5 h-5" />
@@ -448,7 +448,7 @@ export default function ThingsToDoPage() {
                     alt="Night market and shopping scene"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#2B5D8C] text-white p-4 rounded-full shadow-xl">
+                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-4 rounded-full shadow-xl">
                     <ShoppingBag className="w-8 h-8" />
                   </div>
                 </div>
@@ -457,7 +457,7 @@ export default function ThingsToDoPage() {
                   <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 uppercase tracking-wide">
                     Shopping
                   </h3>
-                  <p className="text-sm text-[#2B5D8C] uppercase tracking-wider mb-6 font-medium">
+                  <p className="text-sm text-[#d7007f] uppercase tracking-wider mb-6 font-medium">
                     400 guides
                   </p>
                   <p className="text-lg text-gray-700 font-light leading-relaxed mb-6">
@@ -487,7 +487,7 @@ export default function ThingsToDoPage() {
                   <div>
                     <a
                       href="#shopping"
-                      className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
+                      className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
                     >
                       <span>Shopping Guides</span>
                       <ArrowRight className="w-5 h-5" />
@@ -506,7 +506,7 @@ export default function ThingsToDoPage() {
                     alt="Unique Thailand activity - hot air balloon and elephant sanctuary"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute top-6 left-6 bg-[#2B5D8C] text-white p-4 rounded-full shadow-xl">
+                  <div className="absolute top-6 left-6 bg-[#d7007f] text-white p-4 rounded-full shadow-xl">
                     <Sparkles className="w-8 h-8" />
                   </div>
                 </div>
@@ -515,7 +515,7 @@ export default function ThingsToDoPage() {
                   <h3 className="text-3xl md:text-4xl font-light text-gray-900 mb-4 uppercase tracking-wide">
                     Unique Experiences
                   </h3>
-                  <p className="text-sm text-[#2B5D8C] uppercase tracking-wider mb-6 font-medium">
+                  <p className="text-sm text-[#d7007f] uppercase tracking-wider mb-6 font-medium">
                     400 guides
                   </p>
                   <p className="text-lg text-gray-700 font-light leading-relaxed mb-6">
@@ -549,7 +549,7 @@ export default function ThingsToDoPage() {
                   <div>
                     <a
                       href="#unique-experiences"
-                      className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
+                      className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
                     >
                       <span>Explore Unique Experiences</span>
                       <ArrowRight className="w-5 h-5" />
@@ -574,14 +574,14 @@ export default function ThingsToDoPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#2B5D8C] hover:shadow-xl transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#d7007f] hover:shadow-xl transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#2B5D8C] text-white p-3 rounded-lg">
+                <div className="bg-[#d7007f] text-white p-3 rounded-lg">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-light text-gray-900 uppercase tracking-wide">Bangkok</h3>
-                  <p className="text-sm text-[#2B5D8C] font-medium">800 guides</p>
+                  <p className="text-sm text-[#d7007f] font-medium">800 guides</p>
                 </div>
               </div>
               <p className="text-gray-600 font-light mb-6 leading-relaxed">
@@ -589,21 +589,21 @@ export default function ThingsToDoPage() {
               </p>
               <a
                 href="/bangkok"
-                className="inline-flex items-center space-x-2 text-[#2B5D8C] hover:text-[#2B5D8C] font-medium transition-colors"
+                className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
               >
                 <span>Explore Bangkok Activities</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#2B5D8C] hover:shadow-xl transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#d7007f] hover:shadow-xl transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#2B5D8C] text-white p-3 rounded-lg">
+                <div className="bg-[#d7007f] text-white p-3 rounded-lg">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-light text-gray-900 uppercase tracking-wide">Phuket</h3>
-                  <p className="text-sm text-[#2B5D8C] font-medium">600 guides</p>
+                  <p className="text-sm text-[#d7007f] font-medium">600 guides</p>
                 </div>
               </div>
               <p className="text-gray-600 font-light mb-6 leading-relaxed">
@@ -611,21 +611,21 @@ export default function ThingsToDoPage() {
               </p>
               <a
                 href="/phuket"
-                className="inline-flex items-center space-x-2 text-[#2B5D8C] hover:text-[#2B5D8C] font-medium transition-colors"
+                className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
               >
                 <span>Explore Phuket Activities</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#2B5D8C] hover:shadow-xl transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#d7007f] hover:shadow-xl transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#2B5D8C] text-white p-3 rounded-lg">
+                <div className="bg-[#d7007f] text-white p-3 rounded-lg">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-light text-gray-900 uppercase tracking-wide">Chiang Mai</h3>
-                  <p className="text-sm text-[#2B5D8C] font-medium">450 guides</p>
+                  <p className="text-sm text-[#d7007f] font-medium">450 guides</p>
                 </div>
               </div>
               <p className="text-gray-600 font-light mb-6 leading-relaxed">
@@ -633,21 +633,21 @@ export default function ThingsToDoPage() {
               </p>
               <a
                 href="#chiang-mai"
-                className="inline-flex items-center space-x-2 text-[#2B5D8C] hover:text-[#2B5D8C] font-medium transition-colors"
+                className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
               >
                 <span>Explore Chiang Mai Activities</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#2B5D8C] hover:shadow-xl transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#d7007f] hover:shadow-xl transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#2B5D8C] text-white p-3 rounded-lg">
+                <div className="bg-[#d7007f] text-white p-3 rounded-lg">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-light text-gray-900 uppercase tracking-wide">Koh Samui</h3>
-                  <p className="text-sm text-[#2B5D8C] font-medium">300 guides</p>
+                  <p className="text-sm text-[#d7007f] font-medium">300 guides</p>
                 </div>
               </div>
               <p className="text-gray-600 font-light mb-6 leading-relaxed">
@@ -655,21 +655,21 @@ export default function ThingsToDoPage() {
               </p>
               <a
                 href="#koh-samui"
-                className="inline-flex items-center space-x-2 text-[#2B5D8C] hover:text-[#2B5D8C] font-medium transition-colors"
+                className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
               >
                 <span>Explore Koh Samui Activities</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#2B5D8C] hover:shadow-xl transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#d7007f] hover:shadow-xl transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#2B5D8C] text-white p-3 rounded-lg">
+                <div className="bg-[#d7007f] text-white p-3 rounded-lg">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-light text-gray-900 uppercase tracking-wide">Pattaya</h3>
-                  <p className="text-sm text-[#2B5D8C] font-medium">250 guides</p>
+                  <p className="text-sm text-[#d7007f] font-medium">250 guides</p>
                 </div>
               </div>
               <p className="text-gray-600 font-light mb-6 leading-relaxed">
@@ -677,21 +677,21 @@ export default function ThingsToDoPage() {
               </p>
               <a
                 href="#pattaya"
-                className="inline-flex items-center space-x-2 text-[#2B5D8C] hover:text-[#2B5D8C] font-medium transition-colors"
+                className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
               >
                 <span>Explore Pattaya Activities</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
 
-            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#2B5D8C] hover:shadow-xl transition-all duration-300">
+            <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:border-[#d7007f] hover:shadow-xl transition-all duration-300">
               <div className="flex items-center space-x-3 mb-4">
-                <div className="bg-[#2B5D8C] text-white p-3 rounded-lg">
+                <div className="bg-[#d7007f] text-white p-3 rounded-lg">
                   <MapPin className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-light text-gray-900 uppercase tracking-wide">Krabi</h3>
-                  <p className="text-sm text-[#2B5D8C] font-medium">200 guides</p>
+                  <p className="text-sm text-[#d7007f] font-medium">200 guides</p>
                 </div>
               </div>
               <p className="text-gray-600 font-light mb-6 leading-relaxed">
@@ -699,7 +699,7 @@ export default function ThingsToDoPage() {
               </p>
               <a
                 href="#krabi"
-                className="inline-flex items-center space-x-2 text-[#2B5D8C] hover:text-[#2B5D8C] font-medium transition-colors"
+                className="inline-flex items-center space-x-2 text-[#d7007f] hover:text-[#d7007f] font-medium transition-colors"
               >
                 <span>Explore Krabi Activities</span>
                 <ArrowRight className="w-4 h-4" />
@@ -710,7 +710,7 @@ export default function ThingsToDoPage() {
           <div className="text-center">
             <a
               href="#all-destinations"
-              className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-10 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
+              className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-10 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl"
             >
               <span>View All Destinations</span>
               <ArrowRight className="w-5 h-5" />
@@ -723,7 +723,7 @@ export default function ThingsToDoPage() {
 
       <section className="py-16 md:py-24 bg-gradient-to-br from-pink-50 to-white">
         <div className="max-w-[1200px] mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl mx-auto bg-white border-2 border-[#2B5D8C] rounded-2xl p-12 shadow-xl text-center">
+          <div className="max-w-3xl mx-auto bg-white border-2 border-[#d7007f] rounded-2xl p-12 shadow-xl text-center">
             <h2 className="text-3xl md:text-4xl font-light mb-6 text-gray-900 uppercase tracking-wide">
               Need Help Planning Your Activities?
             </h2>
@@ -731,7 +731,7 @@ export default function ThingsToDoPage() {
               Not sure which activities to book? Chat with our Thailand experts<br />
               for personalized recommendations!
             </p>
-            <a href="/contact" className="inline-flex items-center space-x-2 bg-[#2B5D8C] text-white px-10 py-5 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="/contact" className="inline-flex items-center space-x-2 bg-[#d7007f] text-white px-10 py-5 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               <span>Ask a Question</span>
               <ArrowRight className="w-5 h-5" />
             </a>

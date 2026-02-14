@@ -83,13 +83,13 @@ export default function FoodPage() {
 
         <div className="relative z-10 max-w-[1700px] mx-auto px-6 lg:px-12 text-center text-white py-32">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <Utensils className="w-8 h-8 text-[#2B5D8C]" />
-            <span className="text-lg uppercase tracking-[2px] text-[#F4A261]">Cuisine</span>
+            <Utensils className="w-8 h-8 text-[#d7007f]" />
+            <span className="text-lg uppercase tracking-[2px] text-[#f7a600]">Cuisine</span>
           </div>
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light mb-8 uppercase tracking-[2px] leading-tight">
             Thai
             <br />
-            <span className="text-[#2B5D8C]">Cuisine</span>
+            <span className="text-[#d7007f]">Cuisine</span>
           </h1>
           <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-light leading-relaxed">
             A harmonious symphony of sweet, sour, salty, and spicy flavors that has captivated the world
@@ -147,7 +147,7 @@ export default function FoodPage() {
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Experience
               <br />
-              <span className="text-[#F4A261]">Thai Culture</span>
+              <span className="text-[#f7a600]">Thai Culture</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Discover the traditions and customs that shape Thai life

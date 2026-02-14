@@ -267,7 +267,7 @@ export default function KrabiDestinationPage() {
               <a
                 key={index}
                 href={item.href}
-                className="px-4 py-2 text-sm text-gray-700 hover:text-[#2B5D8C] hover:bg-pink-50 rounded-lg transition-colors"
+                className="px-4 py-2 text-sm text-gray-700 hover:text-[#d7007f] hover:bg-pink-50 rounded-lg transition-colors"
               >
                 {item.label}
               </a>
@@ -278,7 +278,7 @@ export default function KrabiDestinationPage() {
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-12">
             <section id="overview">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Krabi at a Glance
               </h2>
 
@@ -293,7 +293,7 @@ export default function KrabiDestinationPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-lg">
                   <div className="flex items-start space-x-3">
-                    <MapPin className="w-6 h-6 text-[#2B5D8C] flex-shrink-0 mt-1" />
+                    <MapPin className="w-6 h-6 text-[#d7007f] flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Best For</h3>
                       <p className="text-sm text-gray-700">Beach lovers, rock climbers, nature enthusiasts, families</p>
@@ -354,7 +354,7 @@ export default function KrabiDestinationPage() {
             </section>
 
             <section id="beaches">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Best Beaches in Krabi
               </h2>
 
@@ -384,7 +384,7 @@ export default function KrabiDestinationPage() {
                           <ul className="grid grid-cols-2 gap-2">
                             {beach.features.map((feature, idx) => (
                               <li key={idx} className="text-sm text-gray-600 flex items-center">
-                                <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2"></span>
+                                <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2"></span>
                                 {feature}
                               </li>
                             ))}
@@ -407,7 +407,7 @@ export default function KrabiDestinationPage() {
             </section>
 
             <section id="things-to-do">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Things to Do in Krabi
               </h2>
 
@@ -416,7 +416,7 @@ export default function KrabiDestinationPage() {
                   <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
                     <div className="flex items-start space-x-4">
                       <div className="bg-pink-100 p-3 rounded-lg flex-shrink-0">
-                        <activity.icon className="w-6 h-6 text-[#2B5D8C]" />
+                        <activity.icon className="w-6 h-6 text-[#d7007f]" />
                       </div>
                       <div className="flex-1">
                         <h3 className="text-xl font-semibold text-gray-900 mb-2">{activity.title}</h3>
@@ -425,13 +425,13 @@ export default function KrabiDestinationPage() {
                         <ul className="space-y-1 mb-3">
                           {activity.details.map((detail, idx) => (
                             <li key={idx} className="text-sm text-gray-600 flex items-start">
-                              <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                              <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                               <span>{detail}</span>
                             </li>
                           ))}
                         </ul>
 
-                        <p className="text-sm font-semibold text-[#2B5D8C]">{activity.price}</p>
+                        <p className="text-sm font-semibold text-[#d7007f]">{activity.price}</p>
                       </div>
                     </div>
                   </div>
@@ -466,7 +466,7 @@ export default function KrabiDestinationPage() {
             </section>
 
             <section id="islands">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Nearby Islands from Krabi
               </h2>
 
@@ -522,7 +522,7 @@ export default function KrabiDestinationPage() {
                           <div className="mt-4 pt-4 border-t border-gray-200">
                             <a
                               href="/destinations"
-                              className="text-[#2B5D8C] hover:text-[#2B5D8C] font-medium text-sm inline-flex items-center"
+                              className="text-[#d7007f] hover:text-[#d7007f] font-medium text-sm inline-flex items-center"
                             >
                               See Koh Phi Phi Complete Guide
                             </a>
@@ -558,7 +558,7 @@ export default function KrabiDestinationPage() {
             </section>
 
             <section id="accommodation">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Where to Stay in Krabi
               </h2>
 
@@ -573,15 +573,15 @@ export default function KrabiDestinationPage() {
                     <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-4 border-b border-pink-200">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-3">
-                          <div className="bg-[#2B5D8C] p-2 rounded-lg">
+                          <div className="bg-[#d7007f] p-2 rounded-lg">
                             <area.icon className="w-5 h-5 text-white" />
                           </div>
                           <div>
                             <h3 className="text-xl font-semibold text-gray-900">{area.name}</h3>
-                            <span className="text-sm text-[#2B5D8C] font-medium">{area.subtitle}</span>
+                            <span className="text-sm text-[#d7007f] font-medium">{area.subtitle}</span>
                           </div>
                         </div>
-                        <span className="text-[#2B5D8C] font-semibold text-sm">{area.priceRange}</span>
+                        <span className="text-[#d7007f] font-semibold text-sm">{area.priceRange}</span>
                       </div>
                     </div>
 
@@ -591,7 +591,7 @@ export default function KrabiDestinationPage() {
                       <ul className="space-y-2 mb-4">
                         {area.highlights.map((highlight, idx) => (
                           <li key={idx} className="text-sm text-gray-600 flex items-start">
-                            <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                            <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                             <span>{highlight}</span>
                           </li>
                         ))}
@@ -608,7 +608,7 @@ export default function KrabiDestinationPage() {
               <div className="mt-8 text-center">
                 <a
                   href="/accommodation"
-                  className="inline-flex items-center px-6 py-3 bg-[#2B5D8C] text-white rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium"
+                  className="inline-flex items-center px-6 py-3 bg-[#d7007f] text-white rounded-lg hover:bg-[#d7007f] transition-colors font-medium"
                 >
                   <Hotel className="w-5 h-5 mr-2" />
                   Browse Krabi Hotels
@@ -617,7 +617,7 @@ export default function KrabiDestinationPage() {
             </section>
 
             <section id="transportation">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Getting Around Krabi
               </h2>
 
@@ -671,7 +671,7 @@ export default function KrabiDestinationPage() {
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <div className="flex items-center space-x-3 mb-4">
                     <div className="bg-pink-100 p-3 rounded-lg">
-                      <Anchor className="w-6 h-6 text-[#2B5D8C]" />
+                      <Anchor className="w-6 h-6 text-[#d7007f]" />
                     </div>
                     <h3 className="text-lg font-semibold text-gray-900">To Railay</h3>
                   </div>
@@ -739,7 +739,7 @@ export default function KrabiDestinationPage() {
             </section>
 
             <section id="itineraries">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Suggested Itineraries
               </h2>
 
@@ -749,7 +749,7 @@ export default function KrabiDestinationPage() {
 
               <div className="space-y-6">
                 <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg overflow-hidden shadow-md">
-                  <div className="bg-[#2B5D8C] text-white p-4">
+                  <div className="bg-[#d7007f] text-white p-4">
                     <h3 className="text-xl font-semibold flex items-center">
                       <Calendar className="w-5 h-5 mr-2" />
                       3 Days in Krabi
@@ -757,29 +757,29 @@ export default function KrabiDestinationPage() {
                   </div>
                   <div className="p-6 space-y-4">
                     <div className="flex items-start space-x-4">
-                      <div className="bg-[#2B5D8C] text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">
+                      <div className="bg-[#d7007f] text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">
                         1
                       </div>
                       <div>
-                        <span className="font-semibold text-[#2B5D8C]">Arrive in Krabi</span>
+                        <span className="font-semibold text-[#d7007f]">Arrive in Krabi</span>
                         <p className="text-gray-700 text-sm">Settle in Ao Nang, explore beach area, watch sunset</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-4">
-                      <div className="bg-[#2B5D8C] text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">
+                      <div className="bg-[#d7007f] text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">
                         2
                       </div>
                       <div>
-                        <span className="font-semibold text-[#2B5D8C]">4 Islands Tour or Hong Island Tour</span>
+                        <span className="font-semibold text-[#d7007f]">4 Islands Tour or Hong Island Tour</span>
                         <p className="text-gray-700 text-sm">Full-day island hopping, snorkeling, beach time</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-4">
-                      <div className="bg-[#2B5D8C] text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">
+                      <div className="bg-[#d7007f] text-white rounded-full w-8 h-8 flex items-center justify-center font-semibold flex-shrink-0">
                         3
                       </div>
                       <div>
-                        <span className="font-semibold text-[#2B5D8C]">Railay Beach</span>
+                        <span className="font-semibold text-[#d7007f]">Railay Beach</span>
                         <p className="text-gray-700 text-sm">Explore stunning beaches, rock climbing or relaxing</p>
                       </div>
                     </div>
@@ -846,7 +846,7 @@ export default function KrabiDestinationPage() {
               <div className="mt-6 text-center">
                 <a
                   href="/itineraries"
-                  className="text-[#2B5D8C] hover:text-[#2B5D8C] font-medium inline-flex items-center"
+                  className="text-[#d7007f] hover:text-[#d7007f] font-medium inline-flex items-center"
                 >
                   View Complete Krabi Itineraries
                 </a>
@@ -854,7 +854,7 @@ export default function KrabiDestinationPage() {
             </section>
 
             <section id="practical">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Practical Information
               </h2>
 
@@ -863,7 +863,7 @@ export default function KrabiDestinationPage() {
                   <h3 className="text-lg font-semibold text-gray-900 mb-4">Best Time to Visit</h3>
                   <div className="space-y-3 text-sm">
                     <div>
-                      <span className="font-semibold text-[#2B5D8C]">Nov-Feb (Peak):</span>
+                      <span className="font-semibold text-[#d7007f]">Nov-Feb (Peak):</span>
                       <p className="text-gray-700">Perfect weather, dry, busy, highest prices</p>
                     </div>
                     <div>
@@ -944,7 +944,7 @@ export default function KrabiDestinationPage() {
 
           <div className="lg:col-span-1">
             <div className="sticky top-32 space-y-8">
-              <div className="bg-gradient-to-br from-[#2B5D8C] to-[#2B5D8C] text-white p-6 rounded-lg shadow-xl">
+              <div className="bg-gradient-to-br from-[#d7007f] to-[#d7007f] text-white p-6 rounded-lg shadow-xl">
                 <h3 className="text-xl font-semibold mb-4">Quick Guide</h3>
                 <div className="space-y-3 text-sm">
                   <div>
@@ -970,27 +970,27 @@ export default function KrabiDestinationPage() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Must-See Highlights</h3>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#2B5D8C] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
                     Railay Beach
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#2B5D8C] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
                     Phra Nang Cave Beach
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#2B5D8C] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
                     Phi Phi Islands
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#2B5D8C] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
                     Tiger Cave Temple
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#2B5D8C] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
                     Hong Islands
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-[#2B5D8C] rounded-full mr-2"></span>
+                    <span className="w-2 h-2 bg-[#d7007f] rounded-full mr-2"></span>
                     Rock Climbing
                   </li>
                 </ul>
@@ -1025,7 +1025,7 @@ export default function KrabiDestinationPage() {
           </div>
         </div>
 
-        <div className="mt-16 bg-gradient-to-br from-[#2B5D8C] to-[#ff1493] rounded-2xl p-8 md:p-12 text-white shadow-2xl">
+        <div className="mt-16 bg-gradient-to-br from-[#d7007f] to-[#ff1493] rounded-2xl p-8 md:p-12 text-white shadow-2xl">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-6">
               <MessageCircle className="w-8 h-8" />
@@ -1044,7 +1044,7 @@ export default function KrabiDestinationPage() {
                   (chatWidget as HTMLElement).click();
                 }
               }}
-              className="inline-flex items-center px-8 py-4 bg-white text-[#2B5D8C] rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl"
+              className="inline-flex items-center px-8 py-4 bg-white text-[#d7007f] rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl"
             >
               <MessageCircle className="w-5 h-5 mr-2" />
               Ask Our Experts Now

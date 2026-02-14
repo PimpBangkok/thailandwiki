@@ -45,7 +45,7 @@ export default function BudgetGuidePage() {
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
-            <div className="bg-gradient-to-r from-pink-50 to-blue-50 border-l-4 border-[#2B5D8C] p-8 mb-12 rounded-r-lg">
+            <div className="bg-gradient-to-r from-pink-50 to-blue-50 border-l-4 border-[#d7007f] p-8 mb-12 rounded-r-lg">
               <p className="text-gray-800 text-xl leading-relaxed mb-0">
                 Thailand is one of the <strong>best-value destinations in the world</strong>. Whether you're backpacking on <strong>$30/day</strong> or enjoying luxury for <strong>$200+</strong>, this guide breaks down all costs so you can budget accurately for your trip.
               </p>
@@ -54,7 +54,7 @@ export default function BudgetGuidePage() {
             <div className="border-t border-gray-200 pt-12">
               <div className="flex items-center gap-3 mb-8">
                 <div className="bg-pink-100 p-3 rounded-lg">
-                  <DollarSign className="w-8 h-8 text-[#2B5D8C]" />
+                  <DollarSign className="w-8 h-8 text-[#d7007f]" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-light text-gray-900 uppercase tracking-wide m-0">
                   Daily Budget Breakdown
@@ -209,11 +209,11 @@ export default function BudgetGuidePage() {
                       <div className="bg-white rounded-xl p-6 border border-pink-200">
                         <div className="flex items-center gap-3 mb-4">
                           <div className="bg-pink-100 p-3 rounded-lg">
-                            <Home className="w-6 h-6 text-[#2B5D8C]" />
+                            <Home className="w-6 h-6 text-[#d7007f]" />
                           </div>
                           <div>
                             <h4 className="font-semibold text-gray-900">Accommodation</h4>
-                            <p className="text-[#2B5D8C] font-semibold">$30-60/night</p>
+                            <p className="text-[#d7007f] font-semibold">$30-60/night</p>
                           </div>
                         </div>
                         <ul className="space-y-2 text-sm text-gray-700">
@@ -235,11 +235,11 @@ export default function BudgetGuidePage() {
                       <div className="bg-white rounded-xl p-6 border border-pink-200">
                         <div className="flex items-center gap-3 mb-4">
                           <div className="bg-pink-100 p-3 rounded-lg">
-                            <Utensils className="w-6 h-6 text-[#2B5D8C]" />
+                            <Utensils className="w-6 h-6 text-[#d7007f]" />
                           </div>
                           <div>
                             <h4 className="font-semibold text-gray-900">Food</h4>
-                            <p className="text-[#2B5D8C] font-semibold">$25-40/day</p>
+                            <p className="text-[#d7007f] font-semibold">$25-40/day</p>
                           </div>
                         </div>
                         <ul className="space-y-2 text-sm text-gray-700">
@@ -261,11 +261,11 @@ export default function BudgetGuidePage() {
                       <div className="bg-white rounded-xl p-6 border border-pink-200">
                         <div className="flex items-center gap-3 mb-4">
                           <div className="bg-pink-100 p-3 rounded-lg">
-                            <Car className="w-6 h-6 text-[#2B5D8C]" />
+                            <Car className="w-6 h-6 text-[#d7007f]" />
                           </div>
                           <div>
                             <h4 className="font-semibold text-gray-900">Transportation</h4>
-                            <p className="text-[#2B5D8C] font-semibold">$10-20/day</p>
+                            <p className="text-[#d7007f] font-semibold">$10-20/day</p>
                           </div>
                         </div>
                         <ul className="space-y-2 text-sm text-gray-700">
@@ -287,11 +287,11 @@ export default function BudgetGuidePage() {
                       <div className="bg-white rounded-xl p-6 border border-pink-200">
                         <div className="flex items-center gap-3 mb-4">
                           <div className="bg-pink-100 p-3 rounded-lg">
-                            <Activity className="w-6 h-6 text-[#2B5D8C]" />
+                            <Activity className="w-6 h-6 text-[#d7007f]" />
                           </div>
                           <div>
                             <h4 className="font-semibold text-gray-900">Activities</h4>
-                            <p className="text-[#2B5D8C] font-semibold">$20-40/day</p>
+                            <p className="text-[#d7007f] font-semibold">$20-40/day</p>
                           </div>
                         </div>
                         <ul className="space-y-2 text-sm text-gray-700">
@@ -312,10 +312,10 @@ export default function BudgetGuidePage() {
                     </div>
 
                     <div className="bg-pink-100 rounded-xl p-6 text-center">
-                      <p className="text-lg font-semibold text-[#2B5D8C]">
+                      <p className="text-lg font-semibold text-[#d7007f]">
                         <span className="text-3xl font-bold">$80-150</span> per day
                       </p>
-                      <p className="text-sm text-[#2B5D8C] mt-2">Most popular choice for comfortable travel with good value</p>
+                      <p className="text-sm text-[#d7007f] mt-2">Most popular choice for comfortable travel with good value</p>
                     </div>
                   </div>
                 </div>
@@ -454,7 +454,7 @@ export default function BudgetGuidePage() {
             <div className="border-t border-gray-200 pt-12 mt-12">
               <div className="flex items-center gap-3 mb-8">
                 <div className="bg-pink-100 p-3 rounded-lg">
-                  <DollarSign className="w-8 h-8 text-[#2B5D8C]" />
+                  <DollarSign className="w-8 h-8 text-[#d7007f]" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-light text-gray-900 uppercase tracking-wide m-0">
                   Specific Costs
@@ -464,148 +464,148 @@ export default function BudgetGuidePage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all">
                   <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                    <Utensils className="w-6 h-6 text-[#2B5D8C]" />
+                    <Utensils className="w-6 h-6 text-[#d7007f]" />
                     Food & Drink
                   </h3>
                   <div className="space-y-3 text-gray-700">
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Street food meal</span>
-                      <span className="font-semibold text-[#2B5D8C]">$1-3</span>
+                      <span className="font-semibold text-[#d7007f]">$1-3</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Local restaurant meal</span>
-                      <span className="font-semibold text-[#2B5D8C]">$3-5</span>
+                      <span className="font-semibold text-[#d7007f]">$3-5</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Mid-range restaurant</span>
-                      <span className="font-semibold text-[#2B5D8C]">$8-15</span>
+                      <span className="font-semibold text-[#d7007f]">$8-15</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Fine dining</span>
-                      <span className="font-semibold text-[#2B5D8C]">$30-100+</span>
+                      <span className="font-semibold text-[#d7007f]">$30-100+</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Beer (local bar)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$2-3</span>
+                      <span className="font-semibold text-[#d7007f]">$2-3</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Coffee (local shop)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$1-2</span>
+                      <span className="font-semibold text-[#d7007f]">$1-2</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span>Water bottle (7-Eleven)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$0.30-0.50</span>
+                      <span className="font-semibold text-[#d7007f]">$0.30-0.50</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all">
                   <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                    <Car className="w-6 h-6 text-[#2B5D8C]" />
+                    <Car className="w-6 h-6 text-[#d7007f]" />
                     Transportation
                   </h3>
                   <div className="space-y-3 text-gray-700">
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>BTS/MRT (Bangkok)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$0.50-1.50</span>
+                      <span className="font-semibold text-[#d7007f]">$0.50-1.50</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Taxi (per km)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$0.30-0.50</span>
+                      <span className="font-semibold text-[#d7007f]">$0.30-0.50</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Grab/Bolt ride (short)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$3-8</span>
+                      <span className="font-semibold text-[#d7007f]">$3-8</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Tuk-tuk (negotiated)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$3-10</span>
+                      <span className="font-semibold text-[#d7007f]">$3-10</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Motorbike rental (day)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$5-10</span>
+                      <span className="font-semibold text-[#d7007f]">$5-10</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Car rental (day)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$30-80</span>
+                      <span className="font-semibold text-[#d7007f]">$30-80</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span>Airport rail link (Bangkok)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$1.50</span>
+                      <span className="font-semibold text-[#d7007f]">$1.50</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all">
                   <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                    <Activity className="w-6 h-6 text-[#2B5D8C]" />
+                    <Activity className="w-6 h-6 text-[#d7007f]" />
                     Activities & Attractions
                   </h3>
                   <div className="space-y-3 text-gray-700">
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Temple entry (most)</span>
-                      <span className="font-semibold text-[#2B5D8C]">Free</span>
+                      <span className="font-semibold text-[#d7007f]">Free</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Grand Palace</span>
-                      <span className="font-semibold text-[#2B5D8C]">$15</span>
+                      <span className="font-semibold text-[#d7007f]">$15</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>National park entry</span>
-                      <span className="font-semibold text-[#2B5D8C]">$6-10</span>
+                      <span className="font-semibold text-[#d7007f]">$6-10</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Thai massage (1 hour)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$8-15</span>
+                      <span className="font-semibold text-[#d7007f]">$8-15</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Cooking class</span>
-                      <span className="font-semibold text-[#2B5D8C]">$30-50</span>
+                      <span className="font-semibold text-[#d7007f]">$30-50</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Island day tour</span>
-                      <span className="font-semibold text-[#2B5D8C]">$30-80</span>
+                      <span className="font-semibold text-[#d7007f]">$30-80</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span>Scuba diving (2 dives)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$60-100</span>
+                      <span className="font-semibold text-[#d7007f]">$60-100</span>
                     </div>
                   </div>
                 </div>
 
                 <div className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-all">
                   <h3 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                    <ShoppingBag className="w-6 h-6 text-[#2B5D8C]" />
+                    <ShoppingBag className="w-6 h-6 text-[#d7007f]" />
                     Shopping & Miscellaneous
                   </h3>
                   <div className="space-y-3 text-gray-700">
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>SIM card (tourist)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$10-20</span>
+                      <span className="font-semibold text-[#d7007f]">$10-20</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Laundry (per kg)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$1-2</span>
+                      <span className="font-semibold text-[#d7007f]">$1-2</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Sunscreen (local brand)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$3-8</span>
+                      <span className="font-semibold text-[#d7007f]">$3-8</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>T-shirt (market)</span>
-                      <span className="font-semibold text-[#2B5D8C]">$3-8</span>
+                      <span className="font-semibold text-[#d7007f]">$3-8</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Haircut</span>
-                      <span className="font-semibold text-[#2B5D8C]">$5-15</span>
+                      <span className="font-semibold text-[#d7007f]">$5-15</span>
                     </div>
                     <div className="flex justify-between items-center pb-2 border-b border-gray-100">
                       <span>Gym day pass</span>
-                      <span className="font-semibold text-[#2B5D8C]">$5-15</span>
+                      <span className="font-semibold text-[#d7007f]">$5-15</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <span>Movie ticket</span>
-                      <span className="font-semibold text-[#2B5D8C]">$5-8</span>
+                      <span className="font-semibold text-[#d7007f]">$5-8</span>
                     </div>
                   </div>
                 </div>
@@ -615,7 +615,7 @@ export default function BudgetGuidePage() {
             <div className="border-t border-gray-200 pt-12 mt-12">
               <div className="flex items-center gap-3 mb-8">
                 <div className="bg-pink-100 p-3 rounded-lg">
-                  <Lightbulb className="w-8 h-8 text-[#2B5D8C]" />
+                  <Lightbulb className="w-8 h-8 text-[#d7007f]" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-light text-gray-900 uppercase tracking-wide m-0">
                   Money-Saving Tips
@@ -736,7 +736,7 @@ export default function BudgetGuidePage() {
             <div className="border-t border-gray-200 pt-12 mt-12">
               <div className="flex items-center gap-3 mb-8">
                 <div className="bg-pink-100 p-3 rounded-lg">
-                  <MapPin className="w-8 h-8 text-[#2B5D8C]" />
+                  <MapPin className="w-8 h-8 text-[#d7007f]" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-light text-gray-900 uppercase tracking-wide m-0">
                   Regional Price Differences
@@ -824,7 +824,7 @@ export default function BudgetGuidePage() {
             <div className="border-t border-gray-200 pt-12 mt-12">
               <div className="flex items-center gap-3 mb-8">
                 <div className="bg-pink-100 p-3 rounded-lg">
-                  <Calendar className="w-8 h-8 text-[#2B5D8C]" />
+                  <Calendar className="w-8 h-8 text-[#d7007f]" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-light text-gray-900 uppercase tracking-wide m-0">
                   Sample Trip Costs
@@ -874,32 +874,32 @@ export default function BudgetGuidePage() {
                 <div className="bg-gradient-to-br from-pink-50 to-blue-50 border-2 border-pink-200 rounded-2xl p-8">
                   <div className="flex items-center gap-3 mb-6">
                     <div className="bg-pink-100 p-3 rounded-lg">
-                      <MapPin className="w-10 h-10 text-[#2B5D8C]" />
+                      <MapPin className="w-10 h-10 text-[#d7007f]" />
                     </div>
                     <div>
                       <h3 className="text-2xl font-semibold text-gray-900">Mid-Range Travel</h3>
-                      <p className="text-[#2B5D8C] font-medium">$80-150 per day</p>
+                      <p className="text-[#d7007f] font-medium">$80-150 per day</p>
                     </div>
                   </div>
                   <div className="space-y-4">
                     <div className="bg-white rounded-xl p-4 border border-pink-200">
                       <div className="flex justify-between items-center mb-2">
                         <span className="font-semibold text-gray-900">1 Week in Thailand</span>
-                        <span className="text-2xl font-bold text-[#2B5D8C]">$600-1,000</span>
+                        <span className="text-2xl font-bold text-[#d7007f]">$600-1,000</span>
                       </div>
                       <p className="text-sm text-gray-600">Comfortable hotels and varied experiences</p>
                     </div>
                     <div className="bg-white rounded-xl p-4 border border-pink-200">
                       <div className="flex justify-between items-center mb-2">
                         <span className="font-semibold text-gray-900">2 Weeks in Thailand</span>
-                        <span className="text-2xl font-bold text-[#2B5D8C]">$1,200-2,200</span>
+                        <span className="text-2xl font-bold text-[#d7007f]">$1,200-2,200</span>
                       </div>
                       <p className="text-sm text-gray-600">Most popular choice for complete Thailand experience</p>
                     </div>
                     <div className="bg-white rounded-xl p-4 border border-pink-200">
                       <div className="flex justify-between items-center mb-2">
                         <span className="font-semibold text-gray-900">1 Month in Thailand</span>
-                        <span className="text-2xl font-bold text-[#2B5D8C]">$2,500-4,000</span>
+                        <span className="text-2xl font-bold text-[#d7007f]">$2,500-4,000</span>
                       </div>
                       <p className="text-sm text-gray-600">Extended stay with comfort and flexibility</p>
                     </div>
@@ -958,7 +958,7 @@ export default function BudgetGuidePage() {
             <div className="border-t border-gray-200 pt-12 mt-12">
               <div className="flex items-center gap-3 mb-8">
                 <div className="bg-pink-100 p-3 rounded-lg">
-                  <DollarSign className="w-8 h-8 text-[#2B5D8C]" />
+                  <DollarSign className="w-8 h-8 text-[#d7007f]" />
                 </div>
                 <h2 className="text-4xl md:text-5xl font-light text-gray-900 uppercase tracking-wide m-0">
                   Money & Payment Tips
@@ -969,7 +969,7 @@ export default function BudgetGuidePage() {
                 <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-pink-100 p-3 rounded-lg">
-                      <DollarSign className="w-8 h-8 text-[#2B5D8C]" />
+                      <DollarSign className="w-8 h-8 text-[#d7007f]" />
                     </div>
                     <h3 className="text-2xl font-semibold text-gray-900 m-0">ATMs</h3>
                   </div>
@@ -996,7 +996,7 @@ export default function BudgetGuidePage() {
                 <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-pink-100 p-3 rounded-lg">
-                      <DollarSign className="w-8 h-8 text-[#2B5D8C]" />
+                      <DollarSign className="w-8 h-8 text-[#d7007f]" />
                     </div>
                     <h3 className="text-2xl font-semibold text-gray-900 m-0">Currency Exchange</h3>
                   </div>
@@ -1019,7 +1019,7 @@ export default function BudgetGuidePage() {
                 <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-pink-100 p-3 rounded-lg">
-                      <DollarSign className="w-8 h-8 text-[#2B5D8C]" />
+                      <DollarSign className="w-8 h-8 text-[#d7007f]" />
                     </div>
                     <h3 className="text-2xl font-semibold text-gray-900 m-0">Credit Cards</h3>
                   </div>
@@ -1046,7 +1046,7 @@ export default function BudgetGuidePage() {
                 <div className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-lg transition-all">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="bg-pink-100 p-3 rounded-lg">
-                      <DollarSign className="w-8 h-8 text-[#2B5D8C]" />
+                      <DollarSign className="w-8 h-8 text-[#d7007f]" />
                     </div>
                     <h3 className="text-2xl font-semibold text-gray-900 m-0">Cash Usage</h3>
                   </div>
@@ -1073,27 +1073,27 @@ export default function BudgetGuidePage() {
 
               <div className="bg-gradient-to-r from-pink-50 to-blue-50 border border-pink-200 rounded-xl p-8 mt-6">
                 <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                  <Lightbulb className="w-6 h-6 text-[#2B5D8C]" />
+                  <Lightbulb className="w-6 h-6 text-[#d7007f]" />
                   Best Cards for Thailand Travel
                 </h4>
                 <div className="grid md:grid-cols-3 gap-4 text-gray-700">
                   <div>
-                    <p className="font-semibold text-[#2B5D8C] mb-1">No Foreign Transaction Fees</p>
+                    <p className="font-semibold text-[#d7007f] mb-1">No Foreign Transaction Fees</p>
                     <p className="text-sm mb-0">Saves 3% on every purchase</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-[#2B5D8C] mb-1">ATM Fee Reimbursement</p>
+                    <p className="font-semibold text-[#d7007f] mb-1">ATM Fee Reimbursement</p>
                     <p className="text-sm mb-0">Some banks refund Thai ATM fees</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-[#2B5D8C] mb-1">Travel Rewards</p>
+                    <p className="font-semibold text-[#d7007f] mb-1">Travel Rewards</p>
                     <p className="text-sm mb-0">Earn points/miles on Thailand spending</p>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-gray-900 via-[#2B5D8C] to-blue-900 text-white rounded-2xl p-12 text-center mt-12 relative overflow-hidden">
+            <div className="bg-gradient-to-br from-gray-900 via-[#d7007f] to-blue-900 text-white rounded-2xl p-12 text-center mt-12 relative overflow-hidden">
               <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjAzIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-50"></div>
               <div className="relative z-10">
                 <div className="flex items-center justify-center mb-6">
@@ -1117,7 +1117,7 @@ export default function BudgetGuidePage() {
                   className="inline-flex items-center gap-2 bg-white text-gray-900 px-10 py-5 rounded-full font-semibold hover:bg-gray-100 transition-all hover:scale-105 uppercase tracking-wider shadow-xl"
                 >
                   <span>Get Budget Tips</span>
-                  <span className="text-[#2B5D8C]">→</span>
+                  <span className="text-[#d7007f]">→</span>
                 </button>
               </div>
             </div>

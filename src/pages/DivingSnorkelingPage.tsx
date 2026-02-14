@@ -314,7 +314,7 @@ export function DivingSnorkelingPage() {
                   <a
                     key={item.href}
                     href={item.href}
-                    className="block text-sm text-gray-600 hover:text-[#2B5D8C] transition-colors"
+                    className="block text-sm text-gray-600 hover:text-[#d7007f] transition-colors"
                   >
                     {item.label}
                   </a>
@@ -345,8 +345,8 @@ export function DivingSnorkelingPage() {
                   <div className="text-sm text-gray-700">Marine Species</div>
                 </div>
                 <div className="bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-lg text-center">
-                  <DollarSign className="w-10 h-10 text-[#2B5D8C] mx-auto mb-3" />
-                  <div className="text-2xl font-bold text-[#2B5D8C]">$300</div>
+                  <DollarSign className="w-10 h-10 text-[#d7007f] mx-auto mb-3" />
+                  <div className="text-2xl font-bold text-[#d7007f]">$300</div>
                   <div className="text-sm text-gray-700">PADI Open Water</div>
                 </div>
                 <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 p-6 rounded-lg text-center">
@@ -358,7 +358,7 @@ export function DivingSnorkelingPage() {
             </section>
 
             <section id="diving-destinations">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Best Diving Destinations
               </h2>
 
@@ -434,7 +434,7 @@ export function DivingSnorkelingPage() {
             </section>
 
             <section id="snorkeling">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Best Snorkeling Spots
               </h2>
 
@@ -480,7 +480,7 @@ export function DivingSnorkelingPage() {
             </section>
 
             <section id="padi">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 PADI Certification in Thailand
               </h2>
 
@@ -705,7 +705,7 @@ export function DivingSnorkelingPage() {
             </section>
 
             <section id="marine-life" className="mt-16">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Marine Life in Thailand
               </h2>
 
@@ -953,7 +953,7 @@ export function DivingSnorkelingPage() {
             </section>
 
             <section id="when-to-go" className="mt-16">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Best Time for Diving
               </h2>
 
@@ -969,26 +969,26 @@ export function DivingSnorkelingPage() {
                 </p>
 
                 <div className="mb-6">
-                  <h4 className="text-lg font-semibold text-[#2B5D8C] mb-3">Best Season: November - April</h4>
+                  <h4 className="text-lg font-semibold text-[#d7007f] mb-3">Best Season: November - April</h4>
                   <ul className="space-y-2 text-sm text-gray-700">
                     <li className="flex items-start">
-                      <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                      <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                       <span>Calm seas</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                      <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                       <span>Excellent visibility (20-30+ meters)</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                      <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                       <span>Warm water (28-30 degrees Celsius)</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                      <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                       <span>Whale shark season (Feb-Apr)</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                      <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                       <span>All dive sites accessible</span>
                     </li>
                   </ul>
@@ -1016,7 +1016,7 @@ export function DivingSnorkelingPage() {
                   </ul>
                 </div>
 
-                <div className="bg-[#2B5D8C] text-white p-4 rounded-lg text-sm font-semibold">
+                <div className="bg-[#d7007f] text-white p-4 rounded-lg text-sm font-semibold">
                   When to go: November - April only
                 </div>
               </div>
@@ -1280,7 +1280,7 @@ export function DivingSnorkelingPage() {
             </section>
 
             <section id="safety">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Diving Safety
               </h2>
 
@@ -1934,7 +1934,7 @@ export function DivingSnorkelingPage() {
             </section>
 
             <section id="costs" className="mt-16">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Diving Costs in Thailand
               </h2>
 
@@ -1976,7 +1976,7 @@ export function DivingSnorkelingPage() {
 
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <h4 className="text-xl font-semibold text-gray-900 mb-4 flex items-center">
-                    <Ship className="w-5 h-5 mr-2 text-[#2B5D8C]" />
+                    <Ship className="w-5 h-5 mr-2 text-[#d7007f]" />
                     Day Trips
                   </h4>
                   <div className="space-y-3 text-sm mb-4">
@@ -2279,7 +2279,7 @@ export function DivingSnorkelingPage() {
             </section>
 
             <section id="diving-vs-snorkeling" className="mt-16">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Diving vs Snorkeling: Which to Choose?
               </h2>
 
@@ -2334,44 +2334,44 @@ export function DivingSnorkelingPage() {
                   </ul>
                 </div>
 
-                <div className="bg-gradient-to-br from-pink-50 to-green-50 rounded-lg shadow-lg p-8 border-t-4 border-[#2B5D8C]">
+                <div className="bg-gradient-to-br from-pink-50 to-green-50 rounded-lg shadow-lg p-8 border-t-4 border-[#d7007f]">
                   <div className="flex items-center mb-6">
-                    <div className="bg-[#2B5D8C] rounded-full p-3 mr-4">
+                    <div className="bg-[#d7007f] rounded-full p-3 mr-4">
                       <Waves className="w-8 h-8 text-white" />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900">Choose Snorkeling If You:</h3>
                   </div>
                   <ul className="space-y-4">
                     <li className="flex items-start">
-                      <CheckCircle2 className="w-5 h-5 text-[#2B5D8C] mr-3 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-[#d7007f] mr-3 mt-0.5 flex-shrink-0" />
                       <div>
                         <p className="font-semibold text-gray-900">Have limited time</p>
                         <p className="text-sm text-gray-600">Can snorkel same day - just show up, get gear, and go. 2-hour boat trip versus 3-4 day diving course. Perfect for short Thailand visits.</p>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle2 className="w-5 h-5 text-[#2B5D8C] mr-3 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-[#d7007f] mr-3 mt-0.5 flex-shrink-0" />
                       <div>
                         <p className="font-semibold text-gray-900">Are budget-conscious</p>
                         <p className="text-sm text-gray-600">Snorkeling day trip: $30-60. Diving certification: $300-400 PLUS fun dives $80-120 each. Huge price difference. Snorkeling equipment cheap to buy or rent.</p>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle2 className="w-5 h-5 text-[#2B5D8C] mr-3 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-[#d7007f] mr-3 mt-0.5 flex-shrink-0" />
                       <div>
                         <p className="font-semibold text-gray-900">Want casual experience</p>
                         <p className="text-sm text-gray-600">No certification or skills required. Can surface anytime you want. Less gear (just mask, snorkel, fins). No pressure (literally and figuratively). Kids and elderly can snorkel - diving has age minimums.</p>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle2 className="w-5 h-5 text-[#2B5D8C] mr-3 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-[#d7007f] mr-3 mt-0.5 flex-shrink-0" />
                       <div>
                         <p className="font-semibold text-gray-900">Are nervous about diving</p>
                         <p className="text-sm text-gray-600">Claustrophobia concerns (breathing underwater feels strange). Ear equalization issues. Fear of deep water. Anxiety about equipment failure. Snorkeling lets you test comfort in water first.</p>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle2 className="w-5 h-5 text-[#2B5D8C] mr-3 mt-0.5 flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-[#d7007f] mr-3 mt-0.5 flex-shrink-0" />
                       <div>
                         <p className="font-semibold text-gray-900">Are traveling with non-divers</p>
                         <p className="text-sm text-gray-600">Everyone can snorkel together (no certification needed). Families with young children. Mixed ability groups. Partners where one does not want to dive.</p>
@@ -2394,27 +2394,27 @@ export function DivingSnorkelingPage() {
                     </div>
                     <ul className="space-y-2 text-sm text-gray-700">
                       <li className="flex items-start">
-                        <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                        <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                         <span>Colorful reef fish (parrotfish, angelfish, butterflyfish)</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                        <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                         <span>Small tropical fish in schools</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                        <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                         <span>Coral formations from above</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                        <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                         <span>Occasional sea turtle (if lucky)</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                        <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                         <span>Shallow water marine life</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="w-1.5 h-1.5 bg-[#2B5D8C] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
+                        <span className="w-1.5 h-1.5 bg-[#d7007f] rounded-full mr-2 mt-1.5 flex-shrink-0"></span>
                         <span>Clearer water (more sunlight)</span>
                       </li>
                     </ul>
@@ -2512,7 +2512,7 @@ export function DivingSnorkelingPage() {
                       <ArrowRight className="w-5 h-5 text-amber-600 mr-3 mt-1 flex-shrink-0" />
                       <div>
                         <p className="font-semibold text-gray-900">If you only have 2 days:</p>
-                        <p className="text-sm text-gray-700 mt-1">Choose <strong className="text-[#2B5D8C]">SNORKELING</strong>, not enough time for certification</p>
+                        <p className="text-sm text-gray-700 mt-1">Choose <strong className="text-[#d7007f]">SNORKELING</strong>, not enough time for certification</p>
                       </div>
                     </div>
                   </div>
@@ -2522,7 +2522,7 @@ export function DivingSnorkelingPage() {
                       <ArrowRight className="w-5 h-5 text-green-600 mr-3 mt-1 flex-shrink-0" />
                       <div>
                         <p className="font-semibold text-gray-900">If on tight budget:</p>
-                        <p className="text-sm text-gray-700 mt-1">Choose <strong className="text-[#2B5D8C]">SNORKELING</strong>, costs $30-60 versus $300+ for diving</p>
+                        <p className="text-sm text-gray-700 mt-1">Choose <strong className="text-[#d7007f]">SNORKELING</strong>, costs $30-60 versus $300+ for diving</p>
                       </div>
                     </div>
                   </div>
@@ -2537,12 +2537,12 @@ export function DivingSnorkelingPage() {
                     </div>
                   </div>
 
-                  <div className="bg-white rounded-lg p-5 shadow-md border-l-4 border-[#2B5D8C]">
+                  <div className="bg-white rounded-lg p-5 shadow-md border-l-4 border-[#d7007f]">
                     <div className="flex items-start">
-                      <ArrowRight className="w-5 h-5 text-[#2B5D8C] mr-3 mt-1 flex-shrink-0" />
+                      <ArrowRight className="w-5 h-5 text-[#d7007f] mr-3 mt-1 flex-shrink-0" />
                       <div>
                         <p className="font-semibold text-gray-900">If scared of deep water:</p>
-                        <p className="text-sm text-gray-700 mt-1">Choose <strong className="text-[#2B5D8C]">SNORKELING</strong>, stay near surface with easy exit</p>
+                        <p className="text-sm text-gray-700 mt-1">Choose <strong className="text-[#d7007f]">SNORKELING</strong>, stay near surface with easy exit</p>
                       </div>
                     </div>
                   </div>
@@ -2562,7 +2562,7 @@ export function DivingSnorkelingPage() {
                       <ArrowRight className="w-5 h-5 text-pink-600 mr-3 mt-1 flex-shrink-0" />
                       <div>
                         <p className="font-semibold text-gray-900">If family trip with mixed interest:</p>
-                        <p className="text-sm text-gray-700 mt-1">Choose <strong className="text-[#2B5D8C]">SNORKELING</strong>, everyone participates together</p>
+                        <p className="text-sm text-gray-700 mt-1">Choose <strong className="text-[#d7007f]">SNORKELING</strong>, everyone participates together</p>
                       </div>
                     </div>
                   </div>
@@ -2583,7 +2583,7 @@ export function DivingSnorkelingPage() {
                         <div className="flex justify-center">
                           <ArrowRight className="w-5 h-5" />
                         </div>
-                        <div className="bg-[#2B5D8C] rounded p-3 mt-2 text-center">
+                        <div className="bg-[#d7007f] rounded p-3 mt-2 text-center">
                           <p className="font-bold">SNORKELING</p>
                         </div>
                       </div>
@@ -2607,7 +2607,7 @@ export function DivingSnorkelingPage() {
                         <div className="flex justify-center">
                           <ArrowRight className="w-5 h-5" />
                         </div>
-                        <div className="bg-[#2B5D8C] rounded p-3 mt-2 text-center">
+                        <div className="bg-[#d7007f] rounded p-3 mt-2 text-center">
                           <p className="font-bold">SNORKELING</p>
                         </div>
                       </div>
@@ -2631,7 +2631,7 @@ export function DivingSnorkelingPage() {
                         <div className="flex justify-center">
                           <ArrowRight className="w-5 h-5" />
                         </div>
-                        <div className="bg-[#2B5D8C] rounded p-3 mt-2 text-center">
+                        <div className="bg-[#d7007f] rounded p-3 mt-2 text-center">
                           <p className="font-bold">SNORKELING</p>
                         </div>
                       </div>
@@ -2673,7 +2673,7 @@ export function DivingSnorkelingPage() {
                         <span className="font-semibold">$20-40</span>
                       </div>
                     </div>
-                    <div className="bg-[#2B5D8C] text-white p-4 rounded-lg text-center">
+                    <div className="bg-[#d7007f] text-white p-4 rounded-lg text-center">
                       <p className="text-sm mb-1">TOTAL COST</p>
                       <p className="text-3xl font-bold">$30-100</p>
                       <p className="text-xs mt-1">for full day trip</p>
@@ -2776,7 +2776,7 @@ export function DivingSnorkelingPage() {
               <p className="text-gray-700 mb-6">
                 Questions about diving or snorkeling in Thailand? Our travel experts are here to help!
               </p>
-              <button className="bg-[#2B5D8C] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#b0005f] transition-colors">
+              <button className="bg-[#d7007f] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#b0005f] transition-colors">
                 Ask Now
               </button>
             </div>

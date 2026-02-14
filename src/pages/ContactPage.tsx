@@ -100,13 +100,13 @@ export default function ContactPage() {
       <section className="bg-[#252525] py-32">
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12">
           <div className="flex items-center gap-4 mb-8">
-            <Mail className="w-12 h-12 text-[#2B5D8C]" />
-            <span className="text-lg uppercase tracking-[2px] text-[#F4A261]">Get in Touch</span>
+            <Mail className="w-12 h-12 text-[#d7007f]" />
+            <span className="text-lg uppercase tracking-[2px] text-[#f7a600]">Get in Touch</span>
           </div>
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light text-white mb-8 uppercase tracking-[2px]">
             Contact
             <br />
-            <span className="text-[#2B5D8C]">Us</span>
+            <span className="text-[#d7007f]">Us</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl font-light leading-relaxed">
             Questions, suggestions, or partnership inquiries? We'd love to hear from you
@@ -153,7 +153,7 @@ export default function ContactPage() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className={`w-full px-6 py-4 border-2 rounded-[10px] focus:ring-2 focus:ring-[#2B5D8C] focus:border-[#2B5D8C] outline-none transition-all font-light text-lg ${
+                  className={`w-full px-6 py-4 border-2 rounded-[10px] focus:ring-2 focus:ring-[#d7007f] focus:border-[#d7007f] outline-none transition-all font-light text-lg ${
                     errors.name ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />
@@ -175,7 +175,7 @@ export default function ContactPage() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className={`w-full px-6 py-4 border-2 rounded-[10px] focus:ring-2 focus:ring-[#2B5D8C] focus:border-[#2B5D8C] outline-none transition-all font-light text-lg ${
+                  className={`w-full px-6 py-4 border-2 rounded-[10px] focus:ring-2 focus:ring-[#d7007f] focus:border-[#d7007f] outline-none transition-all font-light text-lg ${
                     errors.email ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />
@@ -196,7 +196,7 @@ export default function ContactPage() {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className={`w-full px-6 py-4 border-2 rounded-[10px] focus:ring-2 focus:ring-[#2B5D8C] focus:border-[#2B5D8C] outline-none transition-all font-light text-lg ${
+                  className={`w-full px-6 py-4 border-2 rounded-[10px] focus:ring-2 focus:ring-[#d7007f] focus:border-[#d7007f] outline-none transition-all font-light text-lg ${
                     errors.subject ? 'border-red-500' : 'border-gray-300'
                   }`}
                 >
@@ -225,7 +225,7 @@ export default function ContactPage() {
                   value={formData.message}
                   onChange={handleChange}
                   rows={6}
-                  className={`w-full px-6 py-4 border-2 rounded-[10px] focus:ring-2 focus:ring-[#2B5D8C] focus:border-[#2B5D8C] outline-none transition-all font-light text-lg resize-none ${
+                  className={`w-full px-6 py-4 border-2 rounded-[10px] focus:ring-2 focus:ring-[#d7007f] focus:border-[#d7007f] outline-none transition-all font-light text-lg resize-none ${
                     errors.message ? 'border-red-500' : 'border-gray-300'
                   }`}
                 />

@@ -915,7 +915,7 @@ export function YachtCharterPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="relative h-[500px] bg-gradient-to-br from-blue-900 via-cyan-800 to-[#2B5D8C]">
+      <div className="relative h-[500px] bg-gradient-to-br from-blue-900 via-cyan-800 to-[#d7007f]">
         <div
           className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-40"
           style={{
@@ -971,7 +971,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="why-charter">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Why Charter a Yacht in Thailand
               </h2>
 
@@ -998,7 +998,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="yacht-types">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Types of Yachts Available
               </h2>
 
@@ -1011,7 +1011,7 @@ export function YachtCharterPage() {
                         alt={yacht.name}
                         className="w-full h-full object-cover"
                       />
-                      <div className="absolute top-4 right-4 bg-[#2B5D8C] text-white px-3 py-1 rounded-full shadow-md">
+                      <div className="absolute top-4 right-4 bg-[#d7007f] text-white px-3 py-1 rounded-full shadow-md">
                         <span className="text-sm font-bold">{yacht.badge}</span>
                       </div>
                     </div>
@@ -1092,7 +1092,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="destinations">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Top Yacht Charter Destinations
               </h2>
 
@@ -1105,7 +1105,7 @@ export function YachtCharterPage() {
                         alt={destination.name}
                         className="w-full h-full object-cover"
                       />
-                      <div className="absolute top-4 right-4 bg-[#2B5D8C] text-white px-3 py-1 rounded-full shadow-md">
+                      <div className="absolute top-4 right-4 bg-[#d7007f] text-white px-3 py-1 rounded-full shadow-md">
                         <span className="text-sm font-bold">{destination.badge}</span>
                       </div>
                       <div className="absolute bottom-4 left-4 bg-black/70 text-white px-4 py-2 rounded-lg shadow-md">
@@ -1153,7 +1153,7 @@ export function YachtCharterPage() {
                       {destination.reachable && (
                         <div className="mb-6">
                           <h4 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
-                            <Navigation className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                            <Navigation className="w-5 h-5 text-[#d7007f] mr-2" />
                             From {destination.name} You Can Reach
                           </h4>
                           <div className="grid md:grid-cols-2 gap-2">
@@ -1251,7 +1251,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="pricing">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Pricing & What's Included
               </h2>
 
@@ -1345,7 +1345,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="itineraries">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Sample Itineraries & Costs
               </h2>
 
@@ -1358,7 +1358,7 @@ export function YachtCharterPage() {
                         alt={itinerary.title}
                         className="w-full h-full object-cover"
                       />
-                      <div className="absolute top-4 right-4 bg-gradient-to-r from-[#2B5D8C] to-pink-600 text-white px-4 py-2 rounded-full shadow-md">
+                      <div className="absolute top-4 right-4 bg-gradient-to-r from-[#d7007f] to-pink-600 text-white px-4 py-2 rounded-full shadow-md">
                         <span className="text-sm font-bold">{itinerary.badge}</span>
                       </div>
                     </div>
@@ -1453,7 +1453,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="booking">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 How to Book a Yacht Charter
               </h2>
 
@@ -1503,7 +1503,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="seasons">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Best Times to Charter
               </h2>
 
@@ -1570,7 +1570,7 @@ export function YachtCharterPage() {
                 })}
               </div>
 
-              <div className="mt-8 bg-gradient-to-br from-[#2B5D8C] to-cyan-600 text-white rounded-lg shadow-xl p-6">
+              <div className="mt-8 bg-gradient-to-br from-[#d7007f] to-cyan-600 text-white rounded-lg shadow-xl p-6">
                 <h3 className="text-xl font-bold mb-3">Gulf of Thailand / Koh Samui</h3>
                 <p className="text-blue-100 mb-2">Different weather pattern from Andaman Sea:</p>
                 <div className="grid md:grid-cols-2 gap-4">
@@ -1587,7 +1587,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="packing">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 What to Bring and Wear
               </h2>
 
@@ -1637,7 +1637,7 @@ export function YachtCharterPage() {
 
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                    <Camera className="w-6 h-6 text-[#2B5D8C] mr-2" />
+                    <Camera className="w-6 h-6 text-[#d7007f] mr-2" />
                     Gear & Accessories
                   </h3>
 
@@ -1702,7 +1702,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="insider-tips">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Insider Tips for Best Experience
               </h2>
 
@@ -1754,13 +1754,13 @@ export function YachtCharterPage() {
 
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                    <Waves className="w-6 h-6 text-[#2B5D8C] mr-2" />
+                    <Waves className="w-6 h-6 text-[#d7007f] mr-2" />
                     Seasickness Prevention
                   </h3>
                   <ul className="space-y-2">
                     {insiderTips.seasickness.map((tip, i) => (
                       <li key={i} className="flex items-start text-sm text-gray-700">
-                        <CheckCircle2 className="w-4 h-4 text-[#2B5D8C] mr-2 mt-0.5 flex-shrink-0" />
+                        <CheckCircle2 className="w-4 h-4 text-[#d7007f] mr-2 mt-0.5 flex-shrink-0" />
                         <span>{tip}</span>
                       </li>
                     ))}
@@ -1785,7 +1785,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="family">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Family-Friendly Yacht Charters
               </h2>
 
@@ -1864,7 +1864,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="corporate">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Corporate & Event Charters
               </h2>
 
@@ -1891,7 +1891,7 @@ export function YachtCharterPage() {
 
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                    <Gift className="w-6 h-6 text-[#2B5D8C] mr-2" />
+                    <Gift className="w-6 h-6 text-[#d7007f] mr-2" />
                     Special Services Available
                   </h3>
                   <ul className="space-y-2">
@@ -1926,7 +1926,7 @@ export function YachtCharterPage() {
             </section>
 
             <section id="faq">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Frequently Asked Questions
               </h2>
 
@@ -1934,7 +1934,7 @@ export function YachtCharterPage() {
                 {faqs.map((faq, index) => (
                   <div key={index} className="bg-white rounded-lg shadow-md p-6">
                     <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-start">
-                      <HelpCircle className="w-5 h-5 text-[#2B5D8C] mr-2 mt-0.5 flex-shrink-0" />
+                      <HelpCircle className="w-5 h-5 text-[#d7007f] mr-2 mt-0.5 flex-shrink-0" />
                       <span>{faq.question}</span>
                     </h3>
                     <p className="text-gray-700 text-sm leading-relaxed ml-7">{faq.answer}</p>
@@ -1968,7 +1968,7 @@ export function YachtCharterPage() {
           <aside className="space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6 sticky top-24">
               <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                <Calendar className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                <Calendar className="w-5 h-5 text-[#d7007f] mr-2" />
                 Quick Reference
               </h3>
               <div className="space-y-4 text-sm">

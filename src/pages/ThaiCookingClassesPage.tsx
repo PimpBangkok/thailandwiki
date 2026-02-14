@@ -104,7 +104,7 @@ export default function ThaiCookingClassesPage() {
       includes: ['Professional instruction', 'Certificate program', 'Advanced techniques', 'Career guidance'],
       bestFor: 'Aspiring chefs, career development',
       priceRange: '$200-1,000 USD',
-      color: 'from-emerald-500 to-[#2B5D8C]',
+      color: 'from-emerald-500 to-[#d7007f]',
       description: 'Multi-day professional courses transform passionate home cooks into confident Thai cuisine specialists through structured curriculum covering regional variations, advanced techniques, and restaurant-level execution. These intensive programs typically span three to seven days, with each day focusing on specific aspects of Thai cooking: day one covers fundamental ingredients and basic dishes, day two explores Northern Thai cuisine from Chiang Mai, day three delves into Southern coastal flavors, day four teaches Royal Thai cuisine and presentation, and subsequent days cover specialized topics like Thai desserts, street food, or restaurant menu development. Students work with professional-grade equipment, learn bulk preparation techniques, and understand food costing and menu planning. Many programs conclude with a practical exam where students prepare a multi-course Thai meal for evaluation. Graduates receive official certificates recognized by culinary institutions, valuable for career changers, food entrepreneurs planning Thai restaurants, or cooking instructors. Some schools offer advanced courses specifically designed for professional chefs wanting to add Thai specialties to their repertoire. Multi-day courses often include accommodation packages, cultural excursions, and networking opportunities with Thai culinary professionals.',
     },
   ];
@@ -2021,7 +2021,7 @@ export default function ThaiCookingClassesPage() {
 
             <div className="bg-gradient-to-br from-pink-50 to-cyan-50 rounded-xl p-8 shadow-lg border border-pink-200">
               <div className="flex items-start gap-4 mb-4">
-                <MapPin className="w-8 h-8 text-[#2B5D8C] flex-shrink-0" />
+                <MapPin className="w-8 h-8 text-[#d7007f] flex-shrink-0" />
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">Do classes include hotel pickup?</h3>
                   <p className="text-gray-700 leading-relaxed">

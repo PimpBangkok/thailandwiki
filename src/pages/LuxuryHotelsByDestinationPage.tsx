@@ -739,7 +739,7 @@ export default function LuxuryHotelsByDestinationPage() {
             </section>
 
             <section id="destination-selector">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Quick Destination Selector
               </h2>
 
@@ -774,23 +774,23 @@ export default function LuxuryHotelsByDestinationPage() {
           <aside className="space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6 sticky top-24">
               <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                <Award className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                <Award className="w-5 h-5 text-[#d7007f] mr-2" />
                 Quick Navigation
               </h3>
               <nav className="space-y-2 text-sm">
-                <a href="#bangkok-hotels" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#bangkok-hotels" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Bangkok Hotels
                 </a>
-                <a href="#phuket-hotels" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#phuket-hotels" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Phuket Hotels
                 </a>
-                <a href="#samui-hotels" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#samui-hotels" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Koh Samui Hotels
                 </a>
-                <a href="#chiang-mai-hotels" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#chiang-mai-hotels" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Chiang Mai Hotels
                 </a>
-                <a href="#destination-selector" className="block text-gray-700 hover:text-[#2B5D8C] transition-colors">
+                <a href="#destination-selector" className="block text-gray-700 hover:text-[#d7007f] transition-colors">
                   → Destination Selector
                 </a>
               </nav>
@@ -798,7 +798,7 @@ export default function LuxuryHotelsByDestinationPage() {
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                <Sparkles className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                <Sparkles className="w-5 h-5 text-[#d7007f] mr-2" />
                 By Experience
               </h3>
               <div className="space-y-3 text-sm">
@@ -821,7 +821,7 @@ export default function LuxuryHotelsByDestinationPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#2B5D8C] to-pink-700 text-white rounded-lg shadow-md p-6">
+            <div className="bg-gradient-to-br from-[#d7007f] to-pink-700 text-white rounded-lg shadow-md p-6">
               <h3 className="text-lg font-semibold mb-3">Planning Tip</h3>
               <p className="text-sm text-white/90">
                 Most itineraries combine 2-3 destinations: Start with Bangkok (2 nights), then beach resort (4-5 nights), optional Chiang Mai (2-3 nights) for culture.

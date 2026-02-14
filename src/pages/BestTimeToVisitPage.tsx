@@ -85,11 +85,11 @@ function MonthCard({ month, weather, temperature, crowds, prices, bestFor, highl
       </div>
 
       <div className="border-t border-gray-200 pt-4">
-        <p className="text-sm font-semibold text-[#2B5D8C] mb-2">BEST FOR:</p>
+        <p className="text-sm font-semibold text-[#d7007f] mb-2">BEST FOR:</p>
         <ul className="space-y-1 mb-4">
           {bestFor.map((item, idx) => (
             <li key={idx} className="text-gray-700 text-sm flex items-start gap-2">
-              <Sparkles className="w-4 h-4 text-[#2B5D8C] flex-shrink-0 mt-0.5" />
+              <Sparkles className="w-4 h-4 text-[#d7007f] flex-shrink-0 mt-0.5" />
               <span>{item}</span>
             </li>
           ))}
@@ -98,7 +98,7 @@ function MonthCard({ month, weather, temperature, crowds, prices, bestFor, highl
         {highlights && highlights.length > 0 && (
           <div className="bg-pink-50 border border-pink-200 rounded-lg p-3 mb-3">
             {highlights.map((highlight, idx) => (
-              <p key={idx} className="text-sm text-[#2B5D8C] mb-0 font-medium">
+              <p key={idx} className="text-sm text-[#d7007f] mb-0 font-medium">
                 {highlight}
               </p>
             ))}
@@ -157,7 +157,7 @@ export default function BestTimeToVisitPage() {
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
-            <div className="bg-gradient-to-r from-pink-50 to-blue-50 border-l-4 border-[#2B5D8C] p-8 mb-12 rounded-r-lg">
+            <div className="bg-gradient-to-r from-pink-50 to-blue-50 border-l-4 border-[#d7007f] p-8 mb-12 rounded-r-lg">
               <p className="text-gray-800 text-xl leading-relaxed mb-4">
                 Thailand has <strong>three main seasons</strong>: cool (Nov-Feb), hot (Mar-May), and rainy (Jun-Oct). The "best" time depends on your priorities: <strong>weather, crowds, or budget</strong>.
               </p>
@@ -506,7 +506,7 @@ export default function BestTimeToVisitPage() {
                   <div className="flex-1">
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">East Coast Islands (Koh Samui, Koh Phangan, Koh Tao)</h3>
                     <div className="bg-pink-100 border border-pink-200 rounded-lg p-3 mb-2">
-                      <p className="text-[#2B5D8C] font-semibold mb-0">WARNING: OPPOSITE PATTERN! Rainy: Oct-Dec. Best: Jan-Sep.</p>
+                      <p className="text-[#d7007f] font-semibold mb-0">WARNING: OPPOSITE PATTERN! Rainy: Oct-Dec. Best: Jan-Sep.</p>
                     </div>
                     <p className="text-gray-700 mb-0">Great alternative during west coast rainy season!</p>
                   </div>
@@ -567,7 +567,7 @@ export default function BestTimeToVisitPage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-gray-900 via-[#2B5D8C] to-blue-900 text-white rounded-2xl p-12 text-center mt-12 relative overflow-hidden">
+            <div className="bg-gradient-to-br from-gray-900 via-[#d7007f] to-blue-900 text-white rounded-2xl p-12 text-center mt-12 relative overflow-hidden">
               <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjAzIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-50"></div>
               <div className="relative z-10">
                 <h3 className="text-3xl md:text-4xl font-light mb-4 uppercase tracking-wide">
@@ -586,7 +586,7 @@ export default function BestTimeToVisitPage() {
                   className="inline-flex items-center gap-2 bg-white text-gray-900 px-10 py-5 rounded-full font-semibold hover:bg-gray-100 transition-all hover:scale-105 uppercase tracking-wider shadow-xl"
                 >
                   <span>Ask Our Experts</span>
-                  <span className="text-[#2B5D8C]">→</span>
+                  <span className="text-[#d7007f]">→</span>
                 </button>
               </div>
             </div>

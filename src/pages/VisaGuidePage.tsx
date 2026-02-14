@@ -220,12 +220,12 @@ export default function VisaGuidePage() {
                 </div>
               </div>
 
-              <div className="bg-pink-50 border-l-4 border-[#2B5D8C] p-6 rounded-r-lg mb-8">
-                <h3 className="text-xl font-semibold text-[#2B5D8C] mb-3 mt-0">Extensions</h3>
-                <p className="text-[#2B5D8C] mb-2">
+              <div className="bg-pink-50 border-l-4 border-[#d7007f] p-6 rounded-r-lg mb-8">
+                <h3 className="text-xl font-semibold text-[#d7007f] mb-3 mt-0">Extensions</h3>
+                <p className="text-[#d7007f] mb-2">
                   <strong>Can extend once for 30 more days</strong> at any immigration office in Thailand.
                 </p>
-                <div className="flex items-center gap-4 text-sm text-[#2B5D8C] mt-3">
+                <div className="flex items-center gap-4 text-sm text-[#d7007f] mt-3">
                   <div className="flex items-center gap-1">
                     <DollarSign className="w-4 h-4" />
                     <span>Cost: 1,900 THB (~$55 USD)</span>
@@ -252,15 +252,15 @@ export default function VisaGuidePage() {
                 </h3>
                 <ul className="space-y-2 text-gray-700 text-lg mb-0">
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#2B5D8C] flex-shrink-0 mt-1" />
+                    <Check className="w-5 h-5 text-[#d7007f] flex-shrink-0 mt-1" />
                     <span>Travelers planning to stay longer than 30 days</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#2B5D8C] flex-shrink-0 mt-1" />
+                    <Check className="w-5 h-5 text-[#d7007f] flex-shrink-0 mt-1" />
                     <span>Multiple-entry trips to Thailand</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#2B5D8C] flex-shrink-0 mt-1" />
+                    <Check className="w-5 h-5 text-[#d7007f] flex-shrink-0 mt-1" />
                     <span>Citizens from countries without visa exemption</span>
                   </li>
                 </ul>
@@ -274,7 +274,7 @@ export default function VisaGuidePage() {
                 <div className="space-y-4">
                   <div className="bg-white border border-gray-200 rounded-lg p-6">
                     <div className="flex items-start gap-4">
-                      <div className="bg-pink-100 text-[#2B5D8C] rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0">
+                      <div className="bg-pink-100 text-[#d7007f] rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0">
                         1
                       </div>
                       <div>
@@ -283,7 +283,7 @@ export default function VisaGuidePage() {
                           Apply at Thai embassy/consulate in your home country OR use the e-visa online system (available for most countries).
                         </p>
                         <div className="bg-gray-50 p-3 rounded text-sm text-gray-600">
-                          <strong>Recommended:</strong> E-visa is faster and more convenient. Check if available for your country at <a href="https://www.thaievisa.go.th" target="_blank" rel="noopener noreferrer" className="text-[#2B5D8C] hover:underline">thaievisa.go.th</a>
+                          <strong>Recommended:</strong> E-visa is faster and more convenient. Check if available for your country at <a href="https://www.thaievisa.go.th" target="_blank" rel="noopener noreferrer" className="text-[#d7007f] hover:underline">thaievisa.go.th</a>
                         </div>
                       </div>
                     </div>
@@ -291,7 +291,7 @@ export default function VisaGuidePage() {
 
                   <div className="bg-white border border-gray-200 rounded-lg p-6">
                     <div className="flex items-start gap-4">
-                      <div className="bg-pink-100 text-[#2B5D8C] rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0">
+                      <div className="bg-pink-100 text-[#d7007f] rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0">
                         2
                       </div>
                       <div>
@@ -305,7 +305,7 @@ export default function VisaGuidePage() {
 
                   <div className="bg-white border border-gray-200 rounded-lg p-6">
                     <div className="flex items-start gap-4">
-                      <div className="bg-pink-100 text-[#2B5D8C] rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0">
+                      <div className="bg-pink-100 text-[#d7007f] rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0">
                         3
                       </div>
                       <div>
@@ -329,7 +329,7 @@ export default function VisaGuidePage() {
 
                   <div className="bg-white border border-gray-200 rounded-lg p-6">
                     <div className="flex items-start gap-4">
-                      <div className="bg-pink-100 text-[#2B5D8C] rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0">
+                      <div className="bg-pink-100 text-[#d7007f] rounded-full w-8 h-8 flex items-center justify-center font-bold flex-shrink-0">
                         4
                       </div>
                       <div>
@@ -394,12 +394,12 @@ export default function VisaGuidePage() {
                 </div>
               </div>
 
-              <div className="bg-pink-50 border-l-4 border-[#2B5D8C] p-6 rounded-r-lg">
-                <h3 className="text-xl font-semibold text-[#2B5D8C] mb-3 mt-0">Extensions</h3>
-                <p className="text-[#2B5D8C] mb-0">
+              <div className="bg-pink-50 border-l-4 border-[#d7007f] p-6 rounded-r-lg">
+                <h3 className="text-xl font-semibold text-[#d7007f] mb-3 mt-0">Extensions</h3>
+                <p className="text-[#d7007f] mb-0">
                   <strong>Can extend for 30 more days</strong> (total 90 days) at any immigration office in Thailand.
                 </p>
-                <div className="flex items-center gap-4 text-sm text-[#2B5D8C] mt-3">
+                <div className="flex items-center gap-4 text-sm text-[#d7007f] mt-3">
                   <div className="flex items-center gap-1">
                     <DollarSign className="w-4 h-4" />
                     <span>Cost: 1,900 THB (~$55 USD)</span>
@@ -458,10 +458,10 @@ export default function VisaGuidePage() {
               </div>
 
               <div className="grid md:grid-cols-3 gap-6 mb-8">
-                <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[#2B5D8C] transition-all">
+                <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[#d7007f] transition-all">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">Visa on Arrival</h3>
                   <div className="space-y-2 text-gray-700 mb-4">
-                    <p className="font-semibold text-[#2B5D8C]">15 Days</p>
+                    <p className="font-semibold text-[#d7007f]">15 Days</p>
                     <p className="text-sm">For specific countries (mostly Asian/African nations)</p>
                   </div>
                   <div className="space-y-2 text-sm text-gray-600 border-t border-gray-200 pt-4">
@@ -483,7 +483,7 @@ export default function VisaGuidePage() {
                 <div className="bg-gradient-to-br from-pink-50 to-blue-50 border-2 border-pink-200 rounded-xl p-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">Multiple Entry Tourist Visa</h3>
                   <div className="space-y-2 text-gray-700 mb-4">
-                    <p className="font-semibold text-[#2B5D8C]">Valid 6 Months</p>
+                    <p className="font-semibold text-[#d7007f]">Valid 6 Months</p>
                     <p className="text-sm">Perfect for frequent travelers</p>
                   </div>
                   <div className="space-y-2 text-sm text-gray-600 border-t border-pink-200 pt-4">
@@ -502,10 +502,10 @@ export default function VisaGuidePage() {
                   </div>
                 </div>
 
-                <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[#2B5D8C] transition-all">
+                <div className="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-[#d7007f] transition-all">
                   <h3 className="text-xl font-semibold text-gray-900 mb-3">60-Day Visa Exemption</h3>
                   <div className="space-y-2 text-gray-700 mb-4">
-                    <p className="font-semibold text-[#2B5D8C]">Updated 2024</p>
+                    <p className="font-semibold text-[#d7007f]">Updated 2024</p>
                     <p className="text-sm">Select nationalities now eligible</p>
                   </div>
                   <div className="space-y-2 text-sm text-gray-600 border-t border-gray-200 pt-4">
@@ -548,24 +548,24 @@ export default function VisaGuidePage() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
-                      <MapPin className="w-5 h-5 text-[#2B5D8C]" />
+                      <MapPin className="w-5 h-5 text-[#d7007f]" />
                       Locations
                     </h4>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#2B5D8C] font-bold">-</span>
+                        <span className="text-[#d7007f] font-bold">-</span>
                         <span><strong>Bangkok:</strong> Chaeng Wattana Government Complex</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#2B5D8C] font-bold">-</span>
+                        <span className="text-[#d7007f] font-bold">-</span>
                         <span><strong>Phuket:</strong> Phuket Immigration Office</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#2B5D8C] font-bold">-</span>
+                        <span className="text-[#d7007f] font-bold">-</span>
                         <span><strong>Chiang Mai:</strong> Promenada Resort Mall</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#2B5D8C] font-bold">-</span>
+                        <span className="text-[#d7007f] font-bold">-</span>
                         <span>Provincial immigration offices nationwide</span>
                       </li>
                     </ul>
@@ -573,7 +573,7 @@ export default function VisaGuidePage() {
 
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
-                      <FileText className="w-5 h-5 text-[#2B5D8C]" />
+                      <FileText className="w-5 h-5 text-[#d7007f]" />
                       Requirements
                     </h4>
                     <ul className="space-y-2 text-gray-700">
@@ -599,21 +599,21 @@ export default function VisaGuidePage() {
 
                 <div className="grid md:grid-cols-3 gap-4 mt-6 pt-6 border-t border-pink-200">
                   <div className="flex items-center gap-3">
-                    <DollarSign className="w-8 h-8 text-[#2B5D8C] flex-shrink-0" />
+                    <DollarSign className="w-8 h-8 text-[#d7007f] flex-shrink-0" />
                     <div>
                       <p className="text-sm text-gray-600">Cost</p>
                       <p className="font-semibold text-gray-900">1,900 THB</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <Clock className="w-8 h-8 text-[#2B5D8C] flex-shrink-0" />
+                    <Clock className="w-8 h-8 text-[#d7007f] flex-shrink-0" />
                     <div>
                       <p className="text-sm text-gray-600">Processing</p>
                       <p className="font-semibold text-gray-900">Same Day</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
-                    <Calendar className="w-8 h-8 text-[#2B5D8C] flex-shrink-0" />
+                    <Calendar className="w-8 h-8 text-[#d7007f] flex-shrink-0" />
                     <div>
                       <p className="text-sm text-gray-600">Extension</p>
                       <p className="font-semibold text-gray-900">+30 Days</p>
@@ -638,7 +638,7 @@ export default function VisaGuidePage() {
               </div>
 
               <div className="space-y-6">
-                <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-[#2B5D8C] transition-all">
+                <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-[#d7007f] transition-all">
                   <div className="bg-gradient-to-r from-pink-500 to-blue-500 p-6 text-white">
                     <h3 className="text-2xl font-semibold mb-2">Long-Term Resident (LTR) Visa</h3>
                     <p className="text-pink-50">For wealthy individuals, highly skilled professionals, and digital nomads</p>
@@ -647,7 +647,7 @@ export default function VisaGuidePage() {
                     <div className="grid md:grid-cols-2 gap-6">
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-3">Validity</h4>
-                        <p className="text-gray-700 mb-4">Up to <strong className="text-[#2B5D8C]">10 years</strong> with multiple entries</p>
+                        <p className="text-gray-700 mb-4">Up to <strong className="text-[#d7007f]">10 years</strong> with multiple entries</p>
 
                         <h4 className="font-semibold text-gray-900 mb-3">Who Qualifies?</h4>
                         <ul className="space-y-2 text-gray-700 text-sm">
@@ -673,19 +673,19 @@ export default function VisaGuidePage() {
                         <h4 className="font-semibold text-gray-900 mb-3">Benefits</h4>
                         <ul className="space-y-2 text-gray-700 text-sm mb-4">
                           <li className="flex items-start gap-2">
-                            <Check className="w-4 h-4 text-[#2B5D8C] flex-shrink-0" />
+                            <Check className="w-4 h-4 text-[#d7007f] flex-shrink-0" />
                             <span>10-year visa validity</span>
                           </li>
                           <li className="flex items-start gap-2">
-                            <Check className="w-4 h-4 text-[#2B5D8C] flex-shrink-0" />
+                            <Check className="w-4 h-4 text-[#d7007f] flex-shrink-0" />
                             <span>Fast-track immigration lanes</span>
                           </li>
                           <li className="flex items-start gap-2">
-                            <Check className="w-4 h-4 text-[#2B5D8C] flex-shrink-0" />
+                            <Check className="w-4 h-4 text-[#d7007f] flex-shrink-0" />
                             <span>Work permit exemption for some</span>
                           </li>
                           <li className="flex items-start gap-2">
-                            <Check className="w-4 h-4 text-[#2B5D8C] flex-shrink-0" />
+                            <Check className="w-4 h-4 text-[#d7007f] flex-shrink-0" />
                             <span>Tax benefits available</span>
                           </li>
                         </ul>
@@ -700,7 +700,7 @@ export default function VisaGuidePage() {
                   </div>
                 </div>
 
-                <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-[#2B5D8C] transition-all">
+                <div className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-[#d7007f] transition-all">
                   <div className="bg-gradient-to-r from-blue-500 to-purple-500 p-6 text-white">
                     <h3 className="text-2xl font-semibold mb-2">Education (ED) Visa</h3>
                     <p className="text-blue-50">For language students and cultural learners</p>
@@ -891,9 +891,9 @@ export default function VisaGuidePage() {
                   href="https://www.thaievisa.go.th"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-[#2B5D8C] transition-all group"
+                  className="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-[#d7007f] transition-all group"
                 >
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#2B5D8C] transition-colors">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
                     Thailand E-Visa Portal
                   </h3>
                   <p className="text-gray-600 text-sm">
@@ -905,9 +905,9 @@ export default function VisaGuidePage() {
                   href="https://www.mfa.go.th"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-[#2B5D8C] transition-all group"
+                  className="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-[#d7007f] transition-all group"
                 >
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#2B5D8C] transition-colors">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
                     Ministry of Foreign Affairs
                   </h3>
                   <p className="text-gray-600 text-sm">
@@ -917,9 +917,9 @@ export default function VisaGuidePage() {
 
                 <Link
                   to="/practical"
-                  className="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-[#2B5D8C] transition-all group"
+                  className="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-[#d7007f] transition-all group"
                 >
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#2B5D8C] transition-colors">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
                     Practical Travel Guide
                   </h3>
                   <p className="text-gray-600 text-sm">
@@ -929,9 +929,9 @@ export default function VisaGuidePage() {
 
                 <Link
                   to="/travel-planning"
-                  className="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-[#2B5D8C] transition-all group"
+                  className="block bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg hover:border-[#d7007f] transition-all group"
                 >
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#2B5D8C] transition-colors">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#d7007f] transition-colors">
                     Trip Planning Guide
                   </h3>
                   <p className="text-gray-600 text-sm">
@@ -941,7 +941,7 @@ export default function VisaGuidePage() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-[#2B5D8C] text-white rounded-2xl p-12 text-center mt-12 relative overflow-hidden">
+            <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-[#d7007f] text-white rounded-2xl p-12 text-center mt-12 relative overflow-hidden">
               <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjAzIiBzdHJva2Utd2lkdGg9IjEiLz48L3BhdHRlcm4+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JpZCkiLz48L3N2Zz4=')] opacity-50"></div>
               <div className="relative z-10">
                 <h3 className="text-3xl md:text-4xl font-light mb-4 uppercase tracking-wide">
@@ -960,7 +960,7 @@ export default function VisaGuidePage() {
                   className="inline-flex items-center gap-2 bg-white text-gray-900 px-10 py-5 rounded-full font-semibold hover:bg-gray-100 transition-all hover:scale-105 uppercase tracking-wider shadow-xl"
                 >
                   <span>Ask Now</span>
-                  <span className="text-[#2B5D8C]">&gt;</span>
+                  <span className="text-[#d7007f]">&gt;</span>
                 </button>
               </div>
             </div>

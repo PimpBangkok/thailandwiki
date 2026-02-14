@@ -330,7 +330,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search destinations, activities, hotels..."
                 aria-label="Search ThailandWiki"
-                className="w-full pl-10 sm:pl-12 pr-10 sm:pr-4 py-3 sm:py-4 border-2 border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#2B5D8C] focus:border-transparent text-sm sm:text-base bg-gray-50 focus:bg-white transition-colors"
+                className="w-full pl-10 sm:pl-12 pr-10 sm:pr-4 py-3 sm:py-4 border-2 border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#d7007f] focus:border-transparent text-sm sm:text-base bg-gray-50 focus:bg-white transition-colors"
               />
               {searchQuery && (
                 <button
@@ -351,7 +351,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
         <div className="p-4 sm:p-5 pt-3 sm:pt-4">
           {isSearching ? (
             <div className="flex items-center justify-center py-12 animate-fade-in">
-              <Loader2 className="w-8 h-8 text-[#2B5D8C] animate-spin" />
+              <Loader2 className="w-8 h-8 text-[#d7007f] animate-spin" />
             </div>
           ) : searchQuery.trim().length >= 2 ? (
             <>
@@ -362,14 +362,14 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                 quickAnswer) ? (
                 <div className="space-y-6 animate-fade-in">
                   {quickAnswer && (
-                    <div className="bg-gradient-to-r from-pink-50 to-pink-100 border-l-4 border-[#2B5D8C] rounded-lg p-4 animate-scale-in">
+                    <div className="bg-gradient-to-r from-pink-50 to-pink-100 border-l-4 border-[#d7007f] rounded-lg p-4 animate-scale-in">
                       <div className="flex items-start gap-3">
-                        <div className="flex-shrink-0 w-8 h-8 bg-[#2B5D8C] rounded-lg flex items-center justify-center mt-0.5">
+                        <div className="flex-shrink-0 w-8 h-8 bg-[#d7007f] rounded-lg flex items-center justify-center mt-0.5">
                           <Lightbulb className="w-5 h-5 text-white" />
                         </div>
                         <div className="flex-1">
-                          <h3 className="text-sm font-semibold text-[#2B5D8C] mb-2">Quick Answer</h3>
-                          <p className="text-sm text-[#2B5D8C] leading-relaxed">{quickAnswer}</p>
+                          <h3 className="text-sm font-semibold text-[#d7007f] mb-2">Quick Answer</h3>
+                          <p className="text-sm text-[#d7007f] leading-relaxed">{quickAnswer}</p>
                         </div>
                       </div>
                     </div>
@@ -378,7 +378,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                   {groupedResults.destinations.length > 0 && (
                     <div className="space-y-2">
                       <div className="flex items-center gap-2 px-1">
-                        <MapPin className="w-4 h-4 text-[#2B5D8C]" />
+                        <MapPin className="w-4 h-4 text-[#d7007f]" />
                         <h3 className="text-xs font-bold text-gray-700 uppercase tracking-wider">
                           Destinations ({groupedResults.destinations.length})
                         </h3>
@@ -393,18 +393,18 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                               onClick={() => handleNavigate(result.path)}
                               className={`w-full text-left border rounded-lg p-3 transition-all group ${
                                 isSelected
-                                  ? 'bg-gradient-to-r from-pink-100 to-pink-200 border-[#2B5D8C]'
-                                  : 'bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border-gray-200 hover:border-[#2B5D8C]'
+                                  ? 'bg-gradient-to-r from-pink-100 to-pink-200 border-[#d7007f]'
+                                  : 'bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border-gray-200 hover:border-[#d7007f]'
                               }`}
                             >
                               <div className="flex items-start gap-3">
-                                <MapPin className={`w-4 h-4 flex-shrink-0 mt-0.5 ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-400 group-hover:text-[#2B5D8C]'}`} />
+                                <MapPin className={`w-4 h-4 flex-shrink-0 mt-0.5 ${isSelected ? 'text-[#d7007f]' : 'text-gray-400 group-hover:text-[#d7007f]'}`} />
                                 <div className="flex-1 min-w-0">
-                                  <h4 className={`text-sm font-medium ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-900 group-hover:text-[#2B5D8C]'}`}>
+                                  <h4 className={`text-sm font-medium ${isSelected ? 'text-[#d7007f]' : 'text-gray-900 group-hover:text-[#d7007f]'}`}>
                                     {highlightMatch(result.title, searchQuery)}
                                   </h4>
                                   {result.description && (
-                                    <p className={`text-xs mt-0.5 ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-600 group-hover:text-[#2B5D8C]'}`}>
+                                    <p className={`text-xs mt-0.5 ${isSelected ? 'text-[#d7007f]' : 'text-gray-600 group-hover:text-[#d7007f]'}`}>
                                       {highlightMatch(result.description, searchQuery)}
                                     </p>
                                   )}
@@ -420,7 +420,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                   {groupedResults.guides.length > 0 && (
                     <div className="space-y-2">
                       <div className="flex items-center gap-2 px-1">
-                        <FileText className="w-4 h-4 text-[#2B5D8C]" />
+                        <FileText className="w-4 h-4 text-[#d7007f]" />
                         <h3 className="text-xs font-bold text-gray-700 uppercase tracking-wider">
                           Travel Guides ({groupedResults.guides.length})
                         </h3>
@@ -435,18 +435,18 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                               onClick={() => handleNavigate(result.path)}
                               className={`w-full text-left border rounded-lg p-3 transition-all group ${
                                 isSelected
-                                  ? 'bg-gradient-to-r from-pink-100 to-pink-200 border-[#2B5D8C]'
-                                  : 'bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border-gray-200 hover:border-[#2B5D8C]'
+                                  ? 'bg-gradient-to-r from-pink-100 to-pink-200 border-[#d7007f]'
+                                  : 'bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border-gray-200 hover:border-[#d7007f]'
                               }`}
                             >
                               <div className="flex items-start gap-3">
-                                <FileText className={`w-4 h-4 flex-shrink-0 mt-0.5 ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-400 group-hover:text-[#2B5D8C]'}`} />
+                                <FileText className={`w-4 h-4 flex-shrink-0 mt-0.5 ${isSelected ? 'text-[#d7007f]' : 'text-gray-400 group-hover:text-[#d7007f]'}`} />
                                 <div className="flex-1 min-w-0">
-                                  <h4 className={`text-sm font-medium ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-900 group-hover:text-[#2B5D8C]'}`}>
+                                  <h4 className={`text-sm font-medium ${isSelected ? 'text-[#d7007f]' : 'text-gray-900 group-hover:text-[#d7007f]'}`}>
                                     {highlightMatch(result.title, searchQuery)}
                                   </h4>
                                   {result.description && (
-                                    <p className={`text-xs mt-0.5 ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-600 group-hover:text-[#2B5D8C]'}`}>
+                                    <p className={`text-xs mt-0.5 ${isSelected ? 'text-[#d7007f]' : 'text-gray-600 group-hover:text-[#d7007f]'}`}>
                                       {highlightMatch(result.description, searchQuery)}
                                     </p>
                                   )}
@@ -462,7 +462,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                   {groupedResults['things-to-do'].length > 0 && (
                     <div className="space-y-2">
                       <div className="flex items-center gap-2 px-1">
-                        <Compass className="w-4 h-4 text-[#2B5D8C]" />
+                        <Compass className="w-4 h-4 text-[#d7007f]" />
                         <h3 className="text-xs font-bold text-gray-700 uppercase tracking-wider">
                           Things to Do ({groupedResults['things-to-do'].length})
                         </h3>
@@ -477,18 +477,18 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                               onClick={() => handleNavigate(result.path)}
                               className={`w-full text-left border rounded-lg p-3 transition-all group ${
                                 isSelected
-                                  ? 'bg-gradient-to-r from-pink-100 to-pink-200 border-[#2B5D8C]'
-                                  : 'bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border-gray-200 hover:border-[#2B5D8C]'
+                                  ? 'bg-gradient-to-r from-pink-100 to-pink-200 border-[#d7007f]'
+                                  : 'bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border-gray-200 hover:border-[#d7007f]'
                               }`}
                             >
                               <div className="flex items-start gap-3">
-                                <Compass className={`w-4 h-4 flex-shrink-0 mt-0.5 ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-400 group-hover:text-[#2B5D8C]'}`} />
+                                <Compass className={`w-4 h-4 flex-shrink-0 mt-0.5 ${isSelected ? 'text-[#d7007f]' : 'text-gray-400 group-hover:text-[#d7007f]'}`} />
                                 <div className="flex-1 min-w-0">
-                                  <h4 className={`text-sm font-medium ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-900 group-hover:text-[#2B5D8C]'}`}>
+                                  <h4 className={`text-sm font-medium ${isSelected ? 'text-[#d7007f]' : 'text-gray-900 group-hover:text-[#d7007f]'}`}>
                                     {highlightMatch(result.title, searchQuery)}
                                   </h4>
                                   {result.description && (
-                                    <p className={`text-xs mt-0.5 ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-600 group-hover:text-[#2B5D8C]'}`}>
+                                    <p className={`text-xs mt-0.5 ${isSelected ? 'text-[#d7007f]' : 'text-gray-600 group-hover:text-[#d7007f]'}`}>
                                       {highlightMatch(result.description, searchQuery)}
                                     </p>
                                   )}
@@ -504,7 +504,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                   {groupedResults.accommodation.length > 0 && (
                     <div className="space-y-2">
                       <div className="flex items-center gap-2 px-1">
-                        <Hotel className="w-4 h-4 text-[#2B5D8C]" />
+                        <Hotel className="w-4 h-4 text-[#d7007f]" />
                         <h3 className="text-xs font-bold text-gray-700 uppercase tracking-wider">
                           Hotels & Accommodation ({groupedResults.accommodation.length})
                         </h3>
@@ -519,18 +519,18 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                               onClick={() => handleNavigate(result.path)}
                               className={`w-full text-left border rounded-lg p-3 transition-all group ${
                                 isSelected
-                                  ? 'bg-gradient-to-r from-pink-100 to-pink-200 border-[#2B5D8C]'
-                                  : 'bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border-gray-200 hover:border-[#2B5D8C]'
+                                  ? 'bg-gradient-to-r from-pink-100 to-pink-200 border-[#d7007f]'
+                                  : 'bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border-gray-200 hover:border-[#d7007f]'
                               }`}
                             >
                               <div className="flex items-start gap-3">
-                                <Hotel className={`w-4 h-4 flex-shrink-0 mt-0.5 ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-400 group-hover:text-[#2B5D8C]'}`} />
+                                <Hotel className={`w-4 h-4 flex-shrink-0 mt-0.5 ${isSelected ? 'text-[#d7007f]' : 'text-gray-400 group-hover:text-[#d7007f]'}`} />
                                 <div className="flex-1 min-w-0">
-                                  <h4 className={`text-sm font-medium ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-900 group-hover:text-[#2B5D8C]'}`}>
+                                  <h4 className={`text-sm font-medium ${isSelected ? 'text-[#d7007f]' : 'text-gray-900 group-hover:text-[#d7007f]'}`}>
                                     {highlightMatch(result.title, searchQuery)}
                                   </h4>
                                   {result.description && (
-                                    <p className={`text-xs mt-0.5 ${isSelected ? 'text-[#2B5D8C]' : 'text-gray-600 group-hover:text-[#2B5D8C]'}`}>
+                                    <p className={`text-xs mt-0.5 ${isSelected ? 'text-[#d7007f]' : 'text-gray-600 group-hover:text-[#d7007f]'}`}>
                                       {highlightMatch(result.description, searchQuery)}
                                     </p>
                                   )}
@@ -550,7 +550,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                           navigate(`/search?q=${encodeURIComponent(searchQuery)}`);
                           onClose();
                         }}
-                        className="w-full py-3 px-4 bg-gradient-to-r from-[#2B5D8C] to-[#2B5D8C] hover:from-[#2B5D8C] hover:to-[#2B5D8C] text-white font-semibold rounded-lg transition-all shadow-md hover:shadow-lg"
+                        className="w-full py-3 px-4 bg-gradient-to-r from-[#d7007f] to-[#d7007f] hover:from-[#d7007f] hover:to-[#d7007f] text-white font-semibold rounded-lg transition-all shadow-md hover:shadow-lg"
                       >
                         View all {totalResultsCount} results
                       </button>
@@ -562,7 +562,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                   <Search className="w-12 h-12 text-gray-300 mx-auto mb-3" />
                   <p className="text-gray-600 font-medium mb-2">No results found</p>
                   <p className="text-sm text-gray-500 mb-4">
-                    Try: <span className="font-medium text-[#2B5D8C]">bangkok</span>, <span className="font-medium text-[#2B5D8C]">beaches</span>, <span className="font-medium text-[#2B5D8C]">visa</span>, <span className="font-medium text-[#2B5D8C]">budget</span>, or <span className="font-medium text-[#2B5D8C]">food</span>
+                    Try: <span className="font-medium text-[#d7007f]">bangkok</span>, <span className="font-medium text-[#d7007f]">beaches</span>, <span className="font-medium text-[#d7007f]">visa</span>, <span className="font-medium text-[#d7007f]">budget</span>, or <span className="font-medium text-[#d7007f]">food</span>
                   </p>
                 </div>
               )}
@@ -579,7 +579,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                       <button
                         key={index}
                         onClick={() => setSearchQuery(search)}
-                        className="px-3 py-2 sm:px-4 sm:py-2 bg-gradient-to-r from-pink-50 to-pink-100 hover:from-pink-100 hover:to-pink-200 border border-pink-300 hover:border-[#2B5D8C] rounded-full text-xs sm:text-sm text-[#2B5D8C] hover:text-[#2B5D8C] transition-all font-medium shadow-sm hover:shadow min-h-[40px]"
+                        className="px-3 py-2 sm:px-4 sm:py-2 bg-gradient-to-r from-pink-50 to-pink-100 hover:from-pink-100 hover:to-pink-200 border border-pink-300 hover:border-[#d7007f] rounded-full text-xs sm:text-sm text-[#d7007f] hover:text-[#d7007f] transition-all font-medium shadow-sm hover:shadow min-h-[40px]"
                       >
                         <Search className="w-3 h-3 inline mr-1.5" />
                         {search}
@@ -598,7 +598,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                     <button
                       key={index}
                       onClick={() => handleNavigate(search.path)}
-                      className="px-3 py-2 sm:px-4 sm:py-2 bg-gradient-to-r from-gray-50 to-gray-100 hover:from-pink-50 hover:to-pink-100 border border-gray-200 hover:border-[#2B5D8C] rounded-full text-xs sm:text-sm text-gray-700 hover:text-[#2B5D8C] transition-all font-medium shadow-sm hover:shadow min-h-[40px]"
+                      className="px-3 py-2 sm:px-4 sm:py-2 bg-gradient-to-r from-gray-50 to-gray-100 hover:from-pink-50 hover:to-pink-100 border border-gray-200 hover:border-[#d7007f] rounded-full text-xs sm:text-sm text-gray-700 hover:text-[#d7007f] transition-all font-medium shadow-sm hover:shadow min-h-[40px]"
                     >
                       {search.label}
                     </button>
@@ -617,16 +617,16 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
                       <button
                         key={index}
                         onClick={() => handleNavigate(link.path)}
-                        className="flex items-start p-3 sm:p-4 bg-white hover:bg-gradient-to-br hover:from-pink-50 hover:to-pink-100 border border-gray-200 hover:border-[#2B5D8C] rounded-xl text-left transition-all group min-h-[60px]"
+                        className="flex items-start p-3 sm:p-4 bg-white hover:bg-gradient-to-br hover:from-pink-50 hover:to-pink-100 border border-gray-200 hover:border-[#d7007f] rounded-xl text-left transition-all group min-h-[60px]"
                       >
-                        <div className="flex-shrink-0 w-9 h-9 sm:w-10 sm:h-10 bg-gradient-to-br from-pink-500 to-[#2B5D8C] group-hover:from-[#2B5D8C] group-hover:to-[#2B5D8C] rounded-lg flex items-center justify-center shadow-md group-hover:shadow-lg transition-all mr-2.5 sm:mr-3">
+                        <div className="flex-shrink-0 w-9 h-9 sm:w-10 sm:h-10 bg-gradient-to-br from-pink-500 to-[#d7007f] group-hover:from-[#d7007f] group-hover:to-[#d7007f] rounded-lg flex items-center justify-center shadow-md group-hover:shadow-lg transition-all mr-2.5 sm:mr-3">
                           <Icon className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                         </div>
                         <div className="flex-1 min-w-0">
-                          <h3 className="text-sm font-semibold text-gray-900 group-hover:text-[#2B5D8C] mb-0.5">
+                          <h3 className="text-sm font-semibold text-gray-900 group-hover:text-[#d7007f] mb-0.5">
                             {link.label}
                           </h3>
-                          <p className="text-xs text-gray-600 group-hover:text-[#2B5D8C]">
+                          <p className="text-xs text-gray-600 group-hover:text-[#d7007f]">
                             {link.description}
                           </p>
                         </div>

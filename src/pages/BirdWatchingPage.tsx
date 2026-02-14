@@ -360,7 +360,7 @@ export function BirdWatchingPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="relative h-[500px] bg-gradient-to-br from-green-900 via-emerald-800 to-[#2B5D8C]">
+      <div className="relative h-[500px] bg-gradient-to-br from-green-900 via-emerald-800 to-[#d7007f]">
         <div
           className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-40"
           style={{
@@ -398,7 +398,7 @@ export function BirdWatchingPage() {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-gray-700 hover:text-[#2B5D8C] transition-colors"
+                className="text-sm font-medium text-gray-700 hover:text-[#d7007f] transition-colors"
               >
                 {item.label}
               </a>
@@ -423,7 +423,7 @@ export function BirdWatchingPage() {
             </section>
 
             <section id="why-thailand" className="mb-8">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Why Thailand for Bird Watching
               </h2>
 
@@ -542,7 +542,7 @@ export function BirdWatchingPage() {
             </section>
 
             <section id="northern-thailand" className="mb-8">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Best Locations - Northern Thailand
               </h2>
 
@@ -558,7 +558,7 @@ export function BirdWatchingPage() {
                       <span className="text-sm font-bold text-gray-900">{location.expectedSpecies}</span>
                     </div>
                     {index === 0 && (
-                      <div className="absolute top-4 left-4 bg-[#2B5D8C] text-white px-3 py-1 rounded-full shadow-md">
+                      <div className="absolute top-4 left-4 bg-[#d7007f] text-white px-3 py-1 rounded-full shadow-md">
                         <span className="text-sm font-bold">TOP SITE</span>
                       </div>
                     )}
@@ -609,7 +609,7 @@ export function BirdWatchingPage() {
 
                     <div className="mb-6">
                       <h4 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
-                        <Bird className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                        <Bird className="w-5 h-5 text-[#d7007f] mr-2" />
                         Target Species
                       </h4>
                       <div className="grid md:grid-cols-2 gap-2">
@@ -672,7 +672,7 @@ export function BirdWatchingPage() {
             </section>
 
             <section id="central-thailand" className="mb-8">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Central Thailand Birding Sites
               </h2>
 
@@ -694,7 +694,7 @@ export function BirdWatchingPage() {
                       <span className="text-sm font-bold text-gray-900">{location.expectedSpecies}</span>
                     </div>
                     {index === 0 && (
-                      <div className="absolute top-4 left-4 bg-[#2B5D8C] text-white px-3 py-1 rounded-full shadow-md">
+                      <div className="absolute top-4 left-4 bg-[#d7007f] text-white px-3 py-1 rounded-full shadow-md">
                         <span className="text-sm font-bold">PREMIER SITE</span>
                       </div>
                     )}
@@ -756,7 +756,7 @@ export function BirdWatchingPage() {
 
                     <div className="mb-6">
                       <h4 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
-                        <Bird className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                        <Bird className="w-5 h-5 text-[#d7007f] mr-2" />
                         Target Species
                       </h4>
                       <div className="grid md:grid-cols-2 gap-2">
@@ -819,7 +819,7 @@ export function BirdWatchingPage() {
             </section>
 
             <section id="southern-thailand" className="mb-8">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Southern Thailand Birding
               </h2>
 
@@ -898,7 +898,7 @@ export function BirdWatchingPage() {
 
                     <div className="mb-6">
                       <h4 className="text-lg font-semibold text-gray-900 mb-3 flex items-center">
-                        <Bird className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                        <Bird className="w-5 h-5 text-[#d7007f] mr-2" />
                         Target Species
                       </h4>
                       <div className="grid md:grid-cols-2 gap-2">
@@ -961,7 +961,7 @@ export function BirdWatchingPage() {
             </section>
 
             <section id="practical" className="mb-8">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Practical Birding Information
               </h2>
 
@@ -997,7 +997,7 @@ export function BirdWatchingPage() {
 
                 <div className="bg-white rounded-lg shadow-md p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                    <Clock className="w-6 h-6 text-[#2B5D8C] mr-2" />
+                    <Clock className="w-6 h-6 text-[#d7007f] mr-2" />
                     Best Times to Bird
                   </h3>
                   <ul className="space-y-3">
@@ -1101,7 +1101,7 @@ export function BirdWatchingPage() {
             </section>
 
             <section id="faq" className="mb-8">
-              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#2B5D8C] pb-3">
+              <h2 className="text-3xl sm:text-4xl font-light text-[#252525] mb-6 uppercase tracking-[2px] border-b-2 border-[#d7007f] pb-3">
                 Frequently Asked Questions
               </h2>
 
@@ -1154,7 +1154,7 @@ export function BirdWatchingPage() {
           <aside className="space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6 sticky top-24">
               <h3 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                <Clock className="w-5 h-5 text-[#2B5D8C] mr-2" />
+                <Clock className="w-5 h-5 text-[#d7007f] mr-2" />
                 Quick Facts
               </h3>
               <div className="space-y-4 text-sm">

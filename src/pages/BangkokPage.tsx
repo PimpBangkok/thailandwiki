@@ -68,11 +68,11 @@ export default function BangkokPage() {
 
         <div className="relative z-10 max-w-[1700px] mx-auto px-6 lg:px-12 text-center text-white py-32">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <MapPin className="w-8 h-8 text-[#2B5D8C]" />
-            <span className="text-lg uppercase tracking-[2px] text-[#F4A261]">Destinations</span>
+            <MapPin className="w-8 h-8 text-[#d7007f]" />
+            <span className="text-lg uppercase tracking-[2px] text-[#f7a600]">Destinations</span>
           </div>
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-light mb-8 uppercase tracking-[2px] leading-tight">
-            <span className="text-[#2B5D8C]">Bangkok</span>
+            <span className="text-[#d7007f]">Bangkok</span>
           </h1>
           <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-light leading-relaxed">
             Thailand's electric capital where ancient temples meet modern skyscrapers and street food reigns supreme
@@ -130,7 +130,7 @@ export default function BangkokPage() {
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Explore More
               <br />
-              <span className="text-[#F4A261]">Of Thailand</span>
+              <span className="text-[#f7a600]">Of Thailand</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Continue your journey through Thailand's incredible destinations

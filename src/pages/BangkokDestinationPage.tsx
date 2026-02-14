@@ -103,7 +103,7 @@ export default function BangkokDestinationPage() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`whitespace-nowrap px-6 py-4 text-sm font-medium uppercase tracking-wider transition-colors border-b-2 ${
                   activeTab === tab.id
-                    ? 'text-[#2B5D8C] border-[#2B5D8C]'
+                    ? 'text-[#d7007f] border-[#d7007f]'
                     : 'text-gray-600 border-transparent hover:text-gray-900'
                 }`}
               >
@@ -132,14 +132,14 @@ export default function BangkokDestinationPage() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-pink-50 to-cyan-50 border-l-4 border-[#2B5D8C] p-8 md:p-10 rounded-lg shadow-sm">
+          <div className="bg-gradient-to-br from-pink-50 to-cyan-50 border-l-4 border-[#d7007f] p-8 md:p-10 rounded-lg shadow-sm">
             <h3 className="text-2xl font-semibold mb-8 text-gray-900 uppercase tracking-wide">
               Quick Facts
             </h3>
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex flex-col">
-                <dt className="text-sm font-semibold text-[#2B5D8C] uppercase tracking-wider mb-2">
+                <dt className="text-sm font-semibold text-[#d7007f] uppercase tracking-wider mb-2">
                   Best For
                 </dt>
                 <dd className="text-gray-800 font-light">
@@ -148,7 +148,7 @@ export default function BangkokDestinationPage() {
               </div>
 
               <div className="flex flex-col">
-                <dt className="text-sm font-semibold text-[#2B5D8C] uppercase tracking-wider mb-2">
+                <dt className="text-sm font-semibold text-[#d7007f] uppercase tracking-wider mb-2">
                   Best Time to Visit
                 </dt>
                 <dd className="text-gray-800 font-light">
@@ -157,7 +157,7 @@ export default function BangkokDestinationPage() {
               </div>
 
               <div className="flex flex-col">
-                <dt className="text-sm font-semibold text-[#2B5D8C] uppercase tracking-wider mb-2">
+                <dt className="text-sm font-semibold text-[#d7007f] uppercase tracking-wider mb-2">
                   Recommended Stay
                 </dt>
                 <dd className="text-gray-800 font-light">
@@ -166,7 +166,7 @@ export default function BangkokDestinationPage() {
               </div>
 
               <div className="flex flex-col">
-                <dt className="text-sm font-semibold text-[#2B5D8C] uppercase tracking-wider mb-2">
+                <dt className="text-sm font-semibold text-[#d7007f] uppercase tracking-wider mb-2">
                   Daily Budget
                 </dt>
                 <dd className="text-gray-800 font-light">
@@ -175,7 +175,7 @@ export default function BangkokDestinationPage() {
               </div>
 
               <div className="flex flex-col">
-                <dt className="text-sm font-semibold text-[#2B5D8C] uppercase tracking-wider mb-2">
+                <dt className="text-sm font-semibold text-[#d7007f] uppercase tracking-wider mb-2">
                   Getting There
                 </dt>
                 <dd className="text-gray-800 font-light">
@@ -184,7 +184,7 @@ export default function BangkokDestinationPage() {
               </div>
 
               <div className="flex flex-col">
-                <dt className="text-sm font-semibold text-[#2B5D8C] uppercase tracking-wider mb-2">
+                <dt className="text-sm font-semibold text-[#d7007f] uppercase tracking-wider mb-2">
                   Getting Around
                 </dt>
                 <dd className="text-gray-800 font-light">
@@ -197,7 +197,7 @@ export default function BangkokDestinationPage() {
           <div className="mt-16 grid md:grid-cols-3 gap-8">
             <div className="bg-white border border-gray-200 p-8 rounded-lg hover:shadow-lg transition-shadow">
               <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mb-4">
-                <svg className="w-6 h-6 text-[#2B5D8C]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[#d7007f]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
@@ -262,7 +262,7 @@ export default function BangkokDestinationPage() {
                   Visit the Grand Palace, Wat Pho's reclining Buddha, and Wat Arun's stunning spires.
                   Don't miss Wat Saket (Golden Mount) for panoramic city views.
                 </p>
-                <a href="#" className="text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+                <a href="#" className="text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                   Explore Bangkok Temples →
                 </a>
               </div>
@@ -280,7 +280,7 @@ export default function BangkokDestinationPage() {
                   From pad thai to boat noodles, Bangkok's street food scene is legendary.
                   Head to Chinatown's Yaowarat Road for the ultimate food adventure.
                 </p>
-                <a href="#" className="text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+                <a href="#" className="text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                   Best Street Food Spots →
                 </a>
               </div>
@@ -298,7 +298,7 @@ export default function BangkokDestinationPage() {
                   Watch the sunset from Sky Bar, Vertigo, or Octave. Bangkok's rooftop scene
                   offers spectacular views and sophisticated cocktails.
                 </p>
-                <a href="#" className="text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+                <a href="#" className="text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                   Top Rooftop Venues →
                 </a>
               </div>
@@ -316,7 +316,7 @@ export default function BangkokDestinationPage() {
                   Explore Chatuchak Weekend Market, floating markets, or the train market at Maeklong.
                   Each offers unique shopping experiences.
                 </p>
-                <a href="#" className="text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+                <a href="#" className="text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                   Guide to Bangkok Markets →
                 </a>
               </div>
@@ -350,31 +350,31 @@ export default function BangkokDestinationPage() {
                 <p className="text-sm text-gray-500 mb-4 font-medium">200 guides</p>
                 <ul className="space-y-2 mb-6 text-gray-700">
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2">•</span>
+                    <span className="text-[#d7007f] mr-2">•</span>
                     <span className="font-light">Grand Palace & Wat Phra Kaew</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2">•</span>
+                    <span className="text-[#d7007f] mr-2">•</span>
                     <span className="font-light">Wat Pho (Reclining Buddha)</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2">•</span>
+                    <span className="text-[#d7007f] mr-2">•</span>
                     <span className="font-light">Wat Arun (Temple of Dawn)</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2">•</span>
+                    <span className="text-[#d7007f] mr-2">•</span>
                     <span className="font-light">Wat Saket (Golden Mount)</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2">•</span>
+                    <span className="text-[#d7007f] mr-2">•</span>
                     <span className="font-light">Jim Thompson House</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2">•</span>
+                    <span className="text-[#d7007f] mr-2">•</span>
                     <span className="font-light">Vimanmek Mansion</span>
                   </li>
                 </ul>
-                <a href="#" className="text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider inline-flex items-center">
+                <a href="#" className="text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider inline-flex items-center">
                   Browse all temple guides →
                 </a>
               </div>
@@ -634,7 +634,7 @@ export default function BangkokDestinationPage() {
                   <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">
                     Price Range:
                   </p>
-                  <p className="text-2xl font-bold text-[#2B5D8C]">
+                  <p className="text-2xl font-bold text-[#d7007f]">
                     $25-300<span className="text-base font-light text-gray-600">/night</span>
                   </p>
                 </div>
@@ -649,7 +649,7 @@ export default function BangkokDestinationPage() {
                 </div>
               </div>
 
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Browse Sukhumvit Hotels →
               </a>
             </div>
@@ -690,7 +690,7 @@ export default function BangkokDestinationPage() {
                   <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">
                     Price Range:
                   </p>
-                  <p className="text-2xl font-bold text-[#2B5D8C]">
+                  <p className="text-2xl font-bold text-[#d7007f]">
                     $100-500<span className="text-base font-light text-gray-600">/night</span>
                   </p>
                 </div>
@@ -705,7 +705,7 @@ export default function BangkokDestinationPage() {
                 </div>
               </div>
 
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Browse Riverside Hotels →
               </a>
             </div>
@@ -746,7 +746,7 @@ export default function BangkokDestinationPage() {
                   <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">
                     Price Range:
                   </p>
-                  <p className="text-2xl font-bold text-[#2B5D8C]">
+                  <p className="text-2xl font-bold text-[#d7007f]">
                     $8-40<span className="text-base font-light text-gray-600">/night</span>
                   </p>
                 </div>
@@ -761,7 +761,7 @@ export default function BangkokDestinationPage() {
                 </div>
               </div>
 
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Browse Khao San Hotels →
               </a>
             </div>
@@ -802,7 +802,7 @@ export default function BangkokDestinationPage() {
                   <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">
                     Price Range:
                   </p>
-                  <p className="text-2xl font-bold text-[#2B5D8C]">
+                  <p className="text-2xl font-bold text-[#d7007f]">
                     $40-250<span className="text-base font-light text-gray-600">/night</span>
                   </p>
                 </div>
@@ -817,14 +817,14 @@ export default function BangkokDestinationPage() {
                 </div>
               </div>
 
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Browse Siam Hotels →
               </a>
             </div>
           </div>
 
           <div className="text-center">
-            <a href="#" className="inline-block bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#" className="inline-block bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               View All Bangkok Accommodation →
             </a>
           </div>
@@ -954,7 +954,7 @@ export default function BangkokDestinationPage() {
 
             <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-[#2B5D8C] rounded-full flex items-center justify-center text-2xl shadow-md mr-4 flex-shrink-0 font-bold text-white">
+                <div className="w-12 h-12 bg-[#d7007f] rounded-full flex items-center justify-center text-2xl shadow-md mr-4 flex-shrink-0 font-bold text-white">
                   C
                 </div>
                 <div>
@@ -967,23 +967,23 @@ export default function BangkokDestinationPage() {
 
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2">•</span>
+                  <span className="text-[#d7007f] mr-2">•</span>
                   <span className="font-light">Thai Restaurants</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2">•</span>
+                  <span className="text-[#d7007f] mr-2">•</span>
                   <span className="font-light">Chinese & Asian</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2">•</span>
+                  <span className="text-[#d7007f] mr-2">•</span>
                   <span className="font-light">Western & European</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2">•</span>
+                  <span className="text-[#d7007f] mr-2">•</span>
                   <span className="font-light">Middle Eastern</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2">•</span>
+                  <span className="text-[#d7007f] mr-2">•</span>
                   <span className="font-light">Vegetarian & Vegan</span>
                 </li>
               </ul>
@@ -991,7 +991,7 @@ export default function BangkokDestinationPage() {
           </div>
 
           <div className="text-center">
-            <a href="#" className="inline-block bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#" className="inline-block bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               Explore All Bangkok Food Guides →
             </a>
           </div>
@@ -1010,7 +1010,7 @@ export default function BangkokDestinationPage() {
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-[#2B5D8C] rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold text-white text-lg">
+                <div className="w-12 h-12 bg-[#d7007f] rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold text-white text-lg">
                   3D
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1020,14 +1020,14 @@ export default function BangkokDestinationPage() {
               <p className="text-gray-700 font-light mb-6">
                 Perfect first-time itinerary hitting all major highlights
               </p>
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Read Full Itinerary →
               </a>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-[#2B5D8C] rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold text-white text-lg">
+                <div className="w-12 h-12 bg-[#d7007f] rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold text-white text-lg">
                   5D
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1037,14 +1037,14 @@ export default function BangkokDestinationPage() {
               <p className="text-gray-700 font-light mb-6">
                 Complete experience with day trips and hidden gems
               </p>
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Read Full Itinerary →
               </a>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-8 hover:shadow-xl transition-all duration-300">
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-[#2B5D8C] rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold text-white text-lg">
+                <div className="w-12 h-12 bg-[#d7007f] rounded-full flex items-center justify-center mr-3 flex-shrink-0 font-bold text-white text-lg">
                   2D
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide">
@@ -1054,7 +1054,7 @@ export default function BangkokDestinationPage() {
               <p className="text-gray-700 font-light mb-6">
                 Make the most of a short visit
               </p>
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Read Full Itinerary →
               </a>
             </div>
@@ -1071,7 +1071,7 @@ export default function BangkokDestinationPage() {
               <p className="text-gray-700 font-light mb-6">
                 Family-friendly attractions and activities
               </p>
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Read Full Itinerary →
               </a>
             </div>
@@ -1088,7 +1088,7 @@ export default function BangkokDestinationPage() {
               <p className="text-gray-700 font-light mb-6">
                 Backpacker's guide to budget travel
               </p>
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Read Full Itinerary →
               </a>
             </div>
@@ -1105,7 +1105,7 @@ export default function BangkokDestinationPage() {
               <p className="text-gray-700 font-light mb-6">
                 High-end experiences and five-star hotels
               </p>
-              <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+              <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
                 Read Full Itinerary →
               </a>
             </div>
@@ -1117,34 +1117,34 @@ export default function BangkokDestinationPage() {
             </h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
               <a href="#" className="flex items-start p-4 rounded-lg hover:bg-gray-50 transition-colors group">
-                <span className="text-[#2B5D8C] mr-3 font-bold">•</span>
-                <span className="font-light text-gray-700 group-hover:text-[#2B5D8C]">Bangkok for Food Lovers</span>
+                <span className="text-[#d7007f] mr-3 font-bold">•</span>
+                <span className="font-light text-gray-700 group-hover:text-[#d7007f]">Bangkok for Food Lovers</span>
               </a>
               <a href="#" className="flex items-start p-4 rounded-lg hover:bg-gray-50 transition-colors group">
-                <span className="text-[#2B5D8C] mr-3 font-bold">•</span>
-                <span className="font-light text-gray-700 group-hover:text-[#2B5D8C]">Bangkok Temple Trail</span>
+                <span className="text-[#d7007f] mr-3 font-bold">•</span>
+                <span className="font-light text-gray-700 group-hover:text-[#d7007f]">Bangkok Temple Trail</span>
               </a>
               <a href="#" className="flex items-start p-4 rounded-lg hover:bg-gray-50 transition-colors group">
-                <span className="text-[#2B5D8C] mr-3 font-bold">•</span>
-                <span className="font-light text-gray-700 group-hover:text-[#2B5D8C]">Bangkok Nightlife Guide</span>
+                <span className="text-[#d7007f] mr-3 font-bold">•</span>
+                <span className="font-light text-gray-700 group-hover:text-[#d7007f]">Bangkok Nightlife Guide</span>
               </a>
               <a href="#" className="flex items-start p-4 rounded-lg hover:bg-gray-50 transition-colors group">
-                <span className="text-[#2B5D8C] mr-3 font-bold">•</span>
-                <span className="font-light text-gray-700 group-hover:text-[#2B5D8C]">Bangkok Shopping Marathon</span>
+                <span className="text-[#d7007f] mr-3 font-bold">•</span>
+                <span className="font-light text-gray-700 group-hover:text-[#d7007f]">Bangkok Shopping Marathon</span>
               </a>
               <a href="#" className="flex items-start p-4 rounded-lg hover:bg-gray-50 transition-colors group">
-                <span className="text-[#2B5D8C] mr-3 font-bold">•</span>
-                <span className="font-light text-gray-700 group-hover:text-[#2B5D8C]">Bangkok Off the Beaten Path</span>
+                <span className="text-[#d7007f] mr-3 font-bold">•</span>
+                <span className="font-light text-gray-700 group-hover:text-[#d7007f]">Bangkok Off the Beaten Path</span>
               </a>
               <a href="#" className="flex items-start p-4 rounded-lg hover:bg-gray-50 transition-colors group">
-                <span className="text-[#2B5D8C] mr-3 font-bold">•</span>
-                <span className="font-light text-gray-700 group-hover:text-[#2B5D8C]">Bangkok Photography Tour</span>
+                <span className="text-[#d7007f] mr-3 font-bold">•</span>
+                <span className="font-light text-gray-700 group-hover:text-[#d7007f]">Bangkok Photography Tour</span>
               </a>
             </div>
           </div>
 
           <div className="text-center">
-            <a href="#" className="inline-block bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#" className="inline-block bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               Browse All Bangkok Itineraries →
             </a>
           </div>
@@ -1166,7 +1166,7 @@ export default function BangkokDestinationPage() {
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide mb-2">
                   Sukhumvit
                 </h3>
-                <p className="text-sm text-[#2B5D8C] font-medium mb-2">200 articles</p>
+                <p className="text-sm text-[#d7007f] font-medium mb-2">200 articles</p>
                 <p className="text-gray-700 font-light">
                   Modern, expat-friendly, excellent dining
                 </p>
@@ -1178,7 +1178,7 @@ export default function BangkokDestinationPage() {
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide mb-2">
                   Silom
                 </h3>
-                <p className="text-sm text-[#2B5D8C] font-medium mb-2">150 articles</p>
+                <p className="text-sm text-[#d7007f] font-medium mb-2">150 articles</p>
                 <p className="text-gray-700 font-light">
                   Business district, nightlife, street food
                 </p>
@@ -1190,7 +1190,7 @@ export default function BangkokDestinationPage() {
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide mb-2">
                   Riverside
                 </h3>
-                <p className="text-sm text-[#2B5D8C] font-medium mb-2">150 articles</p>
+                <p className="text-sm text-[#d7007f] font-medium mb-2">150 articles</p>
                 <p className="text-gray-700 font-light">
                   Historic, luxury hotels, peaceful
                 </p>
@@ -1202,7 +1202,7 @@ export default function BangkokDestinationPage() {
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide mb-2">
                   Khao San
                 </h3>
-                <p className="text-sm text-[#2B5D8C] font-medium mb-2">100 articles</p>
+                <p className="text-sm text-[#d7007f] font-medium mb-2">100 articles</p>
                 <p className="text-gray-700 font-light">
                   Backpacker central, party scene
                 </p>
@@ -1214,7 +1214,7 @@ export default function BangkokDestinationPage() {
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide mb-2">
                   Siam
                 </h3>
-                <p className="text-sm text-[#2B5D8C] font-medium mb-2">150 articles</p>
+                <p className="text-sm text-[#d7007f] font-medium mb-2">150 articles</p>
                 <p className="text-gray-700 font-light">
                   Shopping hub, central location
                 </p>
@@ -1226,7 +1226,7 @@ export default function BangkokDestinationPage() {
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide mb-2">
                   Thonglor
                 </h3>
-                <p className="text-sm text-[#2B5D8C] font-medium mb-2">100 articles</p>
+                <p className="text-sm text-[#d7007f] font-medium mb-2">100 articles</p>
                 <p className="text-gray-700 font-light">
                   Hip, trendy, upscale dining
                 </p>
@@ -1238,7 +1238,7 @@ export default function BangkokDestinationPage() {
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide mb-2">
                   Chinatown
                 </h3>
-                <p className="text-sm text-[#2B5D8C] font-medium mb-2">80 articles</p>
+                <p className="text-sm text-[#d7007f] font-medium mb-2">80 articles</p>
                 <p className="text-gray-700 font-light">
                   Historic, street food paradise
                 </p>
@@ -1250,7 +1250,7 @@ export default function BangkokDestinationPage() {
                 <h3 className="text-xl font-semibold text-gray-900 uppercase tracking-wide mb-2">
                   Rattanakosin
                 </h3>
-                <p className="text-sm text-[#2B5D8C] font-medium mb-2">67 articles</p>
+                <p className="text-sm text-[#d7007f] font-medium mb-2">67 articles</p>
                 <p className="text-gray-700 font-light">
                   Old city, temples, culture
                 </p>
@@ -1259,7 +1259,7 @@ export default function BangkokDestinationPage() {
           </div>
 
           <div className="text-center">
-            <a href="#" className="inline-block bg-[#2B5D8C] text-white px-8 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="#" className="inline-block bg-[#d7007f] text-white px-8 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               Explore All Neighborhoods →
             </a>
           </div>
@@ -1284,28 +1284,28 @@ export default function BangkokDestinationPage() {
               </div>
               <ul className="space-y-4 text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <div>
                     <span className="font-semibold">Airport Rail Link</span>
                     <span className="font-light"> - $1.50, 30 min</span>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <div>
                     <span className="font-semibold">Metered Taxi</span>
                     <span className="font-light"> - $10-15, 45-90 min</span>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <div>
                     <span className="font-semibold">Airport Limousine</span>
                     <span className="font-light"> - $25-40</span>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <div>
                     <span className="font-semibold">Grab/Bolt rideshare</span>
                   </div>
@@ -1324,19 +1324,19 @@ export default function BangkokDestinationPage() {
               </div>
               <ul className="space-y-4 text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">Most convenient for tourists</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">Rabbit Card for multiple trips</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">Runs 6am-midnight</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">$0.50-1.50 per trip</span>
                 </li>
               </ul>
@@ -1353,15 +1353,15 @@ export default function BangkokDestinationPage() {
               </div>
               <ul className="space-y-4 text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">Always use meter</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">Grab/Bolt apps reliable</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">Starting fare ~$1.20</span>
                 </li>
               </ul>
@@ -1378,19 +1378,19 @@ export default function BangkokDestinationPage() {
               </div>
               <ul className="space-y-4 text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">Orange vests</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">Short distances only</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">Negotiate price first</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                  <span className="text-[#d7007f] mr-2 font-bold">•</span>
                   <span className="font-light">$0.50-2 per ride</span>
                 </li>
               </ul>
@@ -1408,21 +1408,21 @@ export default function BangkokDestinationPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <ul className="space-y-4 text-gray-700">
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                    <span className="text-[#d7007f] mr-2 font-bold">•</span>
                     <span className="font-light">Chao Phraya Express Boats</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                    <span className="text-[#d7007f] mr-2 font-bold">•</span>
                     <span className="font-light">Scenic & practical</span>
                   </li>
                 </ul>
                 <ul className="space-y-4 text-gray-700">
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                    <span className="text-[#d7007f] mr-2 font-bold">•</span>
                     <span className="font-light">$0.40-1 per trip</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-[#2B5D8C] mr-2 font-bold">•</span>
+                    <span className="text-[#d7007f] mr-2 font-bold">•</span>
                     <span className="font-light">Avoids traffic</span>
                   </li>
                 </ul>
@@ -1431,7 +1431,7 @@ export default function BangkokDestinationPage() {
           </div>
 
           <div className="text-center mt-12">
-            <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+            <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
               Complete Transportation Guide →
             </a>
           </div>
@@ -1449,7 +1449,7 @@ export default function BangkokDestinationPage() {
               <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-white text-xl">
                 $
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#2B5D8C]">
+              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#d7007f]">
                 Budget & Costs
               </h3>
             </a>
@@ -1458,7 +1458,7 @@ export default function BangkokDestinationPage() {
               <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-white text-xl">
                 W
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#2B5D8C]">
+              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#d7007f]">
                 Staying Connected
               </h3>
             </a>
@@ -1467,7 +1467,7 @@ export default function BangkokDestinationPage() {
               <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-white text-xl">
                 H
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#2B5D8C]">
+              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#d7007f]">
                 Safety & Health
               </h3>
             </a>
@@ -1476,7 +1476,7 @@ export default function BangkokDestinationPage() {
               <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-white text-xl">
                 L
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#2B5D8C]">
+              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#d7007f]">
                 Language
               </h3>
             </a>
@@ -1485,14 +1485,14 @@ export default function BangkokDestinationPage() {
               <div className="w-12 h-12 bg-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-white text-xl">
                 W
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#2B5D8C]">
+              <h3 className="text-lg font-semibold text-gray-900 uppercase tracking-wide group-hover:text-[#d7007f]">
                 Weather & When to Visit
               </h3>
             </a>
           </div>
 
           <div className="text-center">
-            <a href="#" className="inline-flex items-center text-[#2B5D8C] font-medium hover:text-[#2B5D8C] uppercase text-sm tracking-wider">
+            <a href="#" className="inline-flex items-center text-[#d7007f] font-medium hover:text-[#d7007f] uppercase text-sm tracking-wider">
               Browse All Practical Info →
             </a>
           </div>
@@ -1504,7 +1504,7 @@ export default function BangkokDestinationPage() {
       <section className="py-16 md:py-24 bg-pink-50">
         <div className="max-w-[800px] mx-auto px-6 lg:px-12">
           <div className="bg-white border-2 border-pink-200 rounded-lg p-12 text-center shadow-lg">
-            <div className="w-16 h-16 bg-[#2B5D8C] rounded-full flex items-center justify-center mx-auto mb-6 font-bold text-white text-3xl">
+            <div className="w-16 h-16 bg-[#d7007f] rounded-full flex items-center justify-center mx-auto mb-6 font-bold text-white text-3xl">
               ?
             </div>
             <h2 className="text-3xl md:text-4xl font-light mb-4 text-gray-900 uppercase tracking-wide">
@@ -1513,7 +1513,7 @@ export default function BangkokDestinationPage() {
             <p className="text-gray-700 font-light text-lg mb-8 leading-relaxed">
               Have questions about Bangkok? Our Thailand experts are here to help with personalized advice!
             </p>
-            <a href="/contact" className="inline-block bg-[#2B5D8C] text-white px-10 py-4 rounded-lg hover:bg-[#2B5D8C] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
+            <a href="/contact" className="inline-block bg-[#d7007f] text-white px-10 py-4 rounded-lg hover:bg-[#d7007f] transition-colors font-medium uppercase text-sm tracking-wider shadow-lg hover:shadow-xl">
               Ask a Question →
             </a>
           </div>

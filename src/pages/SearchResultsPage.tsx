@@ -146,7 +146,7 @@ export default function SearchResultsPage() {
       <Header />
 
       <main className="flex-grow">
-        <div className="bg-gradient-to-br from-[#2B5D8C] to-[#2B5D8C] text-white py-12">
+        <div className="bg-gradient-to-br from-[#d7007f] to-[#d7007f] text-white py-12">
           <div className="max-w-7xl mx-auto px-6">
             <Breadcrumb
               items={[
@@ -195,7 +195,7 @@ export default function SearchResultsPage() {
             <aside className="lg:w-64 flex-shrink-0">
               <div className="bg-white rounded-xl shadow-md p-6 sticky top-6">
                 <div className="flex items-center gap-2 mb-4">
-                  <Filter className="w-5 h-5 text-[#2B5D8C]" />
+                  <Filter className="w-5 h-5 text-[#d7007f]" />
                   <h2 className="text-lg font-bold text-gray-900">Filter by Category</h2>
                 </div>
 
@@ -207,7 +207,7 @@ export default function SearchResultsPage() {
                     }}
                     className={`w-full text-left px-4 py-3 rounded-lg transition-all ${
                       selectedCategory === 'all'
-                        ? 'bg-pink-100 text-[#2B5D8C] font-semibold'
+                        ? 'bg-pink-100 text-[#d7007f] font-semibold'
                         : 'hover:bg-gray-100 text-gray-700'
                     }`}
                   >
@@ -232,7 +232,7 @@ export default function SearchResultsPage() {
                         }}
                         className={`w-full text-left px-4 py-3 rounded-lg transition-all ${
                           selectedCategory === category
-                            ? 'bg-pink-100 text-[#2B5D8C] font-semibold'
+                            ? 'bg-pink-100 text-[#d7007f] font-semibold'
                             : 'hover:bg-gray-100 text-gray-700'
                         }`}
                       >
@@ -262,23 +262,23 @@ export default function SearchResultsPage() {
                         <div
                           key={index}
                           onClick={() => navigate(result.path)}
-                          className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-6 cursor-pointer group border-2 border-transparent hover:border-[#2B5D8C]"
+                          className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all p-6 cursor-pointer group border-2 border-transparent hover:border-[#d7007f]"
                         >
                           <div className="flex items-start gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#2B5D8C] to-[#2B5D8C] rounded-lg flex items-center justify-center">
+                            <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#d7007f] to-[#d7007f] rounded-lg flex items-center justify-center">
                               <Icon className="w-6 h-6 text-white" />
                             </div>
                             <div className="flex-1 min-w-0">
                               <div className="flex items-center gap-2 mb-2">
-                                <span className="inline-block px-3 py-1 bg-pink-100 text-[#2B5D8C] text-xs font-semibold rounded-full">
+                                <span className="inline-block px-3 py-1 bg-pink-100 text-[#d7007f] text-xs font-semibold rounded-full">
                                   {categoryLabels[result.category].label}
                                 </span>
                               </div>
-                              <h3 className="text-xl font-bold text-gray-900 group-hover:text-[#2B5D8C] mb-2">
+                              <h3 className="text-xl font-bold text-gray-900 group-hover:text-[#d7007f] mb-2">
                                 {highlightMatch(result.title, searchQuery)}
                               </h3>
                               {result.description && (
-                                <p className="text-gray-600 group-hover:text-[#2B5D8C] leading-relaxed">
+                                <p className="text-gray-600 group-hover:text-[#d7007f] leading-relaxed">
                                   {highlightMatch(result.description, searchQuery)}
                                 </p>
                               )}
@@ -305,7 +305,7 @@ export default function SearchResultsPage() {
                           onClick={() => setCurrentPage(page)}
                           className={`px-4 py-2 rounded-lg border-2 transition-all ${
                             currentPage === page
-                              ? 'bg-[#2B5D8C] text-white border-[#2B5D8C] font-bold'
+                              ? 'bg-[#d7007f] text-white border-[#d7007f] font-bold'
                               : 'border-gray-300 text-gray-700 hover:bg-gray-100'
                           }`}
                         >
@@ -339,7 +339,7 @@ export default function SearchResultsPage() {
                           setSearchQuery(suggestion);
                           setSearchParams({ q: suggestion });
                         }}
-                        className="px-3 py-1 bg-pink-100 text-[#2B5D8C] rounded-full text-sm font-medium hover:bg-pink-200 transition-all"
+                        className="px-3 py-1 bg-pink-100 text-[#d7007f] rounded-full text-sm font-medium hover:bg-pink-200 transition-all"
                       >
                         {suggestion}
                       </button>

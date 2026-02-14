@@ -227,7 +227,7 @@ export function ChatWidget() {
           <button
             onClick={() => setIsExpanded(true)}
             data-chat-button
-            className="group relative w-[60px] h-[60px] bg-gradient-to-br from-[#2B5D8C] to-[#2B5D8C] hover:from-[#2B5D8C] hover:to-[#2B5D8C] text-white rounded-full shadow-2xl hover:scale-110 transition-all duration-300 flex items-center justify-center animate-pulse hover:animate-none"
+            className="group relative w-[60px] h-[60px] bg-gradient-to-br from-[#d7007f] to-[#d7007f] hover:from-[#d7007f] hover:to-[#d7007f] text-white rounded-full shadow-2xl hover:scale-110 transition-all duration-300 flex items-center justify-center animate-pulse hover:animate-none"
             aria-label="Open chat widget"
           >
             <MessageCircle className="w-7 h-7" />
@@ -244,7 +244,7 @@ export function ChatWidget() {
             aria-modal="true"
             aria-labelledby="chat-widget-title"
           >
-            <div className="bg-gradient-to-r from-[#2B5D8C] via-[#2B5D8C] to-[#2B5D8C] text-white p-4 flex items-center justify-between shadow-lg">
+            <div className="bg-gradient-to-r from-[#d7007f] via-[#d7007f] to-[#d7007f] text-white p-4 flex items-center justify-between shadow-lg">
               <div className="flex-1">
                 <h3 id="chat-widget-title" className="font-semibold text-lg">ThailandWiki Travel Assistant</h3>
                 <div className="flex items-center space-x-1 mt-1">
@@ -283,27 +283,27 @@ export function ChatWidget() {
                     <p className="text-gray-800 mb-3 text-sm">I can answer questions about:</p>
                     <ul className="space-y-2 text-gray-700 text-sm">
                       <li className="flex items-start">
-                        <span className="mr-2 text-[#2B5D8C]">-</span>
+                        <span className="mr-2 text-[#d7007f]">-</span>
                         <span>Destinations & activities</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="mr-2 text-[#2B5D8C]">-</span>
+                        <span className="mr-2 text-[#d7007f]">-</span>
                         <span>Hotels & accommodation</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="mr-2 text-[#2B5D8C]">-</span>
+                        <span className="mr-2 text-[#d7007f]">-</span>
                         <span>Transportation & visas</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="mr-2 text-[#2B5D8C]">-</span>
+                        <span className="mr-2 text-[#d7007f]">-</span>
                         <span>Itinerary planning</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="mr-2 text-[#2B5D8C]">-</span>
+                        <span className="mr-2 text-[#d7007f]">-</span>
                         <span>Food & restaurants</span>
                       </li>
                       <li className="flex items-start">
-                        <span className="mr-2 text-[#2B5D8C]">-</span>
+                        <span className="mr-2 text-[#d7007f]">-</span>
                         <span>Budget & costs</span>
                       </li>
                     </ul>
@@ -321,7 +321,7 @@ export function ChatWidget() {
                         <button
                           key={index}
                           onClick={() => handleSuggestedQuestion(question)}
-                          className="w-full text-left bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border border-gray-200 hover:border-[#2B5D8C] rounded-xl p-3 text-sm text-gray-700 hover:text-[#2B5D8C] transition-all shadow-sm hover:shadow-md group"
+                          className="w-full text-left bg-white hover:bg-gradient-to-r hover:from-pink-50 hover:to-pink-100 border border-gray-200 hover:border-[#d7007f] rounded-xl p-3 text-sm text-gray-700 hover:text-[#d7007f] transition-all shadow-sm hover:shadow-md group"
                         >
                           <span className="group-hover:translate-x-1 inline-block transition-transform">
                             {question}
@@ -341,7 +341,7 @@ export function ChatWidget() {
                         <div
                           className={`max-w-[85%] rounded-2xl p-4 shadow-md ${
                             msg.isUser
-                              ? 'bg-gradient-to-r from-[#2B5D8C] to-[#2B5D8C] text-white rounded-br-none'
+                              ? 'bg-gradient-to-r from-[#d7007f] to-[#d7007f] text-white rounded-br-none'
                               : 'bg-white text-gray-900 rounded-tl-none border border-gray-100'
                           }`}
                         >
@@ -368,7 +368,7 @@ export function ChatWidget() {
                                 <button
                                   key={idx}
                                   onClick={() => handleSuggestedQuestion(suggestion)}
-                                  className="px-3 py-1.5 bg-white hover:bg-pink-50 border border-gray-300 hover:border-[#2B5D8C] rounded-full text-xs text-gray-700 hover:text-[#2B5D8C] transition-all shadow-sm hover:shadow"
+                                  className="px-3 py-1.5 bg-white hover:bg-pink-50 border border-gray-300 hover:border-[#d7007f] rounded-full text-xs text-gray-700 hover:text-[#d7007f] transition-all shadow-sm hover:shadow"
                                 >
                                   {suggestion}
                                 </button>
@@ -383,9 +383,9 @@ export function ChatWidget() {
                     <div className="flex justify-start animate-in fade-in duration-300">
                       <div className="bg-white text-gray-900 rounded-2xl rounded-tl-none p-4 shadow-md border border-gray-100">
                         <div className="flex space-x-1.5">
-                          <div className="w-2 h-2 bg-[#2B5D8C] rounded-full animate-bounce"></div>
-                          <div className="w-2 h-2 bg-[#2B5D8C] rounded-full animate-bounce delay-100"></div>
-                          <div className="w-2 h-2 bg-[#2B5D8C] rounded-full animate-bounce delay-200"></div>
+                          <div className="w-2 h-2 bg-[#d7007f] rounded-full animate-bounce"></div>
+                          <div className="w-2 h-2 bg-[#d7007f] rounded-full animate-bounce delay-100"></div>
+                          <div className="w-2 h-2 bg-[#d7007f] rounded-full animate-bounce delay-200"></div>
                         </div>
                       </div>
                     </div>
@@ -404,12 +404,12 @@ export function ChatWidget() {
                   onChange={(e) => setMessage(e.target.value)}
                   placeholder="Type your question here..."
                   aria-label="Type your question"
-                  className="flex-1 px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#2B5D8C] focus:border-transparent text-sm bg-gray-50 focus:bg-white transition-colors"
+                  className="flex-1 px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#d7007f] focus:border-transparent text-sm bg-gray-50 focus:bg-white transition-colors"
                 />
                 <button
                   type="submit"
                   disabled={!message.trim()}
-                  className="w-11 h-11 bg-gradient-to-r from-[#2B5D8C] to-[#2B5D8C] hover:from-[#2B5D8C] hover:to-[#2B5D8C] disabled:from-gray-300 disabled:to-gray-300 disabled:cursor-not-allowed text-white rounded-full flex items-center justify-center transition-all shadow-md hover:shadow-lg hover:scale-105 disabled:hover:scale-100"
+                  className="w-11 h-11 bg-gradient-to-r from-[#d7007f] to-[#d7007f] hover:from-[#d7007f] hover:to-[#d7007f] disabled:from-gray-300 disabled:to-gray-300 disabled:cursor-not-allowed text-white rounded-full flex items-center justify-center transition-all shadow-md hover:shadow-lg hover:scale-105 disabled:hover:scale-100"
                   aria-label="Send message"
                 >
                   <Send className="w-4 h-4" />

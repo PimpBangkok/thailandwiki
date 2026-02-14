@@ -887,7 +887,7 @@ export default function EventsCalendarPage() {
                 </a>
                 <a
                   href="/destinations/chiang-mai"
-                  className="bg-gradient-to-r from-pink-50 to-cyan-50 rounded-lg p-4 border-l-4 border-[#2B5D8C] hover:shadow-lg transition-shadow"
+                  className="bg-gradient-to-r from-pink-50 to-cyan-50 rounded-lg p-4 border-l-4 border-[#d7007f] hover:shadow-lg transition-shadow"
                 >
                   <h4 className="font-bold text-gray-900 mb-1">Chiang Mai Travel Guide</h4>
                   <p className="text-sm text-gray-600">Northern Thailand's cultural heart</p>

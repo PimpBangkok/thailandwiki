@@ -176,7 +176,7 @@ export default function AboutPage() {
               </div>
 
               <div className="flex items-start gap-4 p-6 bg-gradient-to-br from-pink-50 to-cyan-50 rounded-lg">
-                <CheckCircle2 className="w-6 h-6 text-[#2B5D8C] flex-shrink-0 mt-1" />
+                <CheckCircle2 className="w-6 h-6 text-[#d7007f] flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-gray-900 text-lg mb-2">Budget Planning</h3>
                   <p className="text-gray-700">Cost breakdowns and budget guides</p>
@@ -235,7 +235,7 @@ export default function AboutPage() {
 
           <section className="mb-20">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 bg-[#2B5D8C] rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#d7007f] rounded-full flex items-center justify-center">
                 <Shield className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-3xl sm:text-4xl font-light text-[#252525] uppercase tracking-[2px]">
@@ -246,7 +246,7 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-pink-50 to-cyan-100 rounded-xl p-8 md:p-12 shadow-lg">
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <CheckCircle2 className="w-6 h-6 text-[#2B5D8C] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="w-6 h-6 text-[#d7007f] flex-shrink-0 mt-1" />
                   <p className="text-gray-800 text-lg leading-relaxed">
                     Our team has <strong>lived in and traveled throughout Thailand extensively</strong>. We have
                     personally visited the destinations, hotels, and restaurants we recommend.
@@ -254,14 +254,14 @@ export default function AboutPage() {
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle2 className="w-6 h-6 text-[#2B5D8C] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="w-6 h-6 text-[#d7007f] flex-shrink-0 mt-1" />
                   <p className="text-gray-800 text-lg leading-relaxed">
                     We <strong>do not accept payment for reviews or recommendations</strong>. Our content is unbiased.
                   </p>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <CheckCircle2 className="w-6 h-6 text-[#2B5D8C] flex-shrink-0 mt-1" />
+                  <CheckCircle2 className="w-6 h-6 text-[#d7007f] flex-shrink-0 mt-1" />
                   <p className="text-gray-800 text-lg leading-relaxed">
                     We <strong>research thoroughly, fact-check rigorously, and update content regularly</strong>.
                   </p>
@@ -272,7 +272,7 @@ export default function AboutPage() {
 
           <section className="mb-12">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 bg-[#2B5D8C] rounded-full flex items-center justify-center">
+              <div className="w-12 h-12 bg-[#d7007f] rounded-full flex items-center justify-center">
                 <Mail className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-3xl sm:text-4xl font-light text-[#252525] uppercase tracking-[2px]">Contact Us</h2>
@@ -285,12 +285,12 @@ export default function AboutPage() {
                 </p>
                 <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-lg">
                   <div className="flex items-center gap-3 mb-4">
-                    <Mail className="w-6 h-6 text-[#2B5D8C]" />
+                    <Mail className="w-6 h-6 text-[#d7007f]" />
                     <div>
                       <p className="text-sm text-gray-600 font-semibold">Email</p>
                       <a
                         href="mailto:info@thailandwiki.com"
-                        className="text-lg text-[#2B5D8C] hover:text-[#b0005f] font-semibold"
+                        className="text-lg text-[#d7007f] hover:text-[#b0005f] font-semibold"
                       >
                         info@thailandwiki.com
                       </a>
@@ -344,7 +344,7 @@ export default function AboutPage() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2B5D8C] focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d7007f] focus:border-transparent outline-none transition-all"
                     placeholder="Your name"
                   />
                 </div>
@@ -360,7 +360,7 @@ export default function AboutPage() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2B5D8C] focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d7007f] focus:border-transparent outline-none transition-all"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -376,7 +376,7 @@ export default function AboutPage() {
                     onChange={handleChange}
                     required
                     rows={6}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2B5D8C] focus:border-transparent outline-none transition-all resize-none"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d7007f] focus:border-transparent outline-none transition-all resize-none"
                     placeholder="Your message..."
                   />
                 </div>
@@ -384,7 +384,7 @@ export default function AboutPage() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-[#2B5D8C] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#b0005f] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-3 text-lg"
+                  className="w-full bg-[#d7007f] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#b0005f] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-3 text-lg"
                 >
                   {isSubmitting ? (
                     <>

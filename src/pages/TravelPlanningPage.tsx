@@ -147,7 +147,7 @@ export default function TravelPlanningPage() {
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light mb-8 uppercase tracking-[3px] leading-tight">
             Plan Your
             <br />
-            <span className="text-[#F4A261]">Thailand Trip</span>
+            <span className="text-[#f7a600]">Thailand Trip</span>
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto">
@@ -156,7 +156,7 @@ export default function TravelPlanningPage() {
 
           <div className="flex flex-wrap items-center justify-center gap-6 text-lg">
             <div className="flex items-center gap-2">
-              <Info className="w-5 h-5 text-[#F4A261]" />
+              <Info className="w-5 h-5 text-[#f7a600]" />
               <span>500+ Planning Guides</span>
             </div>
           </div>
@@ -462,8 +462,8 @@ export default function TravelPlanningPage() {
 
               <div id="practical-info" className="mb-20 scroll-mt-24">
                 <div className="flex items-center gap-4 mb-8">
-                  <div className="w-12 h-12 rounded-full bg-[#2B5D8C]/10 flex items-center justify-center flex-shrink-0">
-                    <Info className="w-6 h-6 text-[#2B5D8C]" />
+                  <div className="w-12 h-12 rounded-full bg-[#d7007f]/10 flex items-center justify-center flex-shrink-0">
+                    <Info className="w-6 h-6 text-[#d7007f]" />
                   </div>
                   <div>
                     <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[2px] text-[#252525]">
@@ -483,14 +483,14 @@ export default function TravelPlanningPage() {
                         className="group flex items-center gap-4 p-6 bg-gradient-to-br from-pink-50 to-cyan-50 rounded-xl hover:from-pink-100 hover:to-cyan-100 transition-all border border-pink-100 hover:border-pink-200 shadow-sm hover:shadow-md"
                       >
                         <div className="w-12 h-12 rounded-full bg-white/80 flex items-center justify-center flex-shrink-0">
-                          <IconComponent className="w-6 h-6 text-[#2B5D8C]" />
+                          <IconComponent className="w-6 h-6 text-[#d7007f]" />
                         </div>
                         <div className="flex-1">
-                          <h4 className="font-semibold text-gray-900 group-hover:text-[#2B5D8C] transition-colors">
+                          <h4 className="font-semibold text-gray-900 group-hover:text-[#d7007f] transition-colors">
                             {item.label}
                           </h4>
                         </div>
-                        <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#2B5D8C] group-hover:translate-x-1 transition-all" />
+                        <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#d7007f] group-hover:translate-x-1 transition-all" />
                       </Link>
                     );
                   })}
@@ -515,26 +515,26 @@ export default function TravelPlanningPage() {
 
       <section className="py-32 bg-gradient-to-br from-[#252525] via-[#2a2a2a] to-[#1f1f1f] text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-[#F4A261] rounded-full blur-3xl"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-[#f7a600] rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-600 rounded-full blur-3xl"></div>
         </div>
 
         <div className="max-w-[1700px] mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="w-20 h-20 rounded-full bg-[#F4A261]/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-8 border border-[#F4A261]/20">
-              <MessageCircle className="w-10 h-10 text-[#F4A261]" />
+            <div className="w-20 h-20 rounded-full bg-[#f7a600]/10 backdrop-blur-sm flex items-center justify-center mx-auto mb-8 border border-[#f7a600]/20">
+              <MessageCircle className="w-10 h-10 text-[#f7a600]" />
             </div>
             <h2 className="text-5xl md:text-6xl font-light mb-8 uppercase tracking-[2px] leading-tight">
               Need Help
               <br />
-              <span className="text-[#F4A261]">Planning?</span>
+              <span className="text-[#f7a600]">Planning?</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 font-light leading-relaxed text-gray-300">
               Chat with our travel experts for personalized advice and recommendations
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button
-                className="inline-flex items-center gap-3 px-10 py-5 bg-[#F4A261] text-white hover:bg-[#2B5D8C] transition-all rounded-lg font-semibold shadow-2xl hover:shadow-[#F4A261]/20 hover:scale-105 uppercase tracking-[1.5px]"
+                className="inline-flex items-center gap-3 px-10 py-5 bg-[#f7a600] text-white hover:bg-[#d7007f] transition-all rounded-lg font-semibold shadow-2xl hover:shadow-[#f7a600]/20 hover:scale-105 uppercase tracking-[1.5px]"
                 onClick={() => {
                   const chatButton = document.querySelector('[aria-label="Chat with us"]') as HTMLButtonElement;
                   if (chatButton) chatButton.click();
