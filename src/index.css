@@ -1,0 +1,248 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #FFFFFF;
+    color: #212529;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #212529;
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  a {
+    color: #2B5D8C;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #1A3D5C;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #2B5D8C;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: 2px solid #2B5D8C;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .page-transition {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease-out;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.2s ease-out;
+  }
+
+  img {
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    border-radius: 12px;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s ease;
+  }
+
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .btn-primary {
+    @apply bg-[#2B5D8C] text-white font-semibold px-8 py-3.5 transition-all duration-300 hover:bg-[#1A3D5C];
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-[#2B5D8C] font-semibold px-8 py-3.5 transition-all duration-300 hover:bg-[#2B5D8C] hover:text-white;
+    border: 2px solid #2B5D8C;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  .card {
+    @apply bg-white rounded-xl p-6 transition-all duration-300;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+
+  .section-heading {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold text-[#212529] mb-6;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+  }
+
+  .section-subheading {
+    @apply text-2xl md:text-3xl font-semibold text-[#212529] mb-4;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+  }
+
+  .section-bg {
+    @apply bg-[#F8F9FA];
+  }
+
+  .text-secondary {
+    @apply text-[#6C757D];
+  }
+
+  .border-light {
+    @apply border-[#DEE2E6];
+  }
+
+  .accent-blue {
+    @apply text-[#2B5D8C];
+  }
+
+  .accent-orange {
+    @apply text-[#F4A261];
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .delay-100 {
+    animation-delay: 0.1s;
+  }
+
+  .delay-200 {
+    animation-delay: 0.2s;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+
+  .container-custom {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hero-section {
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .hero-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
